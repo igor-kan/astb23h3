@@ -4,6 +4,8 @@ project:
 
 website:
   title: "ASTB23H3: Astrophysics of Stars, Galaxies and the Universe"
+  site-url: "https://igor-kan.github.io/astb23h3"
+  repo-url: "https://github.com/igor-kan/astb23h3"
   description: "Stellar structure, radiative transport, gravitational dynamics, dark matter, and cosmology at UTSC."
   navbar:
     left:
@@ -23,3 +25,6 @@ format:
     toc: true
     toc-depth: 3
     math: true
+    code-fold: show
+    code-tools: true
+    code-copy: true

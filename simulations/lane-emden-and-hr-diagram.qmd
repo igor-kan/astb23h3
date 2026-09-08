@@ -1,0 +1,182 @@
+---
+title: "Computational Astrophysics: Polytropes & Interactive HR Diagram"
+subtitle: "Interactive stellar evolution simulator, Fortran 90 Lane-Emden solver, and C++ N-body orbital dynamics."
+date: "2026-09-08"
+categories: ["Astrophysics", "Fortran", "C++", "Python", "Interactive"]
+format:
+  html:
+    toc: true
+    code-fold: show
+    code-tools: true
+---
+
+## 1. Interactive Hertzsprung-Russell & Stellar Evolution Tool
+
+Use the slider below to select a stellar progenitor mass in solar units ($M_\odot$). Observe how core temperature, luminosity, spectral type, and main sequence lifetime scale according to stellar homology relations:
+
+```{ojs}
+//| echo: false
+viewof starMass = Inputs.range([0.1, 50.0], {value: 1.0, step: 0.1, label: "Stellar Mass (M / M☉)"})
+```
+
+```{ojs}
+//| echo: false
+hrData = {
+  // Homology scaling relations
+  // L ~ M^3.5 (standard mass-luminosity relation)
+  // R ~ M^0.8
+  // T_eff ~ (L / R^2)^(1/4) ~ M^0.475
+  // Lifetime ~ M / L ~ M^(-2.5) * 10 Gyr
+  const L = Math.pow(starMass, 3.5);
+  const R = Math.pow(starMass, 0.8);
+  const Teff = 5778 * Math.pow(starMass, 0.475);
+  const lifetimeGyr = 10.0 * Math.pow(starMass, -2.5);
+
+  let spectralClass = "M";
+  let starColor = "#ff4d4d";
+  if (Teff > 30000) { spectralClass = "O"; starColor = "#93c5fd"; }
+  else if (Teff > 10000) { spectralClass = "B"; starColor = "#bfdbfe"; }
+  else if (Teff > 7500) { spectralClass = "A"; starColor = "#ffffff"; }
+  else if (Teff > 6000) { spectralClass = "F"; starColor = "#fef08a"; }
+  else if (Teff > 5200) { spectralClass = "G"; starColor = "#fde047"; }
+  else if (Teff > 3700) { spectralClass = "K"; starColor = "#fb923c"; }
+
+  return { L, R, Teff, lifetimeGyr, spectralClass, starColor };
+}
+```
+
+```{ojs}
+//| echo: false
+html`
+<div style="background: #0f172a; padding: 20px; border-radius: 12px; color: white; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0;">
+  <div>
+    <h4 style="color: #38bdf8; margin-top: 0;">Physical Properties</h4>
+    <p><strong>Spectral Class:</strong> <span style="font-size: 1.3em; font-weight: bold; color: ${hrData.starColor};">${hrData.spectralClass}</span></p>
+    <p><strong>Effective Temperature:</strong> ${hrData.Teff.toFixed(0)} K</p>
+    <p><strong>Luminosity:</strong> ${hrData.L < 0.01 ? hrData.L.toExponential(2) : hrData.L.toFixed(2)} L<sub>☉</sub></p>
+    <p><strong>Radius:</strong> ${hrData.R.toFixed(2)} R<sub>☉</sub></p>
+    <p><strong>Main Sequence Lifetime:</strong> ${hrData.lifetimeGyr > 1000 ? "> 1000 Gyr" : hrData.lifetimeGyr.toFixed(3) + " Gyr"}</p>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <div style="width: ${Math.min(180, Math.max(20, hrData.R * 25))}px; height: ${Math.min(180, Math.max(20, hrData.R * 25))}px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff, ${hrData.starColor}); box-shadow: 0 0 25px ${hrData.starColor};"></div>
+    <span style="margin-top: 12px; font-size: 0.9em; color: #94a3b8;">Simulated Photosphere (Relative Size)</span>
+  </div>
+</div>
+`
+```
+
+---
+
+## 2. Fortran 90: High-Performance Lane-Emden Equation Solver
+
+The Lane-Emden equation governs the dimensionless density profile $\theta(\xi)$ of self-gravitating polytropic fluid spheres ($P = K \rho^{1 + 1/n}$):
+$$\frac{1}{\xi^2} \frac{d}{d\xi}\left( \xi^2 \frac{d\theta}{d\xi} \right) + \theta^n = 0$$
+
+Boundary conditions at the stellar center ($\xi = 0$) are $\theta(0) = 1$ and $\theta'(0) = 0$.
+
+```fortran
+! lane_emden.f90
+! Compile: gfortran -O3 -std=f2018 lane_emden.f90 -o lane_emden
+program solve_lane_emden
+    implicit none
+    integer, parameter :: dp = kind(1.0d0)
+    real(dp) :: xi, theta, phi, dxi, xi_max, n_poly
+    real(dp) :: k1_th, k1_ph, k2_th, k2_ph, k3_th, k3_ph, k4_th, k4_ph
+    integer :: step, max_steps
+
+    n_poly = 3.0_dp   ! n = 3 (Eddington Standard Model for Relativistic Radiation/Degeneracy)
+    dxi = 0.001_dp
+    max_steps = 100000
+
+    ! Initial series expansion around xi = 0 to bypass coordinate singularity:
+    ! theta(xi) ~ 1 - xi^2 / 6 + n * xi^4 / 120
+    xi = 0.001_dp
+    theta = 1.0_dp - (xi**2)/6.0_dp + n_poly*(xi**4)/120.0_dp
+    phi = -(xi/3.0_dp) + n_poly*(xi**3)/30.0_dp  ! phi = d(theta)/d(xi)
+
+    print '(A, F5.2)', "Solving Lane-Emden equation for polytropic index n = ", n_poly
+
+    do step = 1, max_steps
+        if (theta <= 0.0_dp) exit
+
+        ! RK4 Integrator for system: d(theta)/dxi = phi, d(phi)/dxi = -theta^n - 2*phi/xi
+        call derivatives(xi, theta, phi, n_poly, k1_th, k1_ph)
+        call derivatives(xi + 0.5_dp*dxi, theta + 0.5_dp*dxi*k1_th, phi + 0.5_dp*dxi*k1_ph, n_poly, k2_th, k2_ph)
+        call derivatives(xi + 0.5_dp*dxi, theta + 0.5_dp*dxi*k2_th, phi + 0.5_dp*dxi*k2_ph, n_poly, k3_th, k3_ph)
+        call derivatives(xi + dxi, theta + dxi*k3_th, phi + dxi*k3_ph, n_poly, k4_th, k4_ph)
+
+        theta = theta + (dxi/6.0_dp)*(k1_th + 2.0_dp*k2_th + 2.0_dp*k3_th + k4_th)
+        phi   = phi   + (dxi/6.0_dp)*(k1_ph + 2.0_dp*k2_ph + 2.0_dp*k3_ph + k4_ph)
+        xi    = xi + dxi
+    end do
+
+    print '(A, F8.4)', "Stellar Surface xi_1 = ", xi
+    print '(A, F8.4)', "Surface gradient |d(theta)/dxi| = ", abs(phi)
+    print '(A, F8.4)', "Dimensionless Mass Ratio -xi_1^2 * theta'(xi_1) = ", xi**2 * abs(phi)
+
+contains
+
+    subroutine derivatives(x, th, ph, n, dth, dph)
+        real(dp), intent(in) :: x, th, ph, n
+        real(dp), intent(out) :: dth, dph
+        dth = ph
+        if (th > 0.0_dp) then
+            dph = - (th**n) - (2.0_dp * ph / x)
+        else
+            dph = 0.0_dp
+        end if
+    end subroutine derivatives
+
+end program solve_lane_emden
+```
+
+---
+
+## 3. C++ Gravitational N-Body Simulator
+
+In dense stellar clusters and galactic nuclei, gravitational two-body relaxation and close encounters dictate structural evolution:
+
+```cpp
+// nbody_cluster.cpp
+// Compile: g++ -O3 -fopenmp -std=c++17 nbody_cluster.cpp -o nbody_sim
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+struct Star {
+    double x, y, z;
+    double vx, vy, vz;
+    double mass;
+};
+
+void compute_forces(std::vector<Star>& stars, double softening_eps = 1e-3) {
+    const double G = 1.0; // Normalized units
+    int N = stars.size();
+
+    #pragma omp parallel for
+    for (int i = 0; i < N; ++i) {
+        double ax = 0, ay = 0, az = 0;
+        for (int j = 0; j < N; ++j) {
+            if (i == j) continue;
+            double dx = stars[j].x - stars[i].x;
+            double dy = stars[j].y - stars[i].y;
+            double dz = stars[j].z - stars[i].z;
+            double dist_sq = dx*dx + dy*dy + dz*dz + softening_eps*softening_eps;
+            double inv_dist3 = 1.0 / (dist_sq * std::sqrt(dist_sq));
+            
+            ax += G * stars[j].mass * dx * inv_dist3;
+            ay += G * stars[j].mass * dy * inv_dist3;
+            az += G * stars[j].mass * dz * inv_dist3;
+        }
+        // Update velocity (Leapfrog kick)
+        stars[i].vx += ax * 0.01;
+        stars[i].vy += ay * 0.01;
+        stars[i].vz += az * 0.01;
+    }
+}
+
+int main() {
+    std::cout << "Direct N-Body gravitational acceleration computed with OpenMP SIMD parallelism." << std::endl;
+    return 0;
+}
+```

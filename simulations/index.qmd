@@ -1,9 +1,9 @@
 ---
 title: "Computational Astrophysics Labs"
 description: "Numerical ODE solvers for stellar structure, polytropes, and N-body gravity."
-format:
-  html:
-    toc: true
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+page-layout: full
 ---
-
-This section provides computational Python solvers for astrophysical differential equations.
