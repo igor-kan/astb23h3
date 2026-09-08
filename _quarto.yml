@@ -3,8 +3,8 @@ project:
   output-dir: _site
 
 website:
-  title: "ATB23H3: Astrophysics"
-  description: "Stellar structure, radiative transport, gravitational dynamics, and compact objects."
+  title: "ASTB23H3: Astrophysics of Stars, Galaxies and the Universe"
+  description: "Stellar structure, radiative transport, gravitational dynamics, dark matter, and cosmology at UTSC."
   navbar:
     left:
       - href: index.qmd
