@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/problems/index.html",
+    "items": []
+  },
+  {
+    "listing": "/simulations/index.html",
+    "items": [
+      "/simulations/lane-emden-and-hr-diagram.html"
+    ]
+  },
+  {
+    "listing": "/notes/index.html",
+    "items": [
+      "/notes/stellar-structure-and-polytropes.html"
+    ]
+  }
+]
