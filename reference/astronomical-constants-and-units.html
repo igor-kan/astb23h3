@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-08">
 
-<title>Tutorials – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
+<title>Astronomical Constants &amp; Physical Units – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -195,7 +196,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#expectations" id="toc-expectations" class="nav-link active" data-scroll-target="#expectations">Expectations</a></li>
+  <li><a href="#solar-constants" id="toc-solar-constants" class="nav-link active" data-scroll-target="#solar-constants">🌟 Solar Constants</a></li>
+  <li><a href="#astronomical-distance-units" id="toc-astronomical-distance-units" class="nav-link" data-scroll-target="#astronomical-distance-units">📐 Astronomical Distance Units</a></li>
+  <li><a href="#fundamental-physical-constants" id="toc-fundamental-physical-constants" class="nav-link" data-scroll-target="#fundamental-physical-constants">🔬 Fundamental Physical Constants</a></li>
   </ul>
 </nav>
     </div>
@@ -204,14 +207,26 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Tutorials</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-</div>
+<div class="quarto-title-block"><div><h1 class="title">Astronomical Constants &amp; Physical Units</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Fundamental physical and astrophysical constants for stellar and galactic calculations.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reference</div>
+    <div class="quarto-category">Constants</div>
+    <div class="quarto-category">Units</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-09-08</p>
+    </div>
+  </div>
   
     
   </div>
@@ -221,13 +236,166 @@ window.Quarto = {
 </header>
 
 
-<p>Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.</p>
-<p>If you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems.</p>
-<section id="expectations" class="level2">
-<h2 class="anchored" data-anchor-id="expectations">Expectations</h2>
-<p>Class participation points are given not just for showing up, but for asking/answering questions in class, and <strong>volunteering to solve the tutorial problems on blackboard</strong>.</p>
-<p>As explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.</p>
-<p><em>Tutorial notes will be posted here as the term progresses.</em></p>
+<section id="solar-constants" class="level2">
+<h2 class="anchored" data-anchor-id="solar-constants">🌟 Solar Constants</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">Value (SI)</th>
+<th style="text-align: left;">Value (cgs)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Solar Mass</td>
+<td style="text-align: left;"><span class="math inline">\(M_\odot\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.9884 \times 10^{30}\text{ kg}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.9884 \times 10^{33}\text{ g}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Solar Radius</td>
+<td style="text-align: left;"><span class="math inline">\(R_\odot\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.957 \times 10^8\text{ m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.957 \times 10^{10}\text{ cm}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Solar Luminosity</td>
+<td style="text-align: left;"><span class="math inline">\(L_\odot\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(3.828 \times 10^{26}\text{ W}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(3.828 \times 10^{33}\text{ erg s}^{-1}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Solar Effective Temp</td>
+<td style="text-align: left;"><span class="math inline">\(T_{\text{eff},\odot}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5778\text{ K}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5778\text{ K}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Solar Central Density</td>
+<td style="text-align: left;"><span class="math inline">\(\rho_c\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\sim 1.5 \times 10^5\text{ kg m}^{-3}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\sim 150\text{ g cm}^{-3}\)</span></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="astronomical-distance-units" class="level2">
+<h2 class="anchored" data-anchor-id="astronomical-distance-units">📐 Astronomical Distance Units</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Unit</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">Meters (m)</th>
+<th style="text-align: left;">Astronomical Units (AU)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Astronomical Unit</td>
+<td style="text-align: left;"><span class="math inline">\(\text{AU}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.4959787 \times 10^{11}\text{ m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.0\text{ AU}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Parsec</td>
+<td style="text-align: left;"><span class="math inline">\(\text{pc}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(3.0857 \times 10^{16}\text{ m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(206,265\text{ AU}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Light-Year</td>
+<td style="text-align: left;"><span class="math inline">\(\text{ly}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(9.4607 \times 10^{15}\text{ m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(63,241\text{ AU}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Kiloparsec</td>
+<td style="text-align: left;"><span class="math inline">\(\text{kpc}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(3.0857 \times 10^{19}\text{ m}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2.06 \times 10^8\text{ AU}\)</span></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fundamental-physical-constants" class="level2">
+<h2 class="anchored" data-anchor-id="fundamental-physical-constants">🔬 Fundamental Physical Constants</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Constant</th>
+<th style="text-align: left;">Symbol</th>
+<th style="text-align: left;">Value (SI)</th>
+<th style="text-align: left;">Value (cgs)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Gravitational constant</td>
+<td style="text-align: left;"><span class="math inline">\(G\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6743 \times 10^{-11}\text{ m}^3\text{ kg}^{-1}\text{s}^{-2}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6743 \times 10^{-8}\text{ dyn cm}^2\text{ g}^{-2}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Speed of light</td>
+<td style="text-align: left;"><span class="math inline">\(c\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2.9979 \times 10^8\text{ m s}^{-1}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2.9979 \times 10^{10}\text{ cm s}^{-1}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Planck’s constant</td>
+<td style="text-align: left;"><span class="math inline">\(h\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6261 \times 10^{-34}\text{ J s}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6261 \times 10^{-27}\text{ erg s}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Boltzmann constant</td>
+<td style="text-align: left;"><span class="math inline">\(k_B\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.3807 \times 10^{-23}\text{ J K}^{-1}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1.3807 \times 10^{-16}\text{ erg K}^{-1}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Radiation density constant</td>
+<td style="text-align: left;"><span class="math inline">\(a = 4\sigma/c\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(7.5657 \times 10^{-16}\text{ J m}^{-3}\text{ K}^{-4}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(7.5657 \times 10^{-15}\text{ erg cm}^{-3}\text{ K}^{-4}\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stefan-Boltzmann constant</td>
+<td style="text-align: left;"><span class="math inline">\(\sigma\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5.6704 \times 10^{-8}\text{ W m}^{-2}\text{ K}^{-4}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(5.6704 \times 10^{-5}\text{ erg cm}^{-2}\text{s}^{-1}\text{K}^{-4}\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Thomson cross section</td>
+<td style="text-align: left;"><span class="math inline">\(\sigma_T\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6524 \times 10^{-29}\text{ m}^2\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(6.6524 \times 10^{-25}\text{ cm}^2\)</span></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -688,19 +856,43 @@ window.Quarto = {
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Tutorials"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures. </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>If you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems.</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expectations</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Class participation points are given not just for showing up, but for asking/answering questions in class, and **volunteering to solve the tutorial problems on blackboard**.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>As explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>*Tutorial notes will be posted here as the term progresses.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Astronomical Constants &amp; Physical Units"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Fundamental physical and astrophysical constants for stellar and galactic calculations."</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-09-08"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> ["Reference", "Constants", "Units"]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🌟 Solar Constants</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Quantity <span class="pp">|</span> Symbol <span class="pp">|</span> Value (SI) <span class="pp">|</span> Value (cgs) <span class="pp">|</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">|</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Solar Mass <span class="pp">|</span> $M_\odot$ <span class="pp">|</span> $1.9884 \times 10^{30}\text{ kg}$ <span class="pp">|</span> $1.9884 \times 10^{33}\text{ g}$ <span class="pp">|</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Solar Radius <span class="pp">|</span> $R_\odot$ <span class="pp">|</span> $6.957 \times 10^8\text{ m}$ <span class="pp">|</span> $6.957 \times 10^{10}\text{ cm}$ <span class="pp">|</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Solar Luminosity <span class="pp">|</span> $L_\odot$ <span class="pp">|</span> $3.828 \times 10^{26}\text{ W}$ <span class="pp">|</span> $3.828 \times 10^{33}\text{ erg s}^{-1}$ <span class="pp">|</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Solar Effective Temp <span class="pp">|</span> $T_{\text{eff},\odot}$ <span class="pp">|</span> $5778\text{ K}$ <span class="pp">|</span> $5778\text{ K}$ <span class="pp">|</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Solar Central Density <span class="pp">|</span> $\rho_c$ <span class="pp">|</span> $\sim 1.5 \times 10^5\text{ kg m}^{-3}$ <span class="pp">|</span> $\sim 150\text{ g cm}^{-3}$ <span class="pp">|</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📐 Astronomical Distance Units</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Unit <span class="pp">|</span> Symbol <span class="pp">|</span> Meters (m) <span class="pp">|</span> Astronomical Units (AU) <span class="pp">|</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">|</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Astronomical Unit <span class="pp">|</span> $\text{AU}$ <span class="pp">|</span> $1.4959787 \times 10^{11}\text{ m}$ <span class="pp">|</span> $1.0\text{ AU}$ <span class="pp">|</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Parsec <span class="pp">|</span> $\text{pc}$ <span class="pp">|</span> $3.0857 \times 10^{16}\text{ m}$ <span class="pp">|</span> $206,265\text{ AU}$ <span class="pp">|</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Light-Year <span class="pp">|</span> $\text{ly}$ <span class="pp">|</span> $9.4607 \times 10^{15}\text{ m}$ <span class="pp">|</span> $63,241\text{ AU}$ <span class="pp">|</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Kiloparsec <span class="pp">|</span> $\text{kpc}$ <span class="pp">|</span> $3.0857 \times 10^{19}\text{ m}$ <span class="pp">|</span> $2.06 \times 10^8\text{ AU}$ <span class="pp">|</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔬 Fundamental Physical Constants</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Constant <span class="pp">|</span> Symbol <span class="pp">|</span> Value (SI) <span class="pp">|</span> Value (cgs) <span class="pp">|</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">| :---</span> <span class="pp">|</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Gravitational constant <span class="pp">|</span> $G$ <span class="pp">|</span> $6.6743 \times 10^{-11}\text{ m}^3\text{ kg}^{-1}\text{s}^{-2}$ <span class="pp">|</span> $6.6743 \times 10^{-8}\text{ dyn cm}^2\text{ g}^{-2}$ <span class="pp">|</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Speed of light <span class="pp">|</span> $c$ <span class="pp">|</span> $2.9979 \times 10^8\text{ m s}^{-1}$ <span class="pp">|</span> $2.9979 \times 10^{10}\text{ cm s}^{-1}$ <span class="pp">|</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Planck's constant <span class="pp">|</span> $h$ <span class="pp">|</span> $6.6261 \times 10^{-34}\text{ J s}$ <span class="pp">|</span> $6.6261 \times 10^{-27}\text{ erg s}$ <span class="pp">|</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Boltzmann constant <span class="pp">|</span> $k_B$ <span class="pp">|</span> $1.3807 \times 10^{-23}\text{ J K}^{-1}$ <span class="pp">|</span> $1.3807 \times 10^{-16}\text{ erg K}^{-1}$ <span class="pp">|</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Radiation density constant <span class="pp">|</span> $a = 4\sigma/c$ <span class="pp">|</span> $7.5657 \times 10^{-16}\text{ J m}^{-3}\text{ K}^{-4}$ <span class="pp">|</span> $7.5657 \times 10^{-15}\text{ erg cm}^{-3}\text{ K}^{-4}$ <span class="pp">|</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Stefan-Boltzmann constant <span class="pp">|</span> $\sigma$ <span class="pp">|</span> $5.6704 \times 10^{-8}\text{ W m}^{-2}\text{ K}^{-4}$ <span class="pp">|</span> $5.6704 \times 10^{-5}\text{ erg cm}^{-2}\text{s}^{-1}\text{K}^{-4}$ <span class="pp">|</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Thomson cross section <span class="pp">|</span> $\sigma_T$ <span class="pp">|</span> $6.6524 \times 10^{-29}\text{ m}^2$ <span class="pp">|</span> $6.6524 \times 10^{-25}\text{ cm}^2$ <span class="pp">|</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

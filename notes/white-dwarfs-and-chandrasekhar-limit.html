@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-08">
 
-<title>Tutorials – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
+<title>White Dwarfs, Degenerate Matter &amp; Chandrasekhar Limit – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -195,7 +196,11 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#expectations" id="toc-expectations" class="nav-link active" data-scroll-target="#expectations">Expectations</a></li>
+  <li><a href="#electron-degeneracy-pressure" id="toc-electron-degeneracy-pressure" class="nav-link active" data-scroll-target="#electron-degeneracy-pressure">1. Electron Degeneracy Pressure</a>
+  <ul class="collapse">
+  <li><a href="#non-relativistic-degeneracy-p_f-ll-m_e-c" id="toc-non-relativistic-degeneracy-p_f-ll-m_e-c" class="nav-link" data-scroll-target="#non-relativistic-degeneracy-p_f-ll-m_e-c">Non-Relativistic Degeneracy (<span class="math inline">\(p_F \ll m_e c\)</span>)</a></li>
+  </ul></li>
+  <li><a href="#ultra-relativistic-degeneracy-the-chandrasekhar-limit" id="toc-ultra-relativistic-degeneracy-the-chandrasekhar-limit" class="nav-link" data-scroll-target="#ultra-relativistic-degeneracy-the-chandrasekhar-limit">2. Ultra-Relativistic Degeneracy &amp; The Chandrasekhar Limit</a></li>
   </ul>
 </nav>
     </div>
@@ -204,14 +209,26 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Tutorials</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-</div>
+<div class="quarto-title-block"><div><h1 class="title">White Dwarfs, Degenerate Matter &amp; Chandrasekhar Limit</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Fermi-Dirac electron degeneracy pressure, relativistic EOS, and maximum white dwarf mass.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Stellar Physics</div>
+    <div class="quarto-category">Quantum Stars</div>
+    <div class="quarto-category">White Dwarfs</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-09-08</p>
+    </div>
+  </div>
   
     
   </div>
@@ -221,13 +238,22 @@ window.Quarto = {
 </header>
 
 
-<p>Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.</p>
-<p>If you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems.</p>
-<section id="expectations" class="level2">
-<h2 class="anchored" data-anchor-id="expectations">Expectations</h2>
-<p>Class participation points are given not just for showing up, but for asking/answering questions in class, and <strong>volunteering to solve the tutorial problems on blackboard</strong>.</p>
-<p>As explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.</p>
-<p><em>Tutorial notes will be posted here as the term progresses.</em></p>
+<section id="electron-degeneracy-pressure" class="level2">
+<h2 class="anchored" data-anchor-id="electron-degeneracy-pressure">1. Electron Degeneracy Pressure</h2>
+<p>When a star exhausts nuclear fuel, gravitational collapse compresses matter to extreme densities <span class="math inline">\(\rho \gtrsim 10^6\text{ g/cm}^3\)</span>. In this regime, electrons fill all available phase space cells <span class="math inline">\((h^3)\)</span> up to the Fermi momentum <span class="math inline">\(p_F\)</span>: <span class="math display">\[n_e = \frac{8\pi}{h^3} \int_0^{p_F} p^2 dp = \frac{8\pi}{3h^3} p_F^3 \implies p_F = \left( \frac{3h^3 n_e}{8\pi} \right)^{1/3}\]</span></p>
+<section id="non-relativistic-degeneracy-p_f-ll-m_e-c" class="level3">
+<h3 class="anchored" data-anchor-id="non-relativistic-degeneracy-p_f-ll-m_e-c">Non-Relativistic Degeneracy (<span class="math inline">\(p_F \ll m_e c\)</span>)</h3>
+<p>The kinetic energy is <span class="math inline">\(E = p^2 / 2m_e\)</span>. The resulting electron degeneracy pressure is: <span class="math display">\[P_e = \frac{1}{3} \int_0^{p_F} v p \cdot \frac{8\pi p^2}{h^3} dp = \frac{8\pi}{15 m_e h^3} p_F^5 = \frac{1}{5m_e}\left(\frac{3}{\pi}\right)^{2/3} h^2 n_e^{5/3}\]</span> Since <span class="math inline">\(n_e = \frac{\rho}{\mu_e m_u}\)</span>, this is a polytropic equation of state with index <span class="math inline">\(n = 3/2\)</span> (<span class="math inline">\(\gamma = 5/3\)</span>): <span class="math display">\[P \propto \rho^{5/3}\]</span></p>
+<p>Solving the Lane-Emden equation for <span class="math inline">\(n=1.5\)</span> yields the mass-radius relation for non-relativistic white dwarfs: <span class="math display">\[R \propto M^{-1/3}\]</span> More massive white dwarfs are physically smaller and denser!</p>
+<hr>
+</section>
+</section>
+<section id="ultra-relativistic-degeneracy-the-chandrasekhar-limit" class="level2">
+<h2 class="anchored" data-anchor-id="ultra-relativistic-degeneracy-the-chandrasekhar-limit">2. Ultra-Relativistic Degeneracy &amp; The Chandrasekhar Limit</h2>
+<p>As mass increases, density rises until electrons become relativistic (<span class="math inline">\(p_F \gg m_e c\)</span>). Then <span class="math inline">\(v \approx c\)</span>, and the energy is <span class="math inline">\(E \approx pc\)</span>: <span class="math display">\[P_e = \frac{1}{3} \int_0^{p_F} c p \cdot \frac{8\pi p^2}{h^3} dp = \frac{2\pi c}{3 h^3} p_F^4 = \frac{hc}{4}\left(\frac{3}{\pi}\right)^{1/3} n_e^{4/3} \propto \rho^{4/3}\]</span> This corresponds to a polytrope of index <span class="math inline">\(n = 3\)</span> (<span class="math inline">\(\gamma = 4/3\)</span>).</p>
+<p>For an <span class="math inline">\(n=3\)</span> polytrope, the radius cancels out completely in the stellar structure mass integral, producing a unique limiting mass: <span class="math display">\[M_{\text{Ch}} = 4\pi \left(\frac{hc}{G}\right)^{3/2} \left(\frac{1}{\mu_e m_u}\right)^2 \omega_3 \approx \frac{5.83}{\mu_e^2} M_\odot\]</span></p>
+<p>For a standard carbon-oxygen white dwarf, <span class="math inline">\(\mu_e \approx 2\)</span>, yielding: <span class="math display">\[\boxed{M_{\text{Ch}} \approx 1.44 M_\odot}\]</span></p>
+<p>If the mass of the core exceeds <span class="math inline">\(M_{\text{Ch}}\)</span>, electron degeneracy pressure can never halt gravitational collapse, leading inevitably to a neutron star or black hole.</p>
 
 
 
@@ -688,19 +714,42 @@ window.Quarto = {
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Tutorials"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures. </span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>If you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems.</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expectations</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Class participation points are given not just for showing up, but for asking/answering questions in class, and **volunteering to solve the tutorial problems on blackboard**.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>As explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>*Tutorial notes will be posted here as the term progresses.*</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "White Dwarfs, Degenerate Matter &amp; Chandrasekhar Limit"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Fermi-Dirac electron degeneracy pressure, relativistic EOS, and maximum white dwarf mass."</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-09-08"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> ["Stellar Physics", "Quantum Stars", "White Dwarfs"]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## 1. Electron Degeneracy Pressure</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>When a star exhausts nuclear fuel, gravitational collapse compresses matter to extreme densities $\rho \gtrsim 10^6\text{ g/cm}^3$. In this regime, electrons fill all available phase space cells $(h^3)$ up to the Fermi momentum $p_F$:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>$$n_e = \frac{8\pi}{h^3} \int_0^{p_F} p^2 dp = \frac{8\pi}{3h^3} p_F^3 \implies p_F = \left( \frac{3h^3 n_e}{8\pi} \right)^{1/3}$$</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### Non-Relativistic Degeneracy ($p_F \ll m_e c$)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>The kinetic energy is $E = p^2 / 2m_e$. The resulting electron degeneracy pressure is:</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>$$P_e = \frac{1}{3} \int_0^{p_F} v p \cdot \frac{8\pi p^2}{h^3} dp = \frac{8\pi}{15 m_e h^3} p_F^5 = \frac{1}{5m_e}\left(\frac{3}{\pi}\right)^{2/3} h^2 n_e^{5/3}$$</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>Since $n_e = \frac{\rho}{\mu_e m_u}$, this is a polytropic equation of state with index $n = 3/2$ ($\gamma = 5/3$):</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>$$P \propto \rho^{5/3}$$</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Solving the Lane-Emden equation for $n=1.5$ yields the mass-radius relation for non-relativistic white dwarfs:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>$$R \propto M^{-1/3}$$</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>More massive white dwarfs are physically smaller and denser!</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2. Ultra-Relativistic Degeneracy &amp; The Chandrasekhar Limit</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>As mass increases, density rises until electrons become relativistic ($p_F \gg m_e c$). Then $v \approx c$, and the energy is $E \approx pc$:</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>$$P_e = \frac{1}{3} \int_0^{p_F} c p \cdot \frac{8\pi p^2}{h^3} dp = \frac{2\pi c}{3 h^3} p_F^4 = \frac{hc}{4}\left(\frac{3}{\pi}\right)^{1/3} n_e^{4/3} \propto \rho^{4/3}$$</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>This corresponds to a polytrope of index $n = 3$ ($\gamma = 4/3$).</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>For an $n=3$ polytrope, the radius cancels out completely in the stellar structure mass integral, producing a unique limiting mass:</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>$$M_{\text{Ch}} = 4\pi \left(\frac{hc}{G}\right)^{3/2} \left(\frac{1}{\mu_e m_u}\right)^2 \omega_3 \approx \frac{5.83}{\mu_e^2} M_\odot$$</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>For a standard carbon-oxygen white dwarf, $\mu_e \approx 2$, yielding:</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>$$\boxed{M_{\text{Ch}} \approx 1.44 M_\odot}$$</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>If the mass of the core exceeds $M_{\text{Ch}}$, electron degeneracy pressure can never halt gravitational collapse, leading inevitably to a neutron star or black hole.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

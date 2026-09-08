@@ -1,59 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://igor-kan.github.io/astb23h3/notes/lectures-21-22.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <loc>https://igor-kan.github.io/astb23h3/notes/white-dwarfs-and-chandrasekhar-limit.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/notes/syllabus.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/lectures-23-24.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/lectures-19-20.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/index.html</loc>
-    <lastmod>2026-09-08T22:24:05.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/syllabus.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/simulations/lane-emden-and-hr-diagram.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/problems/index.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/index.html</loc>
-    <lastmod>2026-09-08T22:24:05.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/simulations/index.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.937Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/tutorials/index.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/reference/sources-and-bibliography.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/simulations/lane-emden-and-hr-diagram.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/simulations/index.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/problems/assignment-01.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/index.html</loc>
+    <lastmod>2026-09-08T22:37:37.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/problems/index.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/problems/midterm-exam-prep.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/simulations/interactive-galactic-rotation.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/reference/index.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/reference/astronomical-constants-and-units.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/lectures-13-14.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/stellar-structure-and-polytropes.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/lectures-15-16.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/notes/lectures-17-18.html</loc>
-    <lastmod>2026-09-08T22:24:05.681Z</lastmod>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/notes/lectures-21-22.html</loc>
+    <lastmod>2026-09-08T22:37:37.938Z</lastmod>
   </url>
 </urlset>

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-11-26">
 
-<title>lectures-21-22.qmd – ASTB23: Stars, Galaxies &amp; the Universe</title>
+<title>Lectures 21–22: Rotation Curves, Dark Matter &amp; Spiral Arms – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -150,7 +151,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">ASTB23: Stars, Galaxies &amp; the Universe</span>
+    <span class="navbar-title">ASTB23H3: Stars, Galaxies &amp; the Universe</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -164,20 +165,20 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus &amp; Rules</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../notes/index.html"> 
 <span class="menu-text">Lecture Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../problems/index.html"> 
-<span class="menu-text">Assignments &amp; Exams</span></a>
+<span class="menu-text">Problem Sets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutorials/index.html"> 
-<span class="menu-text">Tutorials</span></a>
+    <a class="nav-link" href="../simulations/index.html"> 
+<span class="menu-text">Code &amp; Simulations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../reference/index.html"> 
+<span class="menu-text">Reference &amp; Math</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -190,22 +191,49 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#galactic-rotation-curves-dark-matter" id="toc-galactic-rotation-curves-dark-matter" class="nav-link active" data-scroll-target="#galactic-rotation-curves-dark-matter">1. Galactic Rotation Curves &amp; Dark Matter</a>
+  <ul class="collapse">
+  <li><a href="#keplerian-falloff-vs.-flat-curves" id="toc-keplerian-falloff-vs.-flat-curves" class="nav-link" data-scroll-target="#keplerian-falloff-vs.-flat-curves">Keplerian Falloff vs.&nbsp;Flat Curves</a></li>
+  <li><a href="#curve-decomposition" id="toc-curve-decomposition" class="nav-link" data-scroll-target="#curve-decomposition">Curve Decomposition</a></li>
+  </ul></li>
+  <li><a href="#toomre-stability-criterion-q" id="toc-toomre-stability-criterion-q" class="nav-link" data-scroll-target="#toomre-stability-criterion-q">2. Toomre Stability Criterion (<span class="math inline">\(Q\)</span>)</a>
+  <ul class="collapse">
+  <li><a href="#stability-regimes" id="toc-stability-regimes" class="nav-link" data-scroll-target="#stability-regimes">Stability Regimes:</a></li>
+  </ul></li>
+  <li><a href="#lin-shu-density-wave-theory" id="toc-lin-shu-density-wave-theory" class="nav-link" data-scroll-target="#lin-shu-density-wave-theory">3. Lin-Shu Density Wave Theory</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">lectures-21-22.qmd</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
-</div>
+<div class="quarto-title-block"><div><h1 class="title">Lectures 21–22: Rotation Curves, Dark Matter &amp; Spiral Arms</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Decomposition of rotation curves, dark matter halos, Toomre Q criterion, and Lin-Shu density wave theory.</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Galactic Dynamics</div>
+    <div class="quarto-category">Dark Matter</div>
+    <div class="quarto-category">Spiral Structure</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-11-26</p>
+    </div>
+  </div>
   
     
   </div>
@@ -215,12 +243,44 @@ window.Quarto = {
 </header>
 
 
-<p>Notes will be published here just before our meetings.</p>
+<section id="galactic-rotation-curves-dark-matter" class="level2">
+<h2 class="anchored" data-anchor-id="galactic-rotation-curves-dark-matter">1. Galactic Rotation Curves &amp; Dark Matter</h2>
+<p>In disk galaxies, circular velocity <span class="math inline">\(v_c(R)\)</span> is governed by radial gravitational equilibrium: <span class="math display">\[\frac{v_c^2(R)}{R} = -\frac{\partial \Phi}{\partial R} = \frac{G M(R)}{R^2}\]</span></p>
+<section id="keplerian-falloff-vs.-flat-curves" class="level3">
+<h3 class="anchored" data-anchor-id="keplerian-falloff-vs.-flat-curves">Keplerian Falloff vs.&nbsp;Flat Curves</h3>
+<p>If galaxy mass were concentrated solely in the luminous stars and gas (like the solar system), the outer rotation curve would drop as: <span class="math display">\[v_c(R) \propto R^{-1/2} \quad (\text{Keplerian falloff})\]</span> However, 21-cm neutral hydrogen (HI) and optical <span class="math inline">\(H\alpha\)</span> observations show flat rotation curves extending far beyond the optical disk: <span class="math display">\[v_c(R) \approx \text{constant} \implies M(R) \propto R\]</span> This necessitates an extended, quasi-spherical <strong>Dark Matter Halo</strong> with density profile <span class="math inline">\(\rho(R) \propto R^{-2}\)</span>.</p>
+</section>
+<section id="curve-decomposition" class="level3">
+<h3 class="anchored" data-anchor-id="curve-decomposition">Curve Decomposition</h3>
+<p>Total circular velocity is partitioned into component potentials: <span class="math display">\[v_{\text{tot}}^2(R) = v_{\text{bulge}}^2(R) + v_{\text{disk}}^2(R) + v_{\text{gas}}^2(R) + v_{\text{halo}}^2(R)\]</span></p>
+<p>Explore the interactive model on our <a href="../simulations/interactive-galactic-rotation.html">Galactic Rotation Simulation page</a>.</p>
+<hr>
+</section>
+</section>
+<section id="toomre-stability-criterion-q" class="level2">
+<h2 class="anchored" data-anchor-id="toomre-stability-criterion-q">2. Toomre Stability Criterion (<span class="math inline">\(Q\)</span>)</h2>
+<p>For a thin, rotating disk of stars or gas to resist local axisymmetric gravitational collapse, thermal velocity dispersion and differential rotation must overcome self-gravity: <span class="math display">\[Q = \frac{\sigma_R \kappa}{3.36 \, G \, \Sigma}\]</span> where: - <span class="math inline">\(\sigma_R\)</span>: Radial velocity dispersion of stars - <span class="math inline">\(\kappa\)</span>: Epicyclic frequency, <span class="math inline">\(\kappa^2 = R \frac{d\Omega^2}{dR} + 4\Omega^2\)</span> - <span class="math inline">\(\Sigma\)</span>: Disk surface mass density</p>
+<section id="stability-regimes" class="level3">
+<h3 class="anchored" data-anchor-id="stability-regimes">Stability Regimes:</h3>
+<ul>
+<li><strong><span class="math inline">\(Q &lt; 1\)</span></strong>: Disk is unstable to local axisymmetric gravitational collapse (forms clumps, starbursts).</li>
+<li><strong><span class="math inline">\(Q &gt; 1\)</span></strong>: Disk is stable against axisymmetric modes.</li>
+<li>Typically, spiral disks maintain <span class="math inline">\(Q \approx 1.2 - 2.0\)</span>, permitting non-axisymmetric spiral density waves.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lin-shu-density-wave-theory" class="level2">
+<h2 class="anchored" data-anchor-id="lin-shu-density-wave-theory">3. Lin-Shu Density Wave Theory</h2>
+<p>Spiral arms are not material structures (which would suffer the <em>winding dilemma</em> in differential rotation <span class="math inline">\(\Omega(R)\)</span>), but rather quasi-stationary density waves rotating at pattern speed <span class="math inline">\(\Omega_p\)</span>.</p>
+<p>The dispersion relation for tightly wound spiral waves is: <span class="math display">\[(\omega - m\Omega)^2 = \kappa^2 - 2\pi G \Sigma |k| + k^2 c_s^2\]</span> where <span class="math inline">\(m\)</span> is the number of arms and <span class="math inline">\(k\)</span> is the radial wavenumber.</p>
+<p>Resonances occur where pattern speed matches orbital or epicyclic frequencies: - <strong>Corotation Resonance (CR):</strong> <span class="math inline">\(\Omega(R) = \Omega_p\)</span> - <strong>Inner Lindblad Resonance (ILR):</strong> <span class="math inline">\(\Omega(R) - \kappa(R)/m = \Omega_p\)</span> - <strong>Outer Lindblad Resonance (OLR):</strong> <span class="math inline">\(\Omega(R) + \kappa(R)/m = \Omega_p\)</span></p>
 
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -675,12 +735,75 @@ window.Quarto = {
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "lectures-21-22.qmd"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Notes will be published here just before our meetings.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Lectures 21–22: Rotation Curves, Dark Matter &amp; Spiral Arms"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Decomposition of rotation curves, dark matter halos, Toomre Q criterion, and Lin-Shu density wave theory."</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2026-11-26"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> ["Galactic Dynamics", "Dark Matter", "Spiral Structure"]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## 1. Galactic Rotation Curves &amp; Dark Matter</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>In disk galaxies, circular velocity $v_c(R)$ is governed by radial gravitational equilibrium:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>$$\frac{v_c^2(R)}{R} = -\frac{\partial \Phi}{\partial R} = \frac{G M(R)}{R^2}$$</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### Keplerian Falloff vs. Flat Curves</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>If galaxy mass were concentrated solely in the luminous stars and gas (like the solar system), the outer rotation curve would drop as:</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>$$v_c(R) \propto R^{-1/2} \quad (\text{Keplerian falloff})$$</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>However, 21-cm neutral hydrogen (HI) and optical $H\alpha$ observations show flat rotation curves extending far beyond the optical disk:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>$$v_c(R) \approx \text{constant} \implies M(R) \propto R$$</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>This necessitates an extended, quasi-spherical **Dark Matter Halo** with density profile $\rho(R) \propto R^{-2}$.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Curve Decomposition</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>Total circular velocity is partitioned into component potentials:</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>$$v_{\text{tot}}^2(R) = v_{\text{bulge}}^2(R) + v_{\text{disk}}^2(R) + v_{\text{gas}}^2(R) + v_{\text{halo}}^2(R)$$</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Explore the interactive model on our <span class="co">[</span><span class="ot">Galactic Rotation Simulation page</span><span class="co">](../simulations/interactive-galactic-rotation.qmd)</span>.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2. Toomre Stability Criterion ($Q$)</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>For a thin, rotating disk of stars or gas to resist local axisymmetric gravitational collapse, thermal velocity dispersion and differential rotation must overcome self-gravity:</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>$$Q = \frac{\sigma_R \kappa}{3.36 \, G \, \Sigma}$$</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>where:</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>$\sigma_R$: Radial velocity dispersion of stars</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>$\kappa$: Epicyclic frequency, $\kappa^2 = R \frac{d\Omega^2}{dR} + 4\Omega^2$</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>$\Sigma$: Disk surface mass density</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### Stability Regimes:</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**$Q &lt; 1$**: Disk is unstable to local axisymmetric gravitational collapse (forms clumps, starbursts).</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**$Q &gt; 1$**: Disk is stable against axisymmetric modes.</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Typically, spiral disks maintain $Q \approx 1.2 - 2.0$, permitting non-axisymmetric spiral density waves.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## 3. Lin-Shu Density Wave Theory</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>Spiral arms are not material structures (which would suffer the *winding dilemma* in differential rotation $\Omega(R)$), but rather quasi-stationary density waves rotating at pattern speed $\Omega_p$.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>The dispersion relation for tightly wound spiral waves is:</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>$$(\omega - m\Omega)^2 = \kappa^2 - 2\pi G \Sigma |k| + k^2 c_s^2$$</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>where $m$ is the number of arms and $k$ is the radial wavenumber.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>Resonances occur where pattern speed matches orbital or epicyclic frequencies:</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Corotation Resonance (CR):** $\Omega(R) = \Omega_p$</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Inner Lindblad Resonance (ILR):** $\Omega(R) - \kappa(R)/m = \Omega_p$</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Outer Lindblad Resonance (OLR):** $\Omega(R) + \kappa(R)/m = \Omega_p$</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span style="font-size: 0.8em;">© 2026 Igor Kan</span></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

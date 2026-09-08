@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Assignments &amp; Exams – ASTB23: Stars, Galaxies &amp; the Universe</title>
+<title>ASTB23 Problem Sets &amp; Exams – ASTB23H3: Stars, Galaxies &amp; the Universe</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -108,6 +110,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-date-modified','listing-title','listing-subtitle','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -150,7 +181,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">ASTB23: Stars, Galaxies &amp; the Universe</span>
+    <span class="navbar-title">ASTB23H3: Stars, Galaxies &amp; the Universe</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -164,20 +195,20 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Syllabus &amp; Rules</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../notes/index.html"> 
 <span class="menu-text">Lecture Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../problems/index.html" aria-current="page"> 
-<span class="menu-text">Assignments &amp; Exams</span></a>
+<span class="menu-text">Problem Sets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tutorials/index.html"> 
-<span class="menu-text">Tutorials</span></a>
+    <a class="nav-link" href="../simulations/index.html"> 
+<span class="menu-text">Code &amp; Simulations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../reference/index.html"> 
+<span class="menu-text">Reference &amp; Math</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -187,7 +218,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -195,26 +226,22 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#home-assignments" id="toc-home-assignments" class="nav-link active" data-scroll-target="#home-assignments">📝 Home Assignments</a>
-  <ul class="collapse">
-  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
-  </ul></li>
-  <li><a href="#midterm-exam-preparation" id="toc-midterm-exam-preparation" class="nav-link" data-scroll-target="#midterm-exam-preparation">📝 Midterm Exam Preparation</a></li>
-  <li><a href="#final-exam-preparation" id="toc-final-exam-preparation" class="nav-link" data-scroll-target="#final-exam-preparation">📝 Final Exam Preparation</a></li>
+  <li><a href="#assignment-submission-protocol" id="toc-assignment-submission-protocol" class="nav-link active" data-scroll-target="#assignment-submission-protocol">Assignment Submission Protocol</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QXNzaWdubWVudHM=">Assignments <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhhbSUyMFByZXA=">Exam Prep <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXhhbXM=">Exams <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlkcm9zdGF0aWMlMjBFcXVpbGlicml1bQ==">Hydrostatic Equilibrium <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWlkdGVybQ==">Midterm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RlbGxhciUyMFBoeXNpY3M=">Stellar Physics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Assignments &amp; Exams</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">ASTB23 Problem Sets &amp; Exams</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Comprehensive problem assignments, tutorial exercises, submission requirements, and exam review.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -226,42 +253,11 @@ window.Quarto = {
 </header>
 
 
-<section id="home-assignments" class="level2">
-<h2 class="anchored" data-anchor-id="home-assignments">📝 Home Assignments</h2>
-<p>Solutions to problems are to be submitted in <strong>legibly</strong> handwritten or in printed form. You will scan or photograph your work with your phone and submit it to the Assignments section of ASTB23 Quercus page. - Please put your student# at the top of the first page of every assignment. - Include the 3 last digits of your student number in the name of every submitted file.</p>
-<p>Use your words, don’t just write a stream of symbols. Follow the method of solving problems discussed in the 1st tutorial: 1. Sketch of the situation. 2. Analytic transformations of equations. 3. Units check on intermediate results. 4. Numerical evaluation of results on a calculator. 5. Are my results plausible (e.g.&nbsp;of expected order-of-magnitude)? 6. Clear, sufficiently detailed and legible description of derivations, results, and conclusions.</p>
-<section id="schedule" class="level3">
-<h3 class="anchored" data-anchor-id="schedule">Schedule</h3>
-<ul>
-<li><strong>Set #1.</strong> Due: 1 Oct (Noon)</li>
-<li><strong>Set #2.</strong> Due: 15 Oct (Noon) - <em>Preparation for the written parts of midterms.</em></li>
-<li><strong>Set #3.</strong> Due: 12 Nov (Noon)</li>
-<li><strong>Set #4.</strong> Due: 26 Nov (Noon)</li>
-</ul>
-<p><em>Note: Except in emergencies, there is no grace period (no late submissions).</em></p>
-</section>
-</section>
-<section id="midterm-exam-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="midterm-exam-preparation">📝 Midterm Exam Preparation</h2>
-<p><strong>Date:</strong> 5 Nov (In-class midterm during T7)</p>
-<ul>
-<li><strong>Allowed materials:</strong> 2 double-sided hand-written (not printed or photocopied) sheets of own notes are allowed at midterm.</li>
-<li><strong>Required:</strong> Calculators.</li>
-<li><strong>Not allowed:</strong> Phones, electronic devices, and books.</li>
-</ul>
-<p>The quiz takes &lt;20 minutes and contains ~27 Y/N questions. You solve the quiz by marking Y or N in front of a supplied question. <strong>WARNING:</strong> You must circle at least one word or number that is wrong if you mark it as (N). Otherwise, it will be considered a guess and you will receive zero points.</p>
-<p>The material covers textbook 1 up to and INCLUDING Chapter 5, plus Lectures.</p>
-</section>
-<section id="final-exam-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="final-exam-preparation">📝 Final Exam Preparation</h2>
-<p><strong>Date:</strong> December</p>
-<ul>
-<li><strong>Allowed materials:</strong> Up to 8 hand written pages on either 4 or 8 sheets of paper (not printed or photocopied) of own notes are allowed.</li>
-<li><strong>Required:</strong> Calculator.</li>
-<li><strong>Not allowed:</strong> Phones (must be sealed in a plastic bag under your chair or left at the front of the room).</li>
-</ul>
-<p>About 1/3 of the final exam will be questions from the 1st part of the course, 2/3 from the post-midterm material (galaxies and universe). Normally 2 out of a total of 3 written problems are about galaxies and stellar systems.</p>
-<p>The format of the final examination will be exactly the same as that of the midterm, only longer (almost 3 hrs instead of 1).</p>
+<p>This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.</p>
+<section id="assignment-submission-protocol" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-submission-protocol">Assignment Submission Protocol</h3>
+<p>All solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks</p>
+
 
 
 
@@ -269,7 +265,99 @@ window.Quarto = {
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Created - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Created - Newest
+      </option>
+      <option value="listing-date-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-date-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="RXhhbXMlMkNNaWR0ZXJtJTJDRXhhbSUyMFByZXA=" data-listing-date-sort="1793836800000" data-listing-file-modified-sort="1788907057938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../problems/midterm-exam-prep.html" class="no-external">Midterm Exam Preparation Guide</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../problems/midterm-exam-prep.html" class="no-external">Guidelines, allowed materials, format, and sample Y/N quiz questions.</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXhhbXM='); return false;">Exams</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlkdGVybQ=='); return false;">Midterm</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXhhbSUyMFByZXA='); return false;">Exam Prep</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../problems/midterm-exam-prep.html" class="no-external">
+<div class="listing-date">
+2026-11-05
+</div>
+<div class="listing-reading-time">1 min</div>
+<div class="metadata-value listing-date-modified">
+Invalid Date
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QXNzaWdubWVudHMlMkNTdGVsbGFyJTIwUGh5c2ljcyUyQ0h5ZHJvc3RhdGljJTIwRXF1aWxpYnJpdW0=" data-listing-date-sort="1790812800000" data-listing-file-modified-sort="1788907057938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../problems/assignment-01.html" class="no-external">Problem Set #1: Stellar Structure &amp; Hydrostatic Equilibrium</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../problems/assignment-01.html" class="no-external">Due Thursday, October 1 at 12:00 Noon on Quercus</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXNzaWdubWVudHM='); return false;">Assignments</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RlbGxhciUyMFBoeXNpY3M='); return false;">Stellar Physics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHlkcm9zdGF0aWMlMjBFcXVpbGlicml1bQ=='); return false;">Hydrostatic Equilibrium</div>
+
+</div>
+</div>
+<div class="metadata">
+<a href="../problems/assignment-01.html" class="no-external">
+<div class="listing-date">
+2026-10-01
+</div>
+<div class="listing-reading-time">2 min</div>
+<div class="metadata-value listing-date-modified">
+Invalid Date
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -722,53 +810,49 @@ window.Quarto = {
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Assignments &amp; Exams"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📝 Home Assignments</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Solutions to problems are to be submitted in **legibly** handwritten or in printed form. You will scan or photograph your work with your phone and submit it to the Assignments section of ASTB23 Quercus page. </span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Please put your student# at the top of the first page of every assignment.</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Include the 3 last digits of your student number in the name of every submitted file.</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Use your words, don't just write a stream of symbols. Follow the method of solving problems discussed in the 1st tutorial:</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Sketch of the situation.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Analytic transformations of equations.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Units check on intermediate results.</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Numerical evaluation of results on a calculator.</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Are my results plausible (e.g. of expected order-of-magnitude)?</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Clear, sufficiently detailed and legible description of derivations, results, and conclusions.</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">### Schedule</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Set #1.** Due: 1 Oct (Noon)</span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Set #2.** Due: 15 Oct (Noon) - *Preparation for the written parts of midterms.*</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Set #3.** Due: 12 Nov (Noon)</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Set #4.** Due: 26 Nov (Noon)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "ASTB23 Problem Sets &amp; Exams"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Comprehensive problem assignments, tutorial exercises, submission requirements, and exam review."</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">listing:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  contents: "*.qmd"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  sort:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    - "date desc"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    - "title asc"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  type: default</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  categories: true</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">  sort-ui: [title, date, date-modified]</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">  filter-ui: [title, date, categories]</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">  fields: [date, date-modified, title, subtitle, categories, reading-time]</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">  field-display-names:</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">    date: "Created"</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">    date-modified: "Modified"</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">    reading-time: "Read Time"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co">  page-size: 15</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>*Note: Except in emergencies, there is no grace period (no late submissions).*</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📝 Midterm Exam Preparation</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>**Date:** 5 Nov (In-class midterm during T7)</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Allowed materials:** 2 double-sided hand-written (not printed or photocopied) sheets of own notes are allowed at midterm. </span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Required:** Calculators. </span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Not allowed:** Phones, electronic devices, and books.</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>The quiz takes &lt;20 minutes and contains ~27 Y/N questions. You solve the quiz by marking Y or N in front of a supplied question. **WARNING:** You must circle at least one word or number that is wrong if you mark it as (N). Otherwise, it will be considered a guess and you will receive zero points.</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>The material covers textbook 1 up to and INCLUDING Chapter 5, plus Lectures. </span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📝 Final Exam Preparation</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>**Date:** December</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Allowed materials:** Up to 8 hand written pages on either 4 or 8 sheets of paper (not printed or photocopied) of own notes are allowed.</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Required:** Calculator.</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Not allowed:** Phones (must be sealed in a plastic bag under your chair or left at the front of the room).</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>About 1/3 of the final exam will be questions from the 1st part of the course, 2/3 from the post-midterm material (galaxies and universe). Normally 2 out of a total of 3 written problems are about galaxies and stellar systems.</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>The format of the final examination will be exactly the same as that of the midterm, only longer (almost 3 hrs instead of 1).</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="fu">### Assignment Submission Protocol</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>All solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with:</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Sketch of physical scenario</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Analytical derivations</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Unit verification</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Plausibility order-of-magnitude checks</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span style="font-size: 0.8em;">© 2026 Igor Kan</span></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
