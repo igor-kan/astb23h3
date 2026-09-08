@@ -1,24 +1,87 @@
 [
   {
-    "objectID": "notes/stellar-structure-and-polytropes.html",
-    "href": "notes/stellar-structure-and-polytropes.html",
-    "title": "Stellar Structure & The Lane-Emden Equation",
+    "objectID": "notes/lectures-21-22.html",
+    "href": "notes/lectures-21-22.html",
+    "title": "lectures-21-22.qmd",
     "section": "",
-    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
+    "text": "Notes will be published here just before our meetings."
   },
   {
-    "objectID": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
-    "href": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
-    "title": "Stellar Structure & The Lane-Emden Equation",
+    "objectID": "notes/lectures-23-24.html",
+    "href": "notes/lectures-23-24.html",
+    "title": "lectures-23-24.qmd",
     "section": "",
-    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
+    "text": "Notes will be published here just before our meetings."
   },
   {
-    "objectID": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
-    "href": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
-    "title": "Stellar Structure & The Lane-Emden Equation",
-    "section": "2. Polytropic Equation of State",
-    "text": "2. Polytropic Equation of State\nTo close the structure equation without solving detailed energy transport, we introduce a polytropic relation: \\[P = K \\rho^\\gamma = K \\rho^{1 + 1/n}\\] where \\(n\\) is the polytropic index (\\(\\gamma = 1 + \\frac{1}{n}\\)): * \\(n = 1.5\\) (\\(\\gamma = 5/3\\)): Non-relativistic degenerate electron gas (White Dwarfs) or fully convective stars (Red Giants, Sun’s core). * \\(n = 3.0\\) (\\(\\gamma = 4/3\\)): Relativistic degenerate electron gas (Chandrasekhar mass limit) or radiation-pressure dominated massive stars.\n\nThe Dimensionless Lane-Emden Equation\nDefine dimensionless density \\(\\theta(\\xi)\\) and radius \\(\\xi\\): \\[\\rho(r) = \\rho_c \\theta^n(\\xi), \\qquad r = \\alpha \\xi\\] where \\(\\alpha^2 = \\frac{(n+1) K \\rho_c^{1/n - 1}}{4\\pi G}\\).\nSubstituting into the hydrostatic equation yields the Lane-Emden Equation: \\[\\boxed{\\frac{1}{\\xi^2} \\frac{d}{d\\xi}\\left( \\xi^2 \\frac{d\\theta}{d\\xi} \\right) + \\theta^n = 0}\\] with boundary conditions at the stellar center (\\(\\xi = 0\\)): \\[\\theta(0) = 1, \\qquad \\left. \\frac{d\\theta}{d\\xi} \\right|_{\\xi=0} = 0\\]\nThe stellar surface \\(\\xi_1\\) is defined where density drops to zero: \\(\\theta(\\xi_1) = 0\\)."
+    "objectID": "notes/lectures-19-20.html",
+    "href": "notes/lectures-19-20.html",
+    "title": "lectures-19-20.qmd",
+    "section": "",
+    "text": "Notes will be published here just before our meetings."
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Lecture Notes",
+    "section": "",
+    "text": "In Sept/Oct, we follow the Srinivasan textbooks closely (most of the 1st and parts of 2nd). You are expected to read those books. During lectures, equations and topics from the book will be discussed and explained.\nAfter the midterm, when we discuss galaxies and the universe, our source will be the lecture notes below, published just before our meetings."
+  },
+  {
+    "objectID": "notes/index.html#pre-midterm-lectures-srinivasan-textbooks",
+    "href": "notes/index.html#pre-midterm-lectures-srinivasan-textbooks",
+    "title": "Lecture Notes",
+    "section": "Pre-Midterm Lectures (Srinivasan Textbooks)",
+    "text": "Pre-Midterm Lectures (Srinivasan Textbooks)\n\nLecture 1: Introduction to stellar (and planetary) astrophysics\nLecture 7: Neutrinos. The Smoking Gun is Finally Found"
+  },
+  {
+    "objectID": "notes/index.html#post-midterm-lectures-galactic-astrophysics-cosmology",
+    "href": "notes/index.html#post-midterm-lectures-galactic-astrophysics-cosmology",
+    "title": "Lecture Notes",
+    "section": "Post-Midterm Lectures (Galactic Astrophysics & Cosmology)",
+    "text": "Post-Midterm Lectures (Galactic Astrophysics & Cosmology)\n\nLectures 13-14: Formation of disks and stars; Introduction, The Milky Way\nLectures 15-16: Other galaxies, Galaxy photometry; Mapping our Milky Way\nLectures 17-18: Galactic rotation; Relaxation and evolution, part I\nLectures 19-20: Relaxation and evolution, part II; Our backyard: the Local Group\nLectures 21-22: Rotation Curves and Spiral Arms in Galaxies; Bars as a by-product of spiral mode evolution\nLectures 23-24: Elliptical galaxies; The Universe (CMB, Dark Energy)"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus & Course Rules",
+    "section": "",
+    "text": "Book number 1 is definitely the most important for this course.\n\n“What are the stars?” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib).\n“Life and death of stars” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib).\n“Galaxies in the Universe”, 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional.\n\nNote: After the midterm, the posted PDF lecture notes will be the basic reference."
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "Syllabus & Course Rules",
+    "section": "",
+    "text": "Book number 1 is definitely the most important for this course.\n\n“What are the stars?” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib).\n“Life and death of stars” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib).\n“Galaxies in the Universe”, 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional.\n\nNote: After the midterm, the posted PDF lecture notes will be the basic reference."
+  },
+  {
+    "objectID": "syllabus.html#grading-scheme",
+    "href": "syllabus.html#grading-scheme",
+    "title": "Syllabus & Course Rules",
+    "section": "💯 Grading Scheme",
+    "text": "💯 Grading Scheme\n\nMidterm: 22% (11% problems + 11% quiz)\nFinal exam: 49% (25% problems + 24% quiz)\n4 sets of home assignments: 26% (6.5% each)\nActivity: 3% (asking/answering questions in class, volunteering to solve tutorial problems)\n\nMinimum percentage marks for letter grades: A+ 90%, A 85%, A- 80%, B+ 77%, B 73%, B- 70%, C+ 67%, C 63%, C- 60%, D+ 57%, D 53%, D- 50%, F &lt; 50%."
+  },
+  {
+    "objectID": "syllabus.html#course-topics-outline",
+    "href": "syllabus.html#course-topics-outline",
+    "title": "Syllabus & Course Rules",
+    "section": "📜 Course Topics Outline",
+    "text": "📜 Course Topics Outline\n\nPart 1: Stellar Astrophysics (Pre-Midterm)\nFollows textbook 1: “What are the stars?”\n\nRules and goals of the course\nIntroduction to stellar (and planetary) astrophysics [L1]\nThe Present Revolution in Astronomy: An Overview [1]\nWhat are the Stars?\nStars as Globes of Gas\nEddington’s Theory of the Stars\nEnergy Generation in the Stars\nSounds of the Sun (Helioseismology)\nNeutrinos. The Smoking Gun is Finally Found\n\nFollows textbook 2: “Life and death of stars”\n\nStars in Their Youth (ch. 2)\nWhite Dwarf Stars (ch. 3)\nFermi–Dirac Distribution (ch. 5)\nQuantum Stars (ch. 6)\nThe Chandrasekhar Limit (ch. 7)\n\n\n\nPart 2: Galaxies & Universe (Post-Midterm)\nFollows Lecture Notes (Sparke & Gallagher book reference)\n\nFormation of disks and stars\nIntroduction, The Milky Way\nOther galaxies, Galaxy photometry\nMapping our Milky Way\nGalactic rotation\nRelaxation and evolution, part I (Two-body relaxation)\nRelaxation and evolution, part II (Epicyclic theory)\nOur backyard: the Local Group\nRotation Curves and Spiral Arms in Galaxies (Toomre stability, SWING amplifier, Lin-Shu theory)\nBars as a by-product of spiral mode evolution\nElliptical galaxies (Faber-Jackson, Tully-Fisher, Supermassive Black Holes)\nThe Universe (Cosmic Microwave Background, Dark Energy)"
+  },
+  {
+    "objectID": "syllabus.html#exceptions-not-required-for-exam",
+    "href": "syllabus.html#exceptions-not-required-for-exam",
+    "title": "Syllabus & Course Rules",
+    "section": "📎 Exceptions (Not Required for Exam)",
+    "text": "📎 Exceptions (Not Required for Exam)\nThe following sections in textbook 1 are not required: - Introduction by Lord Rees - Preface by the author - Box on p. 32 - Chapter 4 (inequality for beta) - Pages 110-115 - Global Networks and Solar Observatories in Space subsections p.127 - Subsection Effect of a Magnetic (..) p.136 - Rotational Splitting section p. 138 - Mass states and Flavour (…) p. 160 - Quantum Oscillations p. 165"
+  },
+  {
+    "objectID": "syllabus.html#lectures-vs-tutorials",
+    "href": "syllabus.html#lectures-vs-tutorials",
+    "title": "Syllabus & Course Rules",
+    "section": "✨ Lectures vs Tutorials",
+    "text": "✨ Lectures vs Tutorials\n\nLectures follow the material in textbooks (before midterm) and mostly lecture notes after midterm. They contain extra material, comments, and explanations not found in the book.\nTutorials are NOT meant for the explanation of Lectures - they deal with simple astrophysical calculations not discussed in lectures. Attending tutorials is crucial for written parts of the exams."
   },
   {
     "objectID": "simulations/lane-emden-and-hr-diagram.html",
@@ -51,16 +114,51 @@
   {
     "objectID": "problems/index.html",
     "href": "problems/index.html",
-    "title": "Astrophysics Problem Sets",
+    "title": "Assignments & Exams",
     "section": "",
-    "text": "No matching items"
+    "text": "Solutions to problems are to be submitted in legibly handwritten or in printed form. You will scan or photograph your work with your phone and submit it to the Assignments section of ASTB23 Quercus page. - Please put your student# at the top of the first page of every assignment. - Include the 3 last digits of your student number in the name of every submitted file.\nUse your words, don’t just write a stream of symbols. Follow the method of solving problems discussed in the 1st tutorial: 1. Sketch of the situation. 2. Analytic transformations of equations. 3. Units check on intermediate results. 4. Numerical evaluation of results on a calculator. 5. Are my results plausible (e.g. of expected order-of-magnitude)? 6. Clear, sufficiently detailed and legible description of derivations, results, and conclusions.\n\n\n\nSet #1. Due: 1 Oct (Noon)\nSet #2. Due: 15 Oct (Noon) - Preparation for the written parts of midterms.\nSet #3. Due: 12 Nov (Noon)\nSet #4. Due: 26 Nov (Noon)\n\nNote: Except in emergencies, there is no grace period (no late submissions)."
+  },
+  {
+    "objectID": "problems/index.html#home-assignments",
+    "href": "problems/index.html#home-assignments",
+    "title": "Assignments & Exams",
+    "section": "",
+    "text": "Solutions to problems are to be submitted in legibly handwritten or in printed form. You will scan or photograph your work with your phone and submit it to the Assignments section of ASTB23 Quercus page. - Please put your student# at the top of the first page of every assignment. - Include the 3 last digits of your student number in the name of every submitted file.\nUse your words, don’t just write a stream of symbols. Follow the method of solving problems discussed in the 1st tutorial: 1. Sketch of the situation. 2. Analytic transformations of equations. 3. Units check on intermediate results. 4. Numerical evaluation of results on a calculator. 5. Are my results plausible (e.g. of expected order-of-magnitude)? 6. Clear, sufficiently detailed and legible description of derivations, results, and conclusions.\n\n\n\nSet #1. Due: 1 Oct (Noon)\nSet #2. Due: 15 Oct (Noon) - Preparation for the written parts of midterms.\nSet #3. Due: 12 Nov (Noon)\nSet #4. Due: 26 Nov (Noon)\n\nNote: Except in emergencies, there is no grace period (no late submissions)."
+  },
+  {
+    "objectID": "problems/index.html#midterm-exam-preparation",
+    "href": "problems/index.html#midterm-exam-preparation",
+    "title": "Assignments & Exams",
+    "section": "📝 Midterm Exam Preparation",
+    "text": "📝 Midterm Exam Preparation\nDate: 5 Nov (In-class midterm during T7)\n\nAllowed materials: 2 double-sided hand-written (not printed or photocopied) sheets of own notes are allowed at midterm.\nRequired: Calculators.\nNot allowed: Phones, electronic devices, and books.\n\nThe quiz takes &lt;20 minutes and contains ~27 Y/N questions. You solve the quiz by marking Y or N in front of a supplied question. WARNING: You must circle at least one word or number that is wrong if you mark it as (N). Otherwise, it will be considered a guess and you will receive zero points.\nThe material covers textbook 1 up to and INCLUDING Chapter 5, plus Lectures."
+  },
+  {
+    "objectID": "problems/index.html#final-exam-preparation",
+    "href": "problems/index.html#final-exam-preparation",
+    "title": "Assignments & Exams",
+    "section": "📝 Final Exam Preparation",
+    "text": "📝 Final Exam Preparation\nDate: December\n\nAllowed materials: Up to 8 hand written pages on either 4 or 8 sheets of paper (not printed or photocopied) of own notes are allowed.\nRequired: Calculator.\nNot allowed: Phones (must be sealed in a plastic bag under your chair or left at the front of the room).\n\nAbout 1/3 of the final exam will be questions from the 1st part of the course, 2/3 from the post-midterm material (galaxies and universe). Normally 2 out of a total of 3 written problems are about galaxies and stellar systems.\nThe format of the final examination will be exactly the same as that of the midterm, only longer (almost 3 hrs instead of 1)."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ATB23H3: Astrophysics",
+    "title": "ASTB23: Stars, Galaxies & the Universe",
     "section": "",
-    "text": "ATB23H3: Astrophysics\n\nUniversity of Toronto Scarborough\nComprehensive course archive for theoretical astrophysics, radiative processes, stellar evolution, and numerical astrophysics simulations.\n\n\n\n\n🌟 Lecture Notes\nHydrostatic equilibrium, the Lane-Emden equation for polytropes, nuclear fusion cycles (p-p chain, CNO cycle), and Chandrasekhar mass limit.\n\n\n🪐 Problem Sets\nStep-by-step solutions to orbital mechanics, tidal disruption limits (Roche limit), and black hole accretion physics.\n\n\n🔭 Simulations\nPython integrators for the Lane-Emden differential equation, stellar structure shooting methods, and N-body gravitational simulations."
+    "text": "This page provides lecture notes, texts of home assignments and other material, such as the tutorial notes. Please note that this is the only sure source of information on ASTB23. Quercus is used for announcements and submission of assignments only."
+  },
+  {
+    "objectID": "index.html#course-calendar-schedule",
+    "href": "index.html#course-calendar-schedule",
+    "title": "ASTB23: Stars, Galaxies & the Universe",
+    "section": "📅 Course Calendar & Schedule",
+    "text": "📅 Course Calendar & Schedule\nLectures: Thursdays 12:00-14:00 in HW 215.\nTutorials: Thursdays 17:00-18:00 in IA 2021.\nA1..A4 are due dates to submit assignments 1..4 on Quercus at noon.\n\n\n\n\n\n\n\n\n\nDate\nLectures\nTutorials\nNotes / Deadlines\n\n\n\n\n10 Sep\nL1 + L2\nT1\n\n\n\n17 Sep\nL3z + L4z\n–\nL3-4 are synchronous online (Zoom)\n\n\n24 Sep\nL5 + L6\nT2\n\n\n\n1 Oct\nL7 + L8\nT3\nA1 Due\n\n\n8 Oct\nL9 + L10\nT4\n\n\n\n15 Oct\nL11 + L12\nT5\nA2 Due\n\n\n22 Oct\nL13 + L14\nT6\n\n\n\n29 Oct\nReading Week\n–\n\n\n\n5 Nov\nL15 + L16\nT7\nIn-class midterm during T7\n\n\n12 Nov\nL17 + L18\nT8\nA3 Due\n\n\n19 Nov\nL19 + L20\nT9\n\n\n\n26 Nov\nL21 + L22\n–\nA4 Due (Drop date for courses &lt; 18 Nov)\n\n\n3 Dec\nL23 + L24\nT10\n\n\n\nDec\n\n\nFinal Exam"
+  },
+  {
+    "objectID": "index.html#instructor-contact",
+    "href": "index.html#instructor-contact",
+    "title": "ASTB23: Stars, Galaxies & the Universe",
+    "section": "👨‍🏫 Instructor & Contact",
+    "text": "👨‍🏫 Instructor & Contact\n\nLecturer: Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Physics & Astrophysics Group).\n\nEmail: pawel.artymowicz@utoronto.ca (Subject MUST include “ASTB23”).\nOffice hours: right after lectures, half an hour after tutorial. Open to discussions about astrophysics, supercomputers, aerodynamics, and the meaning of life.\n\nTeaching Assistant: Aishani Chauduri (Marker only, no contact hours).\n\n\n\n📖 Syllabus & Course Rules\nDetailed course rules, grading breakdown, textbook information, and academic integrity policies.\n\n\n🌟 Lecture Notes\nAccess all lecture materials and readings for both the Stellar astrophysics and Galactic astrophysics parts of the course.\n\n\n🪐 Assignments & Exams\nProblem sets, deadlines, submission rules, and midterm/final exam preparation materials.\n\n\n📊 Tutorials\nReview tutorial problems and notes to master the mathematical and numerical methods necessary for the exams."
   },
   {
     "objectID": "simulations/index.html",
@@ -70,10 +168,59 @@
     "text": "Computational Astrophysics: Polytropes & Interactive HR Diagram\n\n\nInteractive stellar evolution simulator, Fortran 90 Lane-Emden solver, and C++ N-body orbital dynamics.\n\n\n\n\n\n\n\n\nSep 8, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "Astrophysics Lecture Notes",
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
-    "text": "Stellar Structure & The Lane-Emden Equation\n\n\nDeriving hydrostatic equilibrium and polytropic models of stars.\n\n\n\n\n\n\n\n\nSep 8, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.\nIf you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems."
+  },
+  {
+    "objectID": "tutorials/index.html#expectations",
+    "href": "tutorials/index.html#expectations",
+    "title": "Tutorials",
+    "section": "Expectations",
+    "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
+  },
+  {
+    "objectID": "notes/lectures-13-14.html",
+    "href": "notes/lectures-13-14.html",
+    "title": "lectures-13-14.qmd",
+    "section": "",
+    "text": "Notes will be published here just before our meetings."
+  },
+  {
+    "objectID": "notes/stellar-structure-and-polytropes.html",
+    "href": "notes/stellar-structure-and-polytropes.html",
+    "title": "Stellar Structure & The Lane-Emden Equation",
+    "section": "",
+    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
+  },
+  {
+    "objectID": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
+    "href": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
+    "title": "Stellar Structure & The Lane-Emden Equation",
+    "section": "",
+    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
+  },
+  {
+    "objectID": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
+    "href": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
+    "title": "Stellar Structure & The Lane-Emden Equation",
+    "section": "2. Polytropic Equation of State",
+    "text": "2. Polytropic Equation of State\nTo close the structure equation without solving detailed energy transport, we introduce a polytropic relation: \\[P = K \\rho^\\gamma = K \\rho^{1 + 1/n}\\] where \\(n\\) is the polytropic index (\\(\\gamma = 1 + \\frac{1}{n}\\)): * \\(n = 1.5\\) (\\(\\gamma = 5/3\\)): Non-relativistic degenerate electron gas (White Dwarfs) or fully convective stars (Red Giants, Sun’s core). * \\(n = 3.0\\) (\\(\\gamma = 4/3\\)): Relativistic degenerate electron gas (Chandrasekhar mass limit) or radiation-pressure dominated massive stars.\n\nThe Dimensionless Lane-Emden Equation\nDefine dimensionless density \\(\\theta(\\xi)\\) and radius \\(\\xi\\): \\[\\rho(r) = \\rho_c \\theta^n(\\xi), \\qquad r = \\alpha \\xi\\] where \\(\\alpha^2 = \\frac{(n+1) K \\rho_c^{1/n - 1}}{4\\pi G}\\).\nSubstituting into the hydrostatic equation yields the Lane-Emden Equation: \\[\\boxed{\\frac{1}{\\xi^2} \\frac{d}{d\\xi}\\left( \\xi^2 \\frac{d\\theta}{d\\xi} \\right) + \\theta^n = 0}\\] with boundary conditions at the stellar center (\\(\\xi = 0\\)): \\[\\theta(0) = 1, \\qquad \\left. \\frac{d\\theta}{d\\xi} \\right|_{\\xi=0} = 0\\]\nThe stellar surface \\(\\xi_1\\) is defined where density drops to zero: \\(\\theta(\\xi_1) = 0\\)."
+  },
+  {
+    "objectID": "notes/lectures-15-16.html",
+    "href": "notes/lectures-15-16.html",
+    "title": "lectures-15-16.qmd",
+    "section": "",
+    "text": "Notes will be published here just before our meetings."
+  },
+  {
+    "objectID": "notes/lectures-17-18.html",
+    "href": "notes/lectures-17-18.html",
+    "title": "lectures-17-18.qmd",
+    "section": "",
+    "text": "Notes will be published here just before our meetings."
   }
 ]
