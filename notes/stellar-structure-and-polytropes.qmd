@@ -1,0 +1,41 @@
+---
+title: "Stellar Structure & The Lane-Emden Equation"
+subtitle: "Deriving hydrostatic equilibrium and polytropic models of stars."
+date: "2026-09-08"
+categories: ["Stellar Physics", "Polytropes", "Hydrostatic Equilibrium"]
+format:
+  html:
+    math: true
+---
+
+## 1. Hydrostatic Equilibrium
+
+A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure:
+$$\boxed{\frac{dP}{dr} = -\frac{G M(r) \rho(r)}{r^2}}$$
+where the enclosed mass $M(r)$ satisfies the mass conservation equation:
+$$\frac{dM}{dr} = 4\pi r^2 \rho(r)$$
+
+Combining these two equations by differentiating $r^2 \frac{dP}{dr}$:
+$$\frac{1}{r^2} \frac{d}{dr}\left( \frac{r^2}{\rho} \frac{dP}{dr} \right) = -4\pi G \rho$$
+
+---
+
+## 2. Polytropic Equation of State
+
+To close the structure equation without solving detailed energy transport, we introduce a **polytropic relation**:
+$$P = K \rho^\gamma = K \rho^{1 + 1/n}$$
+where $n$ is the **polytropic index** ($\gamma = 1 + \frac{1}{n}$):
+*   $n = 1.5$ ($\gamma = 5/3$): Non-relativistic degenerate electron gas (White Dwarfs) or fully convective stars (Red Giants, Sun's core).
+*   $n = 3.0$ ($\gamma = 4/3$): Relativistic degenerate electron gas (Chandrasekhar mass limit) or radiation-pressure dominated massive stars.
+
+### The Dimensionless Lane-Emden Equation
+Define dimensionless density $\theta(\xi)$ and radius $\xi$:
+$$\rho(r) = \rho_c \theta^n(\xi), \qquad r = \alpha \xi$$
+where $\alpha^2 = \frac{(n+1) K \rho_c^{1/n - 1}}{4\pi G}$.
+
+Substituting into the hydrostatic equation yields the **Lane-Emden Equation**:
+$$\boxed{\frac{1}{\xi^2} \frac{d}{d\xi}\left( \xi^2 \frac{d\theta}{d\xi} \right) + \theta^n = 0}$$
+with boundary conditions at the stellar center ($\xi = 0$):
+$$\theta(0) = 1, \qquad \left. \frac{d\theta}{d\xi} \right|_{\xi=0} = 0$$
+
+The stellar surface $\xi_1$ is defined where density drops to zero: $\theta(\xi_1) = 0$.

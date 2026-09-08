@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "ATB23H3: Astrophysics"
+  description: "Stellar structure, radiative transport, gravitational dynamics, and compact objects."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: notes/index.qmd
+        text: Lecture Notes
+      - href: problems/index.qmd
+        text: Problem Sets
+      - href: simulations/index.qmd
+        text: Computational Astrophysics
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    math: true

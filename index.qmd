@@ -1,0 +1,28 @@
+---
+title: "ATB23H3: Astrophysics"
+subtitle: "Theoretical astrophysics, stellar atmospheres, Lane-Emden polytropes, and cosmic dynamics."
+page-layout: full
+---
+
+::: {.hero-banner}
+# ATB23H3: Astrophysics
+### University of Toronto Scarborough
+Comprehensive course archive for theoretical astrophysics, radiative processes, stellar evolution, and numerical astrophysics simulations.
+:::
+
+::: {.card-grid}
+::: {.course-card}
+### 🌟 [Lecture Notes](notes/index.qmd)
+Hydrostatic equilibrium, the Lane-Emden equation for polytropes, nuclear fusion cycles (p-p chain, CNO cycle), and Chandrasekhar mass limit.
+:::
+
+::: {.course-card}
+### 🪐 [Problem Sets](problems/index.qmd)
+Step-by-step solutions to orbital mechanics, tidal disruption limits (Roche limit), and black hole accretion physics.
+:::
+
+::: {.course-card}
+### 🔭 [Simulations](simulations/index.qmd)
+Python integrators for the Lane-Emden differential equation, stellar structure shooting methods, and N-body gravitational simulations.
+:::
+:::

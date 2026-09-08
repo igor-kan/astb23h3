@@ -1,0 +1,9 @@
+---
+title: "Astrophysics Problem Sets"
+description: "Problems, derivations, and solutions for ATB23."
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+page-layout: full
+---

@@ -1,0 +1,9 @@
+---
+title: "Astrophysics Lecture Notes"
+description: "Mathematical astrophysics, stellar structure equations, and nuclear nucleosynthesis."
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+page-layout: full
+---

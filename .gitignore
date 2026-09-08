@@ -1,0 +1,8 @@
+_site/
+.quarto/
+_freeze/
+*.pyc
+__pycache__/
+.venv/
+*.fits
+*.dat
