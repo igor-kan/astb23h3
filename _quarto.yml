@@ -3,20 +3,22 @@ project:
   output-dir: _site
 
 website:
-  title: "ASTB23H3: Astrophysics of Stars, Galaxies and the Universe"
+  title: "ASTB23: Stars, Galaxies & the Universe"
   site-url: "https://igor-kan.github.io/astb23h3"
   repo-url: "https://github.com/igor-kan/astb23h3"
-  description: "Stellar structure, radiative transport, gravitational dynamics, dark matter, and cosmology at UTSC."
+  description: "ASTB23 Fall 2026 - Astrophysics of Stars, Galaxies and the Universe at UTSC."
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: syllabus.qmd
+        text: Syllabus & Rules
       - href: notes/index.qmd
         text: Lecture Notes
       - href: problems/index.qmd
-        text: Problem Sets
-      - href: simulations/index.qmd
-        text: Computational Astrophysics
+        text: Assignments & Exams
+      - href: tutorials/index.qmd
+        text: Tutorials
 
 format:
   html:

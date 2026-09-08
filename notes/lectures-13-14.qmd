@@ -1,0 +1,5 @@
+---
+title: "lectures-13-14.qmd"
+---
+
+Notes will be published here just before our meetings.

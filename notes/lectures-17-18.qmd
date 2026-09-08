@@ -1,0 +1,5 @@
+---
+title: "lectures-17-18.qmd"
+---
+
+Notes will be published here just before our meetings.

@@ -1,0 +1,5 @@
+---
+title: "lectures-19-20.qmd"
+---
+
+Notes will be published here just before our meetings.

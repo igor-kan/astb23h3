@@ -1,9 +1,46 @@
 ---
-title: "Astrophysics Problem Sets"
-description: "Problems, derivations, and solutions for ATB23."
-listing:
-  contents: "*.qmd"
-  sort: "date desc"
-  type: default
-page-layout: full
+title: "Assignments & Exams"
 ---
+
+## 📝 Home Assignments
+Solutions to problems are to be submitted in **legibly** handwritten or in printed form. You will scan or photograph your work with your phone and submit it to the Assignments section of ASTB23 Quercus page. 
+- Please put your student# at the top of the first page of every assignment.
+- Include the 3 last digits of your student number in the name of every submitted file.
+
+Use your words, don't just write a stream of symbols. Follow the method of solving problems discussed in the 1st tutorial:
+1. Sketch of the situation.
+2. Analytic transformations of equations.
+3. Units check on intermediate results.
+4. Numerical evaluation of results on a calculator.
+5. Are my results plausible (e.g. of expected order-of-magnitude)?
+6. Clear, sufficiently detailed and legible description of derivations, results, and conclusions.
+
+### Schedule
+- **Set #1.** Due: 1 Oct (Noon)
+- **Set #2.** Due: 15 Oct (Noon) - *Preparation for the written parts of midterms.*
+- **Set #3.** Due: 12 Nov (Noon)
+- **Set #4.** Due: 26 Nov (Noon)
+
+*Note: Except in emergencies, there is no grace period (no late submissions).*
+
+## 📝 Midterm Exam Preparation
+**Date:** 5 Nov (In-class midterm during T7)
+
+- **Allowed materials:** 2 double-sided hand-written (not printed or photocopied) sheets of own notes are allowed at midterm. 
+- **Required:** Calculators. 
+- **Not allowed:** Phones, electronic devices, and books.
+
+The quiz takes <20 minutes and contains ~27 Y/N questions. You solve the quiz by marking Y or N in front of a supplied question. **WARNING:** You must circle at least one word or number that is wrong if you mark it as (N). Otherwise, it will be considered a guess and you will receive zero points.
+
+The material covers textbook 1 up to and INCLUDING Chapter 5, plus Lectures. 
+
+## 📝 Final Exam Preparation
+**Date:** December
+
+- **Allowed materials:** Up to 8 hand written pages on either 4 or 8 sheets of paper (not printed or photocopied) of own notes are allowed.
+- **Required:** Calculator.
+- **Not allowed:** Phones (must be sealed in a plastic bag under your chair or left at the front of the room).
+
+About 1/3 of the final exam will be questions from the 1st part of the course, 2/3 from the post-midterm material (galaxies and universe). Normally 2 out of a total of 3 written problems are about galaxies and stellar systems.
+
+The format of the final examination will be exactly the same as that of the midterm, only longer (almost 3 hrs instead of 1).

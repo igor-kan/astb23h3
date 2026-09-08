@@ -1,9 +1,19 @@
 ---
-title: "Astrophysics Lecture Notes"
-description: "Mathematical astrophysics, stellar structure equations, and nuclear nucleosynthesis."
-listing:
-  contents: "*.qmd"
-  sort: "date desc"
-  type: default
-page-layout: full
+title: "Lecture Notes"
 ---
+
+In Sept/Oct, we follow the Srinivasan textbooks closely (most of the 1st and parts of 2nd). You are expected to read those books. During lectures, equations and topics from the book will be discussed and explained.
+
+After the midterm, when we discuss galaxies and the universe, our source will be the lecture notes below, published just before our meetings.
+
+## Pre-Midterm Lectures (Srinivasan Textbooks)
+- **Lecture 1:** Introduction to stellar (and planetary) astrophysics
+- **Lecture 7:** Neutrinos. The Smoking Gun is Finally Found
+
+## Post-Midterm Lectures (Galactic Astrophysics & Cosmology)
+- **[Lectures 13-14](lectures-13-14.qmd):** Formation of disks and stars; Introduction, The Milky Way
+- **[Lectures 15-16](lectures-15-16.qmd):** Other galaxies, Galaxy photometry; Mapping our Milky Way
+- **[Lectures 17-18](lectures-17-18.qmd):** Galactic rotation; Relaxation and evolution, part I
+- **[Lectures 19-20](lectures-19-20.qmd):** Relaxation and evolution, part II; Our backyard: the Local Group
+- **[Lectures 21-22](lectures-21-22.qmd):** Rotation Curves and Spiral Arms in Galaxies; Bars as a by-product of spiral mode evolution
+- **[Lectures 23-24](lectures-23-24.qmd):** Elliptical galaxies; The Universe (CMB, Dark Energy)

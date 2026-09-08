@@ -1,0 +1,77 @@
+---
+title: "Syllabus & Course Rules"
+subtitle: "Course Structure, Textbooks, and Grading"
+---
+
+## 📚 Textbooks
+Book number 1 is definitely the most important for this course.
+
+1. *"What are the stars?"* by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib).
+2. *"Life and death of stars"* by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib).
+3. *"Galaxies in the Universe"*, 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional.
+
+*Note: After the midterm, the posted PDF lecture notes will be the basic reference.*
+
+## 💯 Grading Scheme
+- **Midterm:** 22% (11% problems + 11% quiz)
+- **Final exam:** 49% (25% problems + 24% quiz)
+- **4 sets of home assignments:** 26% (6.5% each)
+- **Activity:** 3% (asking/answering questions in class, volunteering to solve tutorial problems)
+
+*Minimum percentage marks for letter grades: A+ 90%, A 85%, A- 80%, B+ 77%, B 73%, B- 70%, C+ 67%, C 63%, C- 60%, D+ 57%, D 53%, D- 50%, F < 50%.*
+
+## 📜 Course Topics Outline
+
+### Part 1: Stellar Astrophysics (Pre-Midterm)
+*Follows textbook 1: "What are the stars?"*
+
+0. **Rules and goals of the course**
+1. **Introduction to stellar (and planetary) astrophysics** [L1]
+2. **The Present Revolution in Astronomy: An Overview** [1]
+3. **What are the Stars?**
+4. **Stars as Globes of Gas**
+5. **Eddington’s Theory of the Stars**
+6. **Energy Generation in the Stars**
+7. **Sounds of the Sun** (Helioseismology)
+8. **Neutrinos. The Smoking Gun is Finally Found**
+
+*Follows textbook 2: "Life and death of stars"*
+
+9. **Stars in Their Youth** (ch. 2)
+10. **White Dwarf Stars** (ch. 3)
+11. **Fermi–Dirac Distribution** (ch. 5)
+12. **Quantum Stars** (ch. 6)
+13. **The Chandrasekhar Limit** (ch. 7)
+
+### Part 2: Galaxies & Universe (Post-Midterm)
+*Follows Lecture Notes (Sparke & Gallagher book reference)*
+
+13. **Formation of disks and stars**
+14. **Introduction, The Milky Way**
+15. **Other galaxies, Galaxy photometry**
+16. **Mapping our Milky Way**
+17. **Galactic rotation**
+18. **Relaxation and evolution, part I** (Two-body relaxation)
+19. **Relaxation and evolution, part II** (Epicyclic theory)
+20. **Our backyard: the Local Group**
+21. **Rotation Curves and Spiral Arms in Galaxies** (Toomre stability, SWING amplifier, Lin-Shu theory)
+22. **Bars as a by-product of spiral mode evolution**
+23. **Elliptical galaxies** (Faber-Jackson, Tully-Fisher, Supermassive Black Holes)
+24. **The Universe** (Cosmic Microwave Background, Dark Energy)
+
+## 📎 Exceptions (Not Required for Exam)
+The following sections in textbook 1 are not required:
+- Introduction by Lord Rees
+- Preface by the author
+- Box on p. 32
+- Chapter 4 (inequality for beta)
+- Pages 110-115
+- Global Networks and Solar Observatories in Space subsections p.127
+- Subsection Effect of a Magnetic (..) p.136
+- Rotational Splitting section p. 138
+- Mass states and Flavour (...) p. 160
+- Quantum Oscillations p. 165
+
+## ✨ Lectures vs Tutorials
+- **Lectures** follow the material in textbooks (before midterm) and mostly lecture notes after midterm. They contain extra material, comments, and explanations not found in the book.
+- **Tutorials** are NOT meant for the explanation of Lectures - they deal with simple astrophysical calculations not discussed in lectures. Attending tutorials is crucial for written parts of the exams.

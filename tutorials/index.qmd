@@ -1,0 +1,14 @@
+---
+title: "Tutorials"
+---
+
+Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures. 
+
+If you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems.
+
+## Expectations
+Class participation points are given not just for showing up, but for asking/answering questions in class, and **volunteering to solve the tutorial problems on blackboard**.
+
+As explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.
+
+*Tutorial notes will be posted here as the term progresses.*
