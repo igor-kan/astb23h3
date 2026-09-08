@@ -1,5 +1,55 @@
 ---
-title: "lectures-21-22.qmd"
+title: "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms"
+subtitle: "Decomposition of rotation curves, dark matter halos, Toomre Q criterion, and Lin-Shu density wave theory."
+date: "2026-11-26"
+categories: ["Galactic Dynamics", "Dark Matter", "Spiral Structure"]
 ---
 
-Notes will be published here just before our meetings.
+## 1. Galactic Rotation Curves & Dark Matter
+
+In disk galaxies, circular velocity $v_c(R)$ is governed by radial gravitational equilibrium:
+$$\frac{v_c^2(R)}{R} = -\frac{\partial \Phi}{\partial R} = \frac{G M(R)}{R^2}$$
+
+### Keplerian Falloff vs. Flat Curves
+If galaxy mass were concentrated solely in the luminous stars and gas (like the solar system), the outer rotation curve would drop as:
+$$v_c(R) \propto R^{-1/2} \quad (\text{Keplerian falloff})$$
+However, 21-cm neutral hydrogen (HI) and optical $H\alpha$ observations show flat rotation curves extending far beyond the optical disk:
+$$v_c(R) \approx \text{constant} \implies M(R) \propto R$$
+This necessitates an extended, quasi-spherical **Dark Matter Halo** with density profile $\rho(R) \propto R^{-2}$.
+
+### Curve Decomposition
+Total circular velocity is partitioned into component potentials:
+$$v_{\text{tot}}^2(R) = v_{\text{bulge}}^2(R) + v_{\text{disk}}^2(R) + v_{\text{gas}}^2(R) + v_{\text{halo}}^2(R)$$
+
+Explore the interactive model on our [Galactic Rotation Simulation page](../simulations/interactive-galactic-rotation.qmd).
+
+---
+
+## 2. Toomre Stability Criterion ($Q$)
+
+For a thin, rotating disk of stars or gas to resist local axisymmetric gravitational collapse, thermal velocity dispersion and differential rotation must overcome self-gravity:
+$$Q = \frac{\sigma_R \kappa}{3.36 \, G \, \Sigma}$$
+where:
+- $\sigma_R$: Radial velocity dispersion of stars
+- $\kappa$: Epicyclic frequency, $\kappa^2 = R \frac{d\Omega^2}{dR} + 4\Omega^2$
+- $\Sigma$: Disk surface mass density
+
+### Stability Regimes:
+- **$Q < 1$**: Disk is unstable to local axisymmetric gravitational collapse (forms clumps, starbursts).
+- **$Q > 1$**: Disk is stable against axisymmetric modes.
+- Typically, spiral disks maintain $Q \approx 1.2 - 2.0$, permitting non-axisymmetric spiral density waves.
+
+---
+
+## 3. Lin-Shu Density Wave Theory
+
+Spiral arms are not material structures (which would suffer the *winding dilemma* in differential rotation $\Omega(R)$), but rather quasi-stationary density waves rotating at pattern speed $\Omega_p$.
+
+The dispersion relation for tightly wound spiral waves is:
+$$(\omega - m\Omega)^2 = \kappa^2 - 2\pi G \Sigma |k| + k^2 c_s^2$$
+where $m$ is the number of arms and $k$ is the radial wavenumber.
+
+Resonances occur where pattern speed matches orbital or epicyclic frequencies:
+- **Corotation Resonance (CR):** $\Omega(R) = \Omega_p$
+- **Inner Lindblad Resonance (ILR):** $\Omega(R) - \kappa(R)/m = \Omega_p$
+- **Outer Lindblad Resonance (OLR):** $\Omega(R) + \kappa(R)/m = \Omega_p$

@@ -1,0 +1,27 @@
+---
+title: "Midterm Exam Preparation Guide"
+subtitle: "Guidelines, allowed materials, format, and sample Y/N quiz questions."
+date: "2026-11-05"
+categories: ["Exams", "Midterm", "Exam Prep"]
+---
+
+## Midterm Logistics
+- **Date & Time:** Thursday, November 5 during Tutorial T7 (17:00–18:00).
+- **Weight:** 22% of final course grade (11% written problems + 11% conceptual quiz).
+- **Allowed Materials:** Exactly **2 double-sided handwritten sheets** (4 pages total) of your own notes. Calculators are mandatory. No textbooks, phones, tablets, or printed/photocopied materials.
+
+---
+
+## Exam Format
+1. **Written Problem (~40 mins):** One multi-part calculation similar to tutorial and assignment problems. Full explanations in words are required.
+2. **Concept Quiz (~20 mins):** ~27 Yes/No statements. 
+   - **Crucial Rule:** If you mark **No (N)**, you **must circle the specific word or number that is false**. Unannotated 'N' marks receive zero credit.
+
+---
+
+## Topics Tested
+- Srinivasan Textbook 1: Chapters 1 through 5.
+- Hydrostatic equilibrium & Virial Theorem.
+- Eddington luminosity limit & radiation pressure.
+- Nuclear fusion cycles (pp-chains, CNO) and Coulomb tunneling barrier.
+- Optical depth $\tau$ and radiative diffusion approximation.

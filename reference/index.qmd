@@ -1,6 +1,6 @@
 ---
-title: "ASTB23 Lecture Notes & Syllabus"
-subtitle: "Theoretical astrophysics, stellar interiors, degenerate stars, galactic dynamics, and cosmology."
+title: "ASTB23 Reference & Mathematical Tools"
+subtitle: "Astronomical constants, stellar equations, galactic dynamics formulas, and literature bibliography."
 listing:
   contents: "*.qmd"
   sort:
@@ -19,4 +19,4 @@ listing:
 page-layout: full
 ---
 
-This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.
+Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.

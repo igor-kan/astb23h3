@@ -1,61 +1,68 @@
 ---
-title: "ASTB23: Stars, Galaxies & the Universe"
-subtitle: "Fall 2026 | University of Toronto Scarborough"
+title: "ASTB23H3: Stars, Galaxies & the Universe"
+subtitle: "Theoretical astrophysics, stellar structure, Lane-Emden polytropes, galactic dynamics, dark matter, and cosmology."
 page-layout: full
 ---
 
 ::: {.hero-banner}
-# ASTB23: Stars, Galaxies & the Universe
-### Astrophysics of Stars, Galaxies and the Universe
-This page provides lecture notes, texts of home assignments and other material, such as the tutorial notes. **Please note that this is the only sure source of information on ASTB23.** Quercus is used for announcements and submission of assignments only.
+# ASTB23H3: Stars, Galaxies & the Universe
+### University of Toronto Scarborough · Fall 2026
+Comprehensive course portal featuring the official syllabus, analytical lecture notes, problem sets, interactive astrophysics simulations, and mathematical reference toolkits.
 :::
-
-## 📅 Course Calendar & Schedule
-Lectures: Thursdays 12:00-14:00 in HW 215.  
-Tutorials: Thursdays 17:00-18:00 in IA 2021.  
-*A1..A4 are due dates to submit assignments 1..4 on Quercus at noon.*
-
-| Date       | Lectures | Tutorials | Notes / Deadlines |
-|------------|----------|-----------|-------------------|
-| 10 Sep     | L1 + L2  | T1        | |
-| 17 Sep     | L3z + L4z| --        | L3-4 are synchronous online (Zoom) |
-| 24 Sep     | L5 + L6  | T2        | |
-| 1 Oct      | L7 + L8  | T3        | **A1 Due** |
-| 8 Oct      | L9 + L10 | T4        | |
-| 15 Oct     | L11 + L12| T5        | **A2 Due** |
-| 22 Oct     | L13 + L14| T6        | |
-| 29 Oct     | *Reading Week* | -- | |
-| 5 Nov      | L15 + L16| T7        | **In-class midterm during T7** |
-| 12 Nov     | L17 + L18| T8        | **A3 Due** |
-| 19 Nov     | L19 + L20| T9        | |
-| 26 Nov     | L21 + L22| --        | **A4 Due** (Drop date for courses < 18 Nov) |
-| 3 Dec      | L23 + L24| T10       | |
-| Dec        |          |           | **Final Exam** |
-
-## 👨‍🏫 Instructor & Contact
-- **Lecturer:** Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Physics & Astrophysics Group).  
-  - Email: pawel.artymowicz@utoronto.ca (Subject MUST include "ASTB23").
-  - Office hours: right after lectures, half an hour after tutorial. Open to discussions about astrophysics, supercomputers, aerodynamics, and the meaning of life.
-- **Teaching Assistant:** Aishani Chauduri (Marker only, no contact hours).
 
 ::: {.card-grid}
 ::: {.course-card}
-### 📖 [Syllabus & Course Rules](syllabus.qmd)
-Detailed course rules, grading breakdown, textbook information, and academic integrity policies.
+### 📚 [Lecture Notes & Syllabus](notes/index.qmd)
+Official course syllabus, stellar structure equations, Lane-Emden polytropes, Eddington luminosity, helioseismology, and post-midterm galactic dynamics.
 :::
 
 ::: {.course-card}
-### 🌟 [Lecture Notes](notes/index.qmd)
-Access all lecture materials and readings for both the Stellar astrophysics and Galactic astrophysics parts of the course.
+### ✏️ [Problem Sets & Solutions](problems/index.qmd)
+Detailed homework problem sets (A1–A4), tutorial blackboard exercises, and preparation guidelines for the Midterm and Final exams.
 :::
 
 ::: {.course-card}
-### 🪐 [Assignments & Exams](problems/index.qmd)
-Problem sets, deadlines, submission rules, and midterm/final exam preparation materials.
+### 🔭 [Code & Simulations](simulations/index.qmd)
+Interactive in-browser astrophysics simulations (galactic rotation curve decomposition, Lane-Emden solvers), Python models, and numerical integrators.
 :::
 
 ::: {.course-card}
-### 📊 [Tutorials](tutorials/index.qmd)
-Review tutorial problems and notes to master the mathematical and numerical methods necessary for the exams.
+### 📐 [Reference & Math](reference/index.qmd)
+Astronomical constants, stellar structure equations, galactic dynamics formulas, and comprehensive literature sources.
 :::
 :::
+
+---
+
+## 📅 Course Roadmap & Calendar (Fall 2026)
+
+*Lectures: Thursdays 12:00–14:00 in HW 215 · Tutorials: Thursdays 17:00–18:00 in IA 2021*  
+*Assignments (A1–A4) are due on Quercus at 12:00 noon on specified Thursdays.*
+
+| Date | Lectures | Tutorials | Core Topics & Readings | Assessments / Deadlines |
+| :--- | :--- | :--- | :--- | :--- |
+| **10 Sep** | L1 + L2 | T1 | Intro to Stellar Astrophysics; What are the Stars? (Srinivasan Ch 1) | |
+| **17 Sep** | L3z + L4z | -- | Stars as Globes of Gas; Hydrostatic Equilibrium (Zoom) | |
+| **24 Sep** | L5 + L6 | T2 | Eddington's Theory; Radiative Equilibrium & Luminosity Limit | |
+| **01 Oct** | L7 + L8 | T3 | Energy Generation & Nuclear Fusion; Solar Neutrinos (SNO) | **Assignment #1 Due (Noon)** |
+| **08 Oct** | L9 + L10 | T4 | Helioseismology & Solar Oscillations; White Dwarfs (Book 2) | |
+| **15 Oct** | L11 + L12 | T5 | Degenerate Fermi Gas; Chandrasekhar Mass Limit | **Assignment #2 Due (Noon)** |
+| **22 Oct** | L13 + L14 | T6 | [Protostellar Disks & Star Formation](notes/lectures-13-14.qmd) | |
+| **29 Oct** | *Reading Week* | -- | *Midterm Review & Independent Study* | Study Break |
+| **05 Nov** | L15 + L16 | T7 | [The Milky Way & Galaxy Photometry](notes/lectures-15-16.qmd) | **In-Class Midterm Exam (during T7)** |
+| **12 Nov** | L17 + L18 | T8 | [Galactic Rotation & Two-Body Relaxation](notes/lectures-17-18.qmd) | **Assignment #3 Due (Noon)** |
+| **19 Nov** | L19 + L20 | T9 | [Epicyclic Theory & Local Group Spirals](notes/lectures-19-20.qmd) | *(Course drop date: 18 Nov)* |
+| **26 Nov** | L21 + L22 | -- | [Rotation Curves, Dark Matter & Spiral Arms](notes/lectures-21-22.qmd) | **Assignment #4 Due (Noon)** |
+| **03 Dec** | L23 + L24 | T10 | [Elliptical Galaxies, Black Holes & Cosmology](notes/lectures-23-24.qmd) | Course Review |
+| **Dec Period** | -- | -- | **Comprehensive Final Examination** (3 Hours) | Scheduled by Registrar |
+
+::: {.callout-note}
+### Course Schedule & Grading Notes
+Detailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed in the official [Course Syllabus](notes/syllabus.qmd).
+:::
+
+## 👨‍🏫 Instructor & Contact
+- **Lecturer:** Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)
+  - Email: `pawel.artymowicz@utoronto.ca` (Subject MUST contain `ASTB23`)
+  - Office Hours: Directly after lectures, and 30 min after tutorials.
+- **Teaching Assistant:** Aishani Chauduri (Marker only).

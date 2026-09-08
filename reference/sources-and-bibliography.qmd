@@ -1,0 +1,19 @@
+---
+title: "Astrophysics Sources & Bibliography"
+subtitle: "Textbooks, seminal papers, telescope portals, and astronomical databases for ASTB23."
+date: "2026-09-08"
+categories: ["Reference", "Bibliography", "Sources"]
+---
+
+## 📚 Textbooks
+1. **Srinivasan, G. (2014)**. *What are the Stars?* Lecture Notes in Physics, Springer.
+2. **Srinivasan, G. (2014)**. *Life and Death of the Stars*. Lecture Notes in Physics, Springer.
+3. **Sparke, L. S., & Gallagher, J. S. (2007)**. *Galaxies in the Universe: An Introduction* (2nd ed.). Cambridge University Press.
+
+---
+
+## 🔭 Observational Missions & Portals
+- **JWST (James Webb Space Telescope):** Deepest infrared observations (SMACS 0723, Whirlpool Galaxy M51).
+- **LIGO/Virgo Scientific Collaboration:** GW170817 neutron star merger in NGC 4993.
+- **WMAP & BOOMERanG:** Cosmic Microwave Background observations proving spatial flatness of the Universe.
+- **NASA ADS (Astrophysics Data System):** Comprehensive academic literature database.

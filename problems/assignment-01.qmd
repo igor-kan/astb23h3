@@ -1,0 +1,28 @@
+---
+title: "Problem Set #1: Stellar Structure & Hydrostatic Equilibrium"
+subtitle: "Due Thursday, October 1 at 12:00 Noon on Quercus"
+date: "2026-10-01"
+categories: ["Assignments", "Stellar Physics", "Hydrostatic Equilibrium"]
+---
+
+## Overview & Submission Rules
+- **Due Date:** October 1, 2026 at 12:00 Noon on Quercus.
+- Name file with your last 3 digits of student ID (e.g. `astb23_a1_xxx.pdf`).
+- Follow the 6-step problem-solving protocol (sketch, analytic derivation, units check, calculation, plausibility check, description).
+
+---
+
+### Problem 1.1: Hydrostatic Pressure at the Solar Center
+Assuming a simple linear density profile $\rho(r) = \rho_c (1 - r/R)$, where $R$ is the stellar radius and $\rho_c$ is the central density:
+1. Find the total mass $M$ in terms of $\rho_c$ and $R$.
+2. Express the central density $\rho_c$ in terms of average density $\bar{\rho} = 3M / (4\pi R^3)$.
+3. Integrate the hydrostatic equilibrium equation $\frac{dP}{dr} = -\frac{G M(r)\rho(r)}{r^2}$ from the surface ($P(R) = 0$) to the center to find the central pressure $P_c$.
+4. Evaluate $P_c$ for solar values ($M_\odot = 1.989 \times 10^{30}\text{ kg}, R_\odot = 6.96 \times 10^8\text{ m}$) and compare with the ideal gas pressure at $T_c \approx 1.5 \times 10^7\text{ K}$.
+
+---
+
+### Problem 1.2: Virial Theorem Application
+From the Virial Theorem for an ideal gas sphere bound by gravity, $2K + U = 0$:
+1. Show that the total energy $E = K + U = \frac{1}{2}U = -K$.
+2. Explain why a star contracting quasi-statically under gravity heats up rather than cools down (negative heat capacity).
+3. Estimate the Kelvin-Helmholtz gravitational contraction timescale $t_{\text{KH}} = \frac{|U|}{2L}$ for the Sun.

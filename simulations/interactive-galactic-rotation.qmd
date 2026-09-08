@@ -1,0 +1,267 @@
+---
+title: "Interactive Galactic Rotation & Dark Matter Simulation"
+subtitle: "Decomposition of circular velocity into bulge, exponential disk, and isothermal dark matter halo."
+date: "2026-09-08"
+categories: ["Simulations", "Galactic Dynamics", "Dark Matter", "Interactive"]
+format:
+  html:
+    math: true
+---
+
+## 🌌 Theoretical Framework: Velocity Decomposition
+
+In a spiral galaxy, the radial gravitational acceleration in the disk midplane ($z=0$) balances the centrifugal acceleration for circular orbits:
+$$\frac{v_c^2(R)}{R} = \left| \frac{\partial \Phi_{\text{tot}}}{\partial R} \right| \implies v_c^2(R) = v_{\text{bulge}}^2(R) + v_{\text{disk}}^2(R) + v_{\text{halo}}^2(R)$$
+
+### 1. Central Bulge (Plummer Potential)
+Modeled as a spherical Plummer potential $\Phi_b(r) = -\frac{G M_b}{\sqrt{r^2 + b_b^2}}$:
+$$v_{\text{bulge}}(R) = \sqrt{\frac{G M_b R^2}{(R^2 + b_b^2)^{3/2}}}$$
+
+### 2. Exponential Stellar Disk (Freeman Approximation)
+For an exponential surface density $\Sigma(R) = \Sigma_0 e^{-R/R_d}$, the circular velocity peaks near $R \approx 2.2 R_d$ and falls off at large radii:
+$$v_{\text{disk}}(R) \approx v_{d,\text{max}} \cdot \frac{1.97 (R/R_d)^{1.22}}{[(R/R_d)^{2} + 0.78]^{1.43}}$$
+
+### 3. Dark Matter Halo (Pseudo-Isothermal Sphere)
+A core radius $R_c$ and asymptotic velocity $V_h$:
+$$\rho_h(R) = \frac{\rho_0}{1 + (R/R_c)^2} \implies v_{\text{halo}}(R) = V_h \sqrt{1 - \frac{R_c}{R}\arctan\left(\frac{R}{R_c}\right)}$$
+
+---
+
+## 🎮 Interactive Simulation & Curve Decomposition
+
+Use the interactive controls below to adjust the component masses. Notice how without dark matter, the galaxy displays a steep **Keplerian decline** ($v_c \propto R^{-1/2}$), while with dark matter, the rotation curve becomes flat at large radii ($v_c \approx \text{const}$).
+
+```{=html}
+<div style="background: #11141a; border: 1px solid #2a313d; border-radius: 8px; padding: 20px; margin-bottom: 25px; color: #e1e7ec;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 15px;">
+    <div>
+      <label style="font-size: 0.85rem; font-weight: 600; color: #ff6b6b;">Bulge Mass $M_b$ ($10^{10} M_\odot$): <span id="val-mb">1.5</span></label>
+      <input type="range" id="slider-mb" min="0" max="4" step="0.1" value="1.5" style="width: 100%;">
+    </div>
+    <div>
+      <label style="font-size: 0.85rem; font-weight: 600; color: #4dabf7;">Disk Mass $M_d$ ($10^{10} M_\odot$): <span id="val-md">5.0</span></label>
+      <input type="range" id="slider-md" min="0.5" max="10" step="0.5" value="5.0" style="width: 100%;">
+    </div>
+    <div>
+      <label style="font-size: 0.85rem; font-weight: 600; color: #51cf66;">Halo Velocity $V_h$ (km/s): <span id="val-vh">180</span></label>
+      <input type="range" id="slider-vh" min="0" max="250" step="5" value="180" style="width: 100%;">
+    </div>
+    <div>
+      <label style="font-size: 0.85rem; font-weight: 600; color: #ffd43b;">Halo Core $R_c$ (kpc): <span id="val-rc">3.0</span></label>
+      <input type="range" id="slider-rc" min="0.5" max="8" step="0.5" value="3.0" style="width: 100%;">
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
+    <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; font-size: 0.9rem;">
+      <input type="checkbox" id="toggle-halo" checked> Enable Dark Matter Halo
+    </label>
+    <button id="btn-reset" style="background: #2b303c; border: 1px solid #4a5568; color: #fff; padding: 4px 12px; border-radius: 4px; cursor: pointer;">Reset Defaults</button>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+    <div>
+      <h4 style="margin: 0 0 8px 0; font-size: 0.95rem; text-align: center; color: #a5d8ff;">Live Galaxy Particle Dynamics</h4>
+      <canvas id="canvas-galaxy" width="400" height="340" style="background: #000; border-radius: 6px; width: 100%; height: auto; border: 1px solid #222;"></canvas>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 8px 0; font-size: 0.95rem; text-align: center; color: #69db7c;">Rotation Curve Decomposition $v(R)$</h4>
+      <canvas id="canvas-curve" width="400" height="340" style="background: #080a0f; border-radius: 6px; width: 100%; height: auto; border: 1px solid #222;"></canvas>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const sMb = document.getElementById('slider-mb');
+  const sMd = document.getElementById('slider-md');
+  const sVh = document.getElementById('slider-vh');
+  const sRc = document.getElementById('slider-rc');
+  const tHalo = document.getElementById('toggle-halo');
+  const bReset = document.getElementById('btn-reset');
+
+  const lMb = document.getElementById('val-mb');
+  const lMd = document.getElementById('val-md');
+  const lVh = document.getElementById('val-vh');
+  const lRc = document.getElementById('val-rc');
+
+  const cGal = document.getElementById('canvas-galaxy');
+  const ctxGal = cGal.getContext('2d');
+  const cCur = document.getElementById('canvas-curve');
+  const ctxCur = cCur.getContext('2d');
+
+  function updateLabels() {
+    lMb.textContent = sMb.value;
+    lMd.textContent = sMd.value;
+    lVh.textContent = sVh.value;
+    lRc.textContent = sRc.value;
+  }
+
+  [sMb, sMd, sVh, sRc].forEach(s => s.addEventListener('input', updateLabels));
+
+  bReset.addEventListener('click', () => {
+    sMb.value = 1.5; sMd.value = 5.0; sVh.value = 180; sRc.value = 3.0;
+    tHalo.checked = true;
+    updateLabels();
+  });
+
+  // Calculate circular velocity components in km/s at radius R in kpc
+  function calcVelocities(R, Mb, Md, Vh, Rc, hasHalo) {
+    if (R <= 0.05) return { vBulge: 0, vDisk: 0, vHalo: 0, vTot: 0 };
+    
+    // Bulge (Plummer): bb = 0.8 kpc, G = 4.30e-6 kpc (km/s)^2 / M_sun
+    // With Mb in 10^10 M_sun, v^2 = 43000 * Mb * R^2 / (R^2 + bb^2)^1.5
+    const bb = 0.8;
+    const vBulge2 = (43000 * Mb * R * R) / Math.pow(R * R + bb * bb, 1.5);
+    const vBulge = Math.sqrt(Math.max(0, vBulge2));
+
+    // Disk (Exponential approximation): Rd = 3.0 kpc
+    const Rd = 3.0;
+    const x = R / Rd;
+    const vdMax = Math.sqrt(43000 * Md / (3.0 * Rd)) * 0.65;
+    const vDisk = vdMax * (1.97 * Math.pow(x, 1.22)) / Math.pow(x * x + 0.78, 1.43);
+
+    // Halo (Pseudo-isothermal):
+    let vHalo = 0;
+    if (hasHalo && Vh > 0) {
+      const u = R / Rc;
+      const factor = 1.0 - (Rc / R) * Math.atan(u);
+      vHalo = Vh * Math.sqrt(Math.max(0, factor));
+    }
+
+    const vTot = Math.sqrt(vBulge * vBulge + vDisk * vDisk + vHalo * vHalo);
+    return { vBulge, vDisk, vHalo, vTot };
+  }
+
+  // Particle representation of the galaxy
+  const N_STARS = 450;
+  const stars = [];
+  for (let i = 0; i < N_STARS; i++) {
+    const r = Math.pow(Math.random(), 1.5) * 22 + 0.5; // concentrated towards center
+    const theta = Math.random() * Math.PI * 2;
+    const brightness = 0.4 + Math.random() * 0.6;
+    stars.push({ r, theta, brightness });
+  }
+
+  function drawGalacticParticles(Mb, Md, Vh, Rc, hasHalo) {
+    ctxGal.fillStyle = 'rgba(0, 0, 0, 0.25)';
+    ctxGal.fillRect(0, 0, cGal.width, cGal.height);
+
+    const cx = cGal.width / 2;
+    const cy = cGal.height / 2;
+    const scale = (cGal.width / 2) / 25; // 25 kpc fits in half-width
+
+    // Draw central galactic bulge glow
+    const grad = ctxGal.createRadialGradient(cx, cy, 1, cx, cy, 25);
+    grad.addColorStop(0, 'rgba(255, 230, 180, 0.9)');
+    grad.addColorStop(0.3, 'rgba(255, 170, 80, 0.4)');
+    grad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctxGal.fillStyle = grad;
+    ctxGal.beginPath();
+    ctxGal.arc(cx, cy, 25, 0, Math.PI * 2);
+    ctxGal.fill();
+
+    // Update and draw orbiting stars
+    for (let i = 0; i < stars.length; i++) {
+      const s = stars[i];
+      const vel = calcVelocities(s.r, Mb, Md, Vh, Rc, hasHalo);
+      // angular velocity omega = v / r (rad/s in simulation units)
+      const omega = (vel.vTot / s.r) * 0.00035;
+      s.theta += omega;
+
+      const px = cx + s.r * scale * Math.cos(s.theta);
+      const py = cy + s.r * scale * Math.sin(s.theta);
+
+      ctxGal.fillStyle = `rgba(200, 225, 255, ${s.brightness})`;
+      ctxGal.fillRect(px, py, 1.8, 1.8);
+    }
+  }
+
+  function drawRotationCurves(Mb, Md, Vh, Rc, hasHalo) {
+    ctxCur.clearRect(0, 0, cCur.width, cCur.height);
+
+    const left = 45, right = cCur.width - 15;
+    const top = 25, bottom = cCur.height - 35;
+    const maxR = 25; // kpc
+    const maxV = 280; // km/s
+
+    const xMap = (r) => left + (r / maxR) * (right - left);
+    const yMap = (v) => bottom - (v / maxV) * (bottom - top);
+
+    // Axes
+    ctxCur.strokeStyle = '#333e4f';
+    ctxCur.lineWidth = 1;
+    ctxCur.beginPath();
+    ctxCur.moveTo(left, top); ctxCur.lineTo(left, bottom); ctxCur.lineTo(right, bottom);
+    ctxCur.stroke();
+
+    // Ticks & Labels
+    ctxCur.fillStyle = '#8a99ad';
+    ctxCur.font = '10px monospace';
+    for (let r = 5; r <= maxR; r += 5) {
+      ctxCur.fillText(r, xMap(r) - 6, bottom + 15);
+    }
+    ctxCur.fillText('R (kpc)', (left + right) / 2 - 15, bottom + 28);
+
+    for (let v = 50; v <= maxV; v += 50) {
+      ctxCur.fillText(v, left - 30, yMap(v) + 3);
+      ctxCur.strokeStyle = '#1d232c';
+      ctxCur.beginPath();
+      ctxCur.moveTo(left, yMap(v)); ctxCur.lineTo(right, yMap(v)); ctxCur.stroke();
+    }
+    ctxCur.save();
+    ctxCur.translate(12, (top + bottom) / 2 + 20);
+    ctxCur.rotate(-Math.PI / 2);
+    ctxCur.fillText('v (km/s)', 0, 0);
+    ctxCur.restore();
+
+    // Helper to plot curve
+    function plotCurve(getY, strokeColor, lineWidth, dashed) {
+      ctxCur.strokeStyle = strokeColor;
+      ctxCur.lineWidth = lineWidth;
+      if (dashed) ctxCur.setLineDash([4, 4]); else ctxCur.setLineDash([]);
+      ctxCur.beginPath();
+      let first = true;
+      for (let r = 0.1; r <= maxR; r += 0.25) {
+        const v = getY(r);
+        const px = xMap(r), py = yMap(v);
+        if (first) { ctxCur.moveTo(px, py); first = false; } else { ctxCur.lineTo(px, py); }
+      }
+      ctxCur.stroke();
+      ctxCur.setLineDash([]);
+    }
+
+    // Plot components
+    plotCurve(r => calcVelocities(r, Mb, Md, Vh, Rc, hasHalo).vBulge, '#ff6b6b', 1.5, true);
+    plotCurve(r => calcVelocities(r, Mb, Md, Vh, Rc, hasHalo).vDisk, '#4dabf7', 1.5, true);
+    if (hasHalo) {
+      plotCurve(r => calcVelocities(r, Mb, Md, Vh, Rc, hasHalo).vHalo, '#51cf66', 1.5, true);
+    }
+    plotCurve(r => calcVelocities(r, Mb, Md, Vh, Rc, hasHalo).vTot, '#ffffff', 2.5, false);
+
+    // Legend
+    ctxCur.font = '10px sans-serif';
+    ctxCur.fillStyle = '#ff6b6b'; ctxCur.fillText('— Bulge', right - 85, top + 10);
+    ctxCur.fillStyle = '#4dabf7'; ctxCur.fillText('— Disk', right - 85, top + 24);
+    if (hasHalo) {
+      ctxCur.fillStyle = '#51cf66'; ctxCur.fillText('— Halo', right - 85, top + 38);
+    }
+    ctxCur.fillStyle = '#ffffff'; ctxCur.fillText('— Total vc', right - 85, top + 52);
+  }
+
+  function loop() {
+    const Mb = parseFloat(sMb.value);
+    const Md = parseFloat(sMd.value);
+    const Vh = parseFloat(sVh.value);
+    const Rc = parseFloat(sRc.value);
+    const hasHalo = tHalo.checked;
+
+    drawGalacticParticles(Mb, Md, Vh, Rc, hasHalo);
+    drawRotationCurves(Mb, Md, Vh, Rc, hasHalo);
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+})();
+</script>
+```

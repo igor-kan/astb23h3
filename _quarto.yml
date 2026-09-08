@@ -3,22 +3,24 @@ project:
   output-dir: _site
 
 website:
-  title: "ASTB23: Stars, Galaxies & the Universe"
+  title: "ASTB23H3: Stars, Galaxies & the Universe"
   site-url: "https://igor-kan.github.io/astb23h3"
   repo-url: "https://github.com/igor-kan/astb23h3"
-  description: "ASTB23 Fall 2026 - Astrophysics of Stars, Galaxies and the Universe at UTSC."
+  description: "Astrophysics of Stars, Galaxies and the Universe at UTSC: stellar structure, Lane-Emden polytropes, galactic dynamics, dark matter, and cosmology."
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: syllabus.qmd
-        text: Syllabus & Rules
       - href: notes/index.qmd
         text: Lecture Notes
       - href: problems/index.qmd
-        text: Assignments & Exams
-      - href: tutorials/index.qmd
-        text: Tutorials
+        text: Problem Sets
+      - href: simulations/index.qmd
+        text: Code & Simulations
+      - href: reference/index.qmd
+        text: Reference & Math
+  page-footer: 
+    left: "<span style='font-size: 0.8em;'>&copy; 2026 Igor Kan</span>"
 
 format:
   html:
@@ -30,3 +32,4 @@ format:
     code-fold: show
     code-tools: true
     code-copy: true
+    date-format: "YYYY-MM-DD"
