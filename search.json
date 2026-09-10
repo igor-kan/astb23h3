@@ -42,18 +42,25 @@
     "text": "📋 Summary: How to Choose Your ASTB23 Project\n\n\n\n\n\n\n\n\n\nProject\nPrimary Focus\nBest Suited For\nKey Tools\n\n\n\n\nOption 1: Relativistic Polytropes\nStellar Interiors & Math Analysis\nStudents aiming for theoretical physics & applied math\nPython, SciPy, Adaptive ODEs\n\n\nOption 2: Dark Matter Rotation Curves\nObservational Galactic Dynamics\nStudents aiming for data science & Bayesian inference\nPython, Gaia DR3, SPARC, MCMC\n\n\nOption 3: Resonances & Chaos\nNon-Linear Dynamics & HPC\nStudents aiming for aerospace, dynamics & simulation\nC++/Python, Symplectic Integrators"
   },
   {
-    "objectID": "reference/index.html",
-    "href": "reference/index.html",
-    "title": "ASTB23 Reference & Mathematical Tools",
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
-    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.\nIf you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems."
   },
   {
-    "objectID": "problems/index.html",
-    "href": "problems/index.html",
-    "title": "ASTB23 Problem Sets & Exams",
+    "objectID": "tutorials/index.html#expectations",
+    "href": "tutorials/index.html#expectations",
+    "title": "Tutorials",
+    "section": "Expectations",
+    "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
+  },
+  {
+    "objectID": "simulations/index.html",
+    "href": "simulations/index.html",
+    "title": "Astrophysics Code & Simulations",
     "section": "",
-    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -77,25 +84,18 @@
     "text": "👨‍🏫 Instructor & Contact\n\nLecturer: Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)\n\nEmail: pawel.artymowicz@utoronto.ca (Subject MUST contain ASTB23)\nOffice Hours: Directly after lectures, and 30 min after tutorials.\n\nTeaching Assistant: Aishani Chauduri (Marker only)."
   },
   {
-    "objectID": "simulations/index.html",
-    "href": "simulations/index.html",
-    "title": "Astrophysics Code & Simulations",
+    "objectID": "problems/index.html",
+    "href": "problems/index.html",
+    "title": "ASTB23 Problem Sets & Exams",
     "section": "",
-    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "ASTB23 Reference & Mathematical Tools",
     "section": "",
-    "text": "Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.\nIf you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems."
-  },
-  {
-    "objectID": "tutorials/index.html#expectations",
-    "href": "tutorials/index.html#expectations",
-    "title": "Tutorials",
-    "section": "Expectations",
-    "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
+    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "notes/index.html",
