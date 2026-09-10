@@ -3,6 +3,7 @@ title: "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms"
 subtitle: "Decomposition of rotation curves, dark matter halos, Toomre Q criterion, and Lin-Shu density wave theory."
 date: "2026-11-26"
 categories: ["Galactic Dynamics", "Dark Matter", "Spiral Structure"]
+draft: true
 ---
 
 ## 1. Galactic Rotation Curves & Dark Matter

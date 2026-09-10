@@ -6,6 +6,7 @@ categories: ["Simulations", "Galactic Dynamics", "Dark Matter", "Interactive"]
 format:
   html:
     math: true
+draft: true
 ---
 
 ## 🌌 Theoretical Framework: Velocity Decomposition

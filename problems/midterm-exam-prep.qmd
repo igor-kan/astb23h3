@@ -3,6 +3,7 @@ title: "Midterm Exam Preparation Guide"
 subtitle: "Guidelines, allowed materials, format, and sample Y/N quiz questions."
 date: "2026-11-05"
 categories: ["Exams", "Midterm", "Exam Prep"]
+draft: true
 ---
 
 ## Midterm Logistics

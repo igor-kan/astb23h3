@@ -3,6 +3,7 @@ title: "Problem Set #1: Stellar Structure & Hydrostatic Equilibrium"
 subtitle: "Due Thursday, October 1 at 12:00 Noon on Quercus"
 date: "2026-10-01"
 categories: ["Assignments", "Stellar Physics", "Hydrostatic Equilibrium"]
+draft: true
 ---
 
 ## Overview & Submission Rules

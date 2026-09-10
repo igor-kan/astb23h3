@@ -1,5 +1,6 @@
 ---
 title: "lectures-13-14.qmd"
+draft: true
 ---
 
 Notes will be published here just before our meetings.

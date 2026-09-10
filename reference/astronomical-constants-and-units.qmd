@@ -3,6 +3,7 @@ title: "Astronomical Constants & Physical Units"
 subtitle: "Fundamental physical and astrophysical constants for stellar and galactic calculations."
 date: "2026-09-08"
 categories: ["Reference", "Constants", "Units"]
+draft: true
 ---
 
 ## 🌟 Solar Constants

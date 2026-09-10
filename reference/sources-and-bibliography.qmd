@@ -3,6 +3,7 @@ title: "Astrophysics Sources & Bibliography"
 subtitle: "Textbooks, seminal papers, telescope portals, and astronomical databases for ASTB23."
 date: "2026-09-08"
 categories: ["Reference", "Bibliography", "Sources"]
+draft: true
 ---
 
 ## 📚 Textbooks

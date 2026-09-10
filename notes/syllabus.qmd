@@ -3,6 +3,7 @@ title: "ASTB23 Course Syllabus & Administrative Policies"
 subtitle: "Course Structure, Grading Scheme, Textbooks, and Rules"
 date: "2026-09-08"
 categories: ["Syllabus", "Course Administration"]
+draft: true
 ---
 
 ## 📚 Textbooks

@@ -3,6 +3,7 @@ title: "White Dwarfs, Degenerate Matter & Chandrasekhar Limit"
 subtitle: "Fermi-Dirac electron degeneracy pressure, relativistic EOS, and maximum white dwarf mass."
 date: "2026-09-08"
 categories: ["Stellar Physics", "Quantum Stars", "White Dwarfs"]
+draft: true
 ---
 
 ## 1. Electron Degeneracy Pressure

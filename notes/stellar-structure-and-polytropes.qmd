@@ -6,6 +6,7 @@ categories: ["Stellar Physics", "Polytropes", "Hydrostatic Equilibrium"]
 format:
   html:
     math: true
+draft: true
 ---
 
 ## 1. Hydrostatic Equilibrium
