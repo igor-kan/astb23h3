@@ -1,87 +1,10 @@
 [
   {
-    "objectID": "notes/white-dwarfs-and-chandrasekhar-limit.html",
-    "href": "notes/white-dwarfs-and-chandrasekhar-limit.html",
-    "title": "White Dwarfs, Degenerate Matter & Chandrasekhar Limit",
-    "section": "",
-    "text": "When a star exhausts nuclear fuel, gravitational collapse compresses matter to extreme densities \\(\\rho \\gtrsim 10^6\\text{ g/cm}^3\\). In this regime, electrons fill all available phase space cells \\((h^3)\\) up to the Fermi momentum \\(p_F\\): \\[n_e = \\frac{8\\pi}{h^3} \\int_0^{p_F} p^2 dp = \\frac{8\\pi}{3h^3} p_F^3 \\implies p_F = \\left( \\frac{3h^3 n_e}{8\\pi} \\right)^{1/3}\\]\n\n\nThe kinetic energy is \\(E = p^2 / 2m_e\\). The resulting electron degeneracy pressure is: \\[P_e = \\frac{1}{3} \\int_0^{p_F} v p \\cdot \\frac{8\\pi p^2}{h^3} dp = \\frac{8\\pi}{15 m_e h^3} p_F^5 = \\frac{1}{5m_e}\\left(\\frac{3}{\\pi}\\right)^{2/3} h^2 n_e^{5/3}\\] Since \\(n_e = \\frac{\\rho}{\\mu_e m_u}\\), this is a polytropic equation of state with index \\(n = 3/2\\) (\\(\\gamma = 5/3\\)): \\[P \\propto \\rho^{5/3}\\]\nSolving the Lane-Emden equation for \\(n=1.5\\) yields the mass-radius relation for non-relativistic white dwarfs: \\[R \\propto M^{-1/3}\\] More massive white dwarfs are physically smaller and denser!"
-  },
-  {
-    "objectID": "notes/white-dwarfs-and-chandrasekhar-limit.html#electron-degeneracy-pressure",
-    "href": "notes/white-dwarfs-and-chandrasekhar-limit.html#electron-degeneracy-pressure",
-    "title": "White Dwarfs, Degenerate Matter & Chandrasekhar Limit",
-    "section": "",
-    "text": "When a star exhausts nuclear fuel, gravitational collapse compresses matter to extreme densities \\(\\rho \\gtrsim 10^6\\text{ g/cm}^3\\). In this regime, electrons fill all available phase space cells \\((h^3)\\) up to the Fermi momentum \\(p_F\\): \\[n_e = \\frac{8\\pi}{h^3} \\int_0^{p_F} p^2 dp = \\frac{8\\pi}{3h^3} p_F^3 \\implies p_F = \\left( \\frac{3h^3 n_e}{8\\pi} \\right)^{1/3}\\]\n\n\nThe kinetic energy is \\(E = p^2 / 2m_e\\). The resulting electron degeneracy pressure is: \\[P_e = \\frac{1}{3} \\int_0^{p_F} v p \\cdot \\frac{8\\pi p^2}{h^3} dp = \\frac{8\\pi}{15 m_e h^3} p_F^5 = \\frac{1}{5m_e}\\left(\\frac{3}{\\pi}\\right)^{2/3} h^2 n_e^{5/3}\\] Since \\(n_e = \\frac{\\rho}{\\mu_e m_u}\\), this is a polytropic equation of state with index \\(n = 3/2\\) (\\(\\gamma = 5/3\\)): \\[P \\propto \\rho^{5/3}\\]\nSolving the Lane-Emden equation for \\(n=1.5\\) yields the mass-radius relation for non-relativistic white dwarfs: \\[R \\propto M^{-1/3}\\] More massive white dwarfs are physically smaller and denser!"
-  },
-  {
-    "objectID": "notes/white-dwarfs-and-chandrasekhar-limit.html#ultra-relativistic-degeneracy-the-chandrasekhar-limit",
-    "href": "notes/white-dwarfs-and-chandrasekhar-limit.html#ultra-relativistic-degeneracy-the-chandrasekhar-limit",
-    "title": "White Dwarfs, Degenerate Matter & Chandrasekhar Limit",
-    "section": "2. Ultra-Relativistic Degeneracy & The Chandrasekhar Limit",
-    "text": "2. Ultra-Relativistic Degeneracy & The Chandrasekhar Limit\nAs mass increases, density rises until electrons become relativistic (\\(p_F \\gg m_e c\\)). Then \\(v \\approx c\\), and the energy is \\(E \\approx pc\\): \\[P_e = \\frac{1}{3} \\int_0^{p_F} c p \\cdot \\frac{8\\pi p^2}{h^3} dp = \\frac{2\\pi c}{3 h^3} p_F^4 = \\frac{hc}{4}\\left(\\frac{3}{\\pi}\\right)^{1/3} n_e^{4/3} \\propto \\rho^{4/3}\\] This corresponds to a polytrope of index \\(n = 3\\) (\\(\\gamma = 4/3\\)).\nFor an \\(n=3\\) polytrope, the radius cancels out completely in the stellar structure mass integral, producing a unique limiting mass: \\[M_{\\text{Ch}} = 4\\pi \\left(\\frac{hc}{G}\\right)^{3/2} \\left(\\frac{1}{\\mu_e m_u}\\right)^2 \\omega_3 \\approx \\frac{5.83}{\\mu_e^2} M_\\odot\\]\nFor a standard carbon-oxygen white dwarf, \\(\\mu_e \\approx 2\\), yielding: \\[\\boxed{M_{\\text{Ch}} \\approx 1.44 M_\\odot}\\]\nIf the mass of the core exceeds \\(M_{\\text{Ch}}\\), electron degeneracy pressure can never halt gravitational collapse, leading inevitably to a neutron star or black hole."
-  },
-  {
-    "objectID": "notes/syllabus.html",
-    "href": "notes/syllabus.html",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "",
-    "text": "Book number 1 is definitely the most important for this course.\n\n“What are the stars?” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib).\n“Life and death of stars” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib).\n“Galaxies in the Universe”, 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional.\n\nNote: After the midterm, the posted PDF lecture notes will be the basic reference."
-  },
-  {
-    "objectID": "notes/syllabus.html#textbooks",
-    "href": "notes/syllabus.html#textbooks",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "",
-    "text": "Book number 1 is definitely the most important for this course.\n\n“What are the stars?” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib).\n“Life and death of stars” by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib).\n“Galaxies in the Universe”, 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional.\n\nNote: After the midterm, the posted PDF lecture notes will be the basic reference."
-  },
-  {
-    "objectID": "notes/syllabus.html#grading-scheme",
-    "href": "notes/syllabus.html#grading-scheme",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "💯 Grading Scheme",
-    "text": "💯 Grading Scheme\n\nMidterm: 22% (11% problems + 11% quiz)\nFinal exam: 49% (25% problems + 24% quiz)\n4 sets of home assignments: 26% (6.5% each)\nActivity: 3% (asking/answering questions in class, volunteering to solve tutorial problems)\n\nMinimum percentage marks for letter grades: A+ 90%, A 85%, A- 80%, B+ 77%, B 73%, B- 70%, C+ 67%, C 63%, C- 60%, D+ 57%, D 53%, D- 50%, F &lt; 50%."
-  },
-  {
-    "objectID": "notes/syllabus.html#course-topics-outline",
-    "href": "notes/syllabus.html#course-topics-outline",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "📜 Course Topics Outline",
-    "text": "📜 Course Topics Outline\n\nPart 1: Stellar Astrophysics (Pre-Midterm)\nFollows textbook 1: “What are the stars?”\n\nRules and goals of the course\nIntroduction to stellar (and planetary) astrophysics [L1]\nThe Present Revolution in Astronomy: An Overview [1]\nWhat are the Stars?\nStars as Globes of Gas\nEddington’s Theory of the Stars\nEnergy Generation in the Stars\nSounds of the Sun (Helioseismology)\nNeutrinos. The Smoking Gun is Finally Found\n\nFollows textbook 2: “Life and death of stars”\n\nStars in Their Youth (ch. 2)\nWhite Dwarf Stars (ch. 3)\nFermi–Dirac Distribution (ch. 5)\nQuantum Stars (ch. 6)\nThe Chandrasekhar Limit (ch. 7)\n\n\n\nPart 2: Galaxies & Universe (Post-Midterm)\nFollows Lecture Notes (Sparke & Gallagher book reference)\n\nFormation of disks and stars\nIntroduction, The Milky Way\nOther galaxies, Galaxy photometry\nMapping our Milky Way\nGalactic rotation\nRelaxation and evolution, part I (Two-body relaxation)\nRelaxation and evolution, part II (Epicyclic theory)\nOur backyard: the Local Group\nRotation Curves and Spiral Arms in Galaxies (Toomre stability, SWING amplifier, Lin-Shu theory)\nBars as a by-product of spiral mode evolution\nElliptical galaxies (Faber-Jackson, Tully-Fisher, Supermassive Black Holes)\nThe Universe (Cosmic Microwave Background, Dark Energy)"
-  },
-  {
-    "objectID": "notes/syllabus.html#exceptions-not-required-for-exam",
-    "href": "notes/syllabus.html#exceptions-not-required-for-exam",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "📎 Exceptions (Not Required for Exam)",
-    "text": "📎 Exceptions (Not Required for Exam)\nThe following sections in textbook 1 are not required: - Introduction by Lord Rees - Preface by the author - Box on p. 32 - Chapter 4 (inequality for beta) - Pages 110-115 - Global Networks and Solar Observatories in Space subsections p.127 - Subsection Effect of a Magnetic (..) p.136 - Rotational Splitting section p. 138 - Mass states and Flavour (…) p. 160 - Quantum Oscillations p. 165"
-  },
-  {
-    "objectID": "notes/syllabus.html#lectures-vs-tutorials",
-    "href": "notes/syllabus.html#lectures-vs-tutorials",
-    "title": "ASTB23 Course Syllabus & Administrative Policies",
-    "section": "✨ Lectures vs Tutorials",
-    "text": "✨ Lectures vs Tutorials\n\nLectures follow the material in textbooks (before midterm) and mostly lecture notes after midterm. They contain extra material, comments, and explanations not found in the book.\nTutorials are NOT meant for the explanation of Lectures - they deal with simple astrophysical calculations not discussed in lectures. Attending tutorials is crucial for written parts of the exams."
-  },
-  {
-    "objectID": "notes/lectures-23-24.html",
-    "href": "notes/lectures-23-24.html",
-    "title": "lectures-23-24.qmd",
-    "section": "",
-    "text": "Notes will be published here just before our meetings."
-  },
-  {
-    "objectID": "notes/lectures-19-20.html",
-    "href": "notes/lectures-19-20.html",
-    "title": "lectures-19-20.qmd",
-    "section": "",
-    "text": "Notes will be published here just before our meetings."
-  },
-  {
     "objectID": "notes/index.html",
     "href": "notes/index.html",
     "title": "ASTB23 Lecture Notes & Syllabus",
     "section": "",
-    "text": "This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nlectures-13-14.qmd\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nlectures-15-16.qmd\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nlectures-17-18.qmd\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nlectures-19-20.qmd\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nlectures-23-24.qmd\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nLectures 21–22: Rotation Curves, Dark Matter & Spiral Arms\n\n\nDecomposition of rotation curves, dark matter halos, Toomre Q criterion, and Lin-Shu density wave theory.\n\n\n\nGalactic Dynamics\n\nDark Matter\n\nSpiral Structure\n\n\n\n\n\n\n2026-11-26\n\n2 min\n\nInvalid Date\n\n\n\n\n\n\n\nASTB23 Course Syllabus & Administrative Policies\n\n\nCourse Structure, Grading Scheme, Textbooks, and Rules\n\n\n\nSyllabus\n\nCourse Administration\n\n\n\n\n\n\n2026-09-08\n\n3 min\n\nInvalid Date\n\n\n\n\n\n\n\nStellar Structure & The Lane-Emden Equation\n\n\nDeriving hydrostatic equilibrium and polytropic models of stars.\n\n\n\nStellar Physics\n\nPolytropes\n\nHydrostatic Equilibrium\n\n\n\n\n\n\n2026-09-08\n\n1 min\n\nInvalid Date\n\n\n\n\n\n\n\nWhite Dwarfs, Degenerate Matter & Chandrasekhar Limit\n\n\nFermi-Dirac electron degeneracy pressure, relativistic EOS, and maximum white dwarf mass.\n\n\n\nStellar Physics\n\nQuantum Stars\n\nWhite Dwarfs\n\n\n\n\n\n\n2026-09-08\n\n2 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
+    "text": "This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "tutorials/index.html",
@@ -98,74 +21,11 @@
     "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
   },
   {
-    "objectID": "reference/sources-and-bibliography.html",
-    "href": "reference/sources-and-bibliography.html",
-    "title": "Astrophysics Sources & Bibliography",
-    "section": "",
-    "text": "Srinivasan, G. (2014). What are the Stars? Lecture Notes in Physics, Springer.\nSrinivasan, G. (2014). Life and Death of the Stars. Lecture Notes in Physics, Springer.\nSparke, L. S., & Gallagher, J. S. (2007). Galaxies in the Universe: An Introduction (2nd ed.). Cambridge University Press."
-  },
-  {
-    "objectID": "reference/sources-and-bibliography.html#textbooks",
-    "href": "reference/sources-and-bibliography.html#textbooks",
-    "title": "Astrophysics Sources & Bibliography",
-    "section": "",
-    "text": "Srinivasan, G. (2014). What are the Stars? Lecture Notes in Physics, Springer.\nSrinivasan, G. (2014). Life and Death of the Stars. Lecture Notes in Physics, Springer.\nSparke, L. S., & Gallagher, J. S. (2007). Galaxies in the Universe: An Introduction (2nd ed.). Cambridge University Press."
-  },
-  {
-    "objectID": "reference/sources-and-bibliography.html#observational-missions-portals",
-    "href": "reference/sources-and-bibliography.html#observational-missions-portals",
-    "title": "Astrophysics Sources & Bibliography",
-    "section": "🔭 Observational Missions & Portals",
-    "text": "🔭 Observational Missions & Portals\n\nJWST (James Webb Space Telescope): Deepest infrared observations (SMACS 0723, Whirlpool Galaxy M51).\nLIGO/Virgo Scientific Collaboration: GW170817 neutron star merger in NGC 4993.\nWMAP & BOOMERanG: Cosmic Microwave Background observations proving spatial flatness of the Universe.\nNASA ADS (Astrophysics Data System): Comprehensive academic literature database."
-  },
-  {
-    "objectID": "simulations/lane-emden-and-hr-diagram.html",
-    "href": "simulations/lane-emden-and-hr-diagram.html",
-    "title": "Computational Astrophysics: Polytropes & Interactive HR Diagram",
-    "section": "",
-    "text": "Use the slider below to select a stellar progenitor mass in solar units (\\(M_\\odot\\)). Observe how core temperature, luminosity, spectral type, and main sequence lifetime scale according to stellar homology relations:\n\n\nCode\nviewof starMass = Inputs.range([0.1, 50.0], {value: 1.0, step: 0.1, label: \"Stellar Mass (M / M☉)\"})\n\n\n\n\n\n\n\n\n\nCode\nhrData = {\n  // Homology scaling relations\n  // L ~ M^3.5 (standard mass-luminosity relation)\n  // R ~ M^0.8\n  // T_eff ~ (L / R^2)^(1/4) ~ M^0.475\n  // Lifetime ~ M / L ~ M^(-2.5) * 10 Gyr\n  const L = Math.pow(starMass, 3.5);\n  const R = Math.pow(starMass, 0.8);\n  const Teff = 5778 * Math.pow(starMass, 0.475);\n  const lifetimeGyr = 10.0 * Math.pow(starMass, -2.5);\n\n  let spectralClass = \"M\";\n  let starColor = \"#ff4d4d\";\n  if (Teff &gt; 30000) { spectralClass = \"O\"; starColor = \"#93c5fd\"; }\n  else if (Teff &gt; 10000) { spectralClass = \"B\"; starColor = \"#bfdbfe\"; }\n  else if (Teff &gt; 7500) { spectralClass = \"A\"; starColor = \"#ffffff\"; }\n  else if (Teff &gt; 6000) { spectralClass = \"F\"; starColor = \"#fef08a\"; }\n  else if (Teff &gt; 5200) { spectralClass = \"G\"; starColor = \"#fde047\"; }\n  else if (Teff &gt; 3700) { spectralClass = \"K\"; starColor = \"#fb923c\"; }\n\n  return { L, R, Teff, lifetimeGyr, spectralClass, starColor };\n}\n\n\n\n\n\n\n\n\n\nCode\nhtml`\n&lt;div style=\"background: #0f172a; padding: 20px; border-radius: 12px; color: white; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0;\"&gt;\n  &lt;div&gt;\n    &lt;h4 style=\"color: #38bdf8; margin-top: 0;\"&gt;Physical Properties&lt;/h4&gt;\n    &lt;p&gt;&lt;strong&gt;Spectral Class:&lt;/strong&gt; &lt;span style=\"font-size: 1.3em; font-weight: bold; color: ${hrData.starColor};\"&gt;${hrData.spectralClass}&lt;/span&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Effective Temperature:&lt;/strong&gt; ${hrData.Teff.toFixed(0)} K&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Luminosity:&lt;/strong&gt; ${hrData.L &lt; 0.01 ? hrData.L.toExponential(2) : hrData.L.toFixed(2)} L&lt;sub&gt;☉&lt;/sub&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Radius:&lt;/strong&gt; ${hrData.R.toFixed(2)} R&lt;sub&gt;☉&lt;/sub&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Main Sequence Lifetime:&lt;/strong&gt; ${hrData.lifetimeGyr &gt; 1000 ? \"&gt; 1000 Gyr\" : hrData.lifetimeGyr.toFixed(3) + \" Gyr\"}&lt;/p&gt;\n  &lt;/div&gt;\n  &lt;div style=\"display: flex; flex-direction: column; align-items: center; justify-content: center;\"&gt;\n    &lt;div style=\"width: ${Math.min(180, Math.max(20, hrData.R * 25))}px; height: ${Math.min(180, Math.max(20, hrData.R * 25))}px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff, ${hrData.starColor}); box-shadow: 0 0 25px ${hrData.starColor};\"&gt;&lt;/div&gt;\n    &lt;span style=\"margin-top: 12px; font-size: 0.9em; color: #94a3b8;\"&gt;Simulated Photosphere (Relative Size)&lt;/span&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n`"
-  },
-  {
-    "objectID": "simulations/lane-emden-and-hr-diagram.html#interactive-hertzsprung-russell-stellar-evolution-tool",
-    "href": "simulations/lane-emden-and-hr-diagram.html#interactive-hertzsprung-russell-stellar-evolution-tool",
-    "title": "Computational Astrophysics: Polytropes & Interactive HR Diagram",
-    "section": "",
-    "text": "Use the slider below to select a stellar progenitor mass in solar units (\\(M_\\odot\\)). Observe how core temperature, luminosity, spectral type, and main sequence lifetime scale according to stellar homology relations:\n\n\nCode\nviewof starMass = Inputs.range([0.1, 50.0], {value: 1.0, step: 0.1, label: \"Stellar Mass (M / M☉)\"})\n\n\n\n\n\n\n\n\n\nCode\nhrData = {\n  // Homology scaling relations\n  // L ~ M^3.5 (standard mass-luminosity relation)\n  // R ~ M^0.8\n  // T_eff ~ (L / R^2)^(1/4) ~ M^0.475\n  // Lifetime ~ M / L ~ M^(-2.5) * 10 Gyr\n  const L = Math.pow(starMass, 3.5);\n  const R = Math.pow(starMass, 0.8);\n  const Teff = 5778 * Math.pow(starMass, 0.475);\n  const lifetimeGyr = 10.0 * Math.pow(starMass, -2.5);\n\n  let spectralClass = \"M\";\n  let starColor = \"#ff4d4d\";\n  if (Teff &gt; 30000) { spectralClass = \"O\"; starColor = \"#93c5fd\"; }\n  else if (Teff &gt; 10000) { spectralClass = \"B\"; starColor = \"#bfdbfe\"; }\n  else if (Teff &gt; 7500) { spectralClass = \"A\"; starColor = \"#ffffff\"; }\n  else if (Teff &gt; 6000) { spectralClass = \"F\"; starColor = \"#fef08a\"; }\n  else if (Teff &gt; 5200) { spectralClass = \"G\"; starColor = \"#fde047\"; }\n  else if (Teff &gt; 3700) { spectralClass = \"K\"; starColor = \"#fb923c\"; }\n\n  return { L, R, Teff, lifetimeGyr, spectralClass, starColor };\n}\n\n\n\n\n\n\n\n\n\nCode\nhtml`\n&lt;div style=\"background: #0f172a; padding: 20px; border-radius: 12px; color: white; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0;\"&gt;\n  &lt;div&gt;\n    &lt;h4 style=\"color: #38bdf8; margin-top: 0;\"&gt;Physical Properties&lt;/h4&gt;\n    &lt;p&gt;&lt;strong&gt;Spectral Class:&lt;/strong&gt; &lt;span style=\"font-size: 1.3em; font-weight: bold; color: ${hrData.starColor};\"&gt;${hrData.spectralClass}&lt;/span&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Effective Temperature:&lt;/strong&gt; ${hrData.Teff.toFixed(0)} K&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Luminosity:&lt;/strong&gt; ${hrData.L &lt; 0.01 ? hrData.L.toExponential(2) : hrData.L.toFixed(2)} L&lt;sub&gt;☉&lt;/sub&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Radius:&lt;/strong&gt; ${hrData.R.toFixed(2)} R&lt;sub&gt;☉&lt;/sub&gt;&lt;/p&gt;\n    &lt;p&gt;&lt;strong&gt;Main Sequence Lifetime:&lt;/strong&gt; ${hrData.lifetimeGyr &gt; 1000 ? \"&gt; 1000 Gyr\" : hrData.lifetimeGyr.toFixed(3) + \" Gyr\"}&lt;/p&gt;\n  &lt;/div&gt;\n  &lt;div style=\"display: flex; flex-direction: column; align-items: center; justify-content: center;\"&gt;\n    &lt;div style=\"width: ${Math.min(180, Math.max(20, hrData.R * 25))}px; height: ${Math.min(180, Math.max(20, hrData.R * 25))}px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff, ${hrData.starColor}); box-shadow: 0 0 25px ${hrData.starColor};\"&gt;&lt;/div&gt;\n    &lt;span style=\"margin-top: 12px; font-size: 0.9em; color: #94a3b8;\"&gt;Simulated Photosphere (Relative Size)&lt;/span&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n`"
-  },
-  {
-    "objectID": "simulations/lane-emden-and-hr-diagram.html#fortran-90-high-performance-lane-emden-equation-solver",
-    "href": "simulations/lane-emden-and-hr-diagram.html#fortran-90-high-performance-lane-emden-equation-solver",
-    "title": "Computational Astrophysics: Polytropes & Interactive HR Diagram",
-    "section": "2. Fortran 90: High-Performance Lane-Emden Equation Solver",
-    "text": "2. Fortran 90: High-Performance Lane-Emden Equation Solver\nThe Lane-Emden equation governs the dimensionless density profile \\(\\theta(\\xi)\\) of self-gravitating polytropic fluid spheres (\\(P = K \\rho^{1 + 1/n}\\)): \\[\\frac{1}{\\xi^2} \\frac{d}{d\\xi}\\left( \\xi^2 \\frac{d\\theta}{d\\xi} \\right) + \\theta^n = 0\\]\nBoundary conditions at the stellar center (\\(\\xi = 0\\)) are \\(\\theta(0) = 1\\) and \\(\\theta'(0) = 0\\).\n! lane_emden.f90\n! Compile: gfortran -O3 -std=f2018 lane_emden.f90 -o lane_emden\nprogram solve_lane_emden\n    implicit none\n    integer, parameter :: dp = kind(1.0d0)\n    real(dp) :: xi, theta, phi, dxi, xi_max, n_poly\n    real(dp) :: k1_th, k1_ph, k2_th, k2_ph, k3_th, k3_ph, k4_th, k4_ph\n    integer :: step, max_steps\n\n    n_poly = 3.0_dp   ! n = 3 (Eddington Standard Model for Relativistic Radiation/Degeneracy)\n    dxi = 0.001_dp\n    max_steps = 100000\n\n    ! Initial series expansion around xi = 0 to bypass coordinate singularity:\n    ! theta(xi) ~ 1 - xi^2 / 6 + n * xi^4 / 120\n    xi = 0.001_dp\n    theta = 1.0_dp - (xi**2)/6.0_dp + n_poly*(xi**4)/120.0_dp\n    phi = -(xi/3.0_dp) + n_poly*(xi**3)/30.0_dp  ! phi = d(theta)/d(xi)\n\n    print '(A, F5.2)', \"Solving Lane-Emden equation for polytropic index n = \", n_poly\n\n    do step = 1, max_steps\n        if (theta &lt;= 0.0_dp) exit\n\n        ! RK4 Integrator for system: d(theta)/dxi = phi, d(phi)/dxi = -theta^n - 2*phi/xi\n        call derivatives(xi, theta, phi, n_poly, k1_th, k1_ph)\n        call derivatives(xi + 0.5_dp*dxi, theta + 0.5_dp*dxi*k1_th, phi + 0.5_dp*dxi*k1_ph, n_poly, k2_th, k2_ph)\n        call derivatives(xi + 0.5_dp*dxi, theta + 0.5_dp*dxi*k2_th, phi + 0.5_dp*dxi*k2_ph, n_poly, k3_th, k3_ph)\n        call derivatives(xi + dxi, theta + dxi*k3_th, phi + dxi*k3_ph, n_poly, k4_th, k4_ph)\n\n        theta = theta + (dxi/6.0_dp)*(k1_th + 2.0_dp*k2_th + 2.0_dp*k3_th + k4_th)\n        phi   = phi   + (dxi/6.0_dp)*(k1_ph + 2.0_dp*k2_ph + 2.0_dp*k3_ph + k4_ph)\n        xi    = xi + dxi\n    end do\n\n    print '(A, F8.4)', \"Stellar Surface xi_1 = \", xi\n    print '(A, F8.4)', \"Surface gradient |d(theta)/dxi| = \", abs(phi)\n    print '(A, F8.4)', \"Dimensionless Mass Ratio -xi_1^2 * theta'(xi_1) = \", xi**2 * abs(phi)\n\ncontains\n\n    subroutine derivatives(x, th, ph, n, dth, dph)\n        real(dp), intent(in) :: x, th, ph, n\n        real(dp), intent(out) :: dth, dph\n        dth = ph\n        if (th &gt; 0.0_dp) then\n            dph = - (th**n) - (2.0_dp * ph / x)\n        else\n            dph = 0.0_dp\n        end if\n    end subroutine derivatives\n\nend program solve_lane_emden"
-  },
-  {
-    "objectID": "simulations/lane-emden-and-hr-diagram.html#c-gravitational-n-body-simulator",
-    "href": "simulations/lane-emden-and-hr-diagram.html#c-gravitational-n-body-simulator",
-    "title": "Computational Astrophysics: Polytropes & Interactive HR Diagram",
-    "section": "3. C++ Gravitational N-Body Simulator",
-    "text": "3. C++ Gravitational N-Body Simulator\nIn dense stellar clusters and galactic nuclei, gravitational two-body relaxation and close encounters dictate structural evolution:\n// nbody_cluster.cpp\n// Compile: g++ -O3 -fopenmp -std=c++17 nbody_cluster.cpp -o nbody_sim\n#include &lt;iostream&gt;\n#include &lt;vector&gt;\n#include &lt;cmath&gt;\n\nstruct Star {\n    double x, y, z;\n    double vx, vy, vz;\n    double mass;\n};\n\nvoid compute_forces(std::vector&lt;Star&gt;& stars, double softening_eps = 1e-3) {\n    const double G = 1.0; // Normalized units\n    int N = stars.size();\n\n    #pragma omp parallel for\n    for (int i = 0; i &lt; N; ++i) {\n        double ax = 0, ay = 0, az = 0;\n        for (int j = 0; j &lt; N; ++j) {\n            if (i == j) continue;\n            double dx = stars[j].x - stars[i].x;\n            double dy = stars[j].y - stars[i].y;\n            double dz = stars[j].z - stars[i].z;\n            double dist_sq = dx*dx + dy*dy + dz*dz + softening_eps*softening_eps;\n            double inv_dist3 = 1.0 / (dist_sq * std::sqrt(dist_sq));\n            \n            ax += G * stars[j].mass * dx * inv_dist3;\n            ay += G * stars[j].mass * dy * inv_dist3;\n            az += G * stars[j].mass * dz * inv_dist3;\n        }\n        // Update velocity (Leapfrog kick)\n        stars[i].vx += ax * 0.01;\n        stars[i].vy += ay * 0.01;\n        stars[i].vz += az * 0.01;\n    }\n}\n\nint main() {\n    std::cout &lt;&lt; \"Direct N-Body gravitational acceleration computed with OpenMP SIMD parallelism.\" &lt;&lt; std::endl;\n    return 0;\n}"
-  },
-  {
     "objectID": "simulations/index.html",
     "href": "simulations/index.html",
     "title": "Astrophysics Code & Simulations",
     "section": "",
-    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nComputational Astrophysics: Polytropes & Interactive HR Diagram\n\n\nInteractive stellar evolution simulator, Fortran 90 Lane-Emden solver, and C++ N-body orbital dynamics.\n\n\n\nAstrophysics\n\nFortran\n\nC++\n\nPython\n\nInteractive\n\n\n\n\n\n\n2026-09-08\n\n7 min\n\nInvalid Date\n\n\n\n\n\n\n\nInteractive Galactic Rotation & Dark Matter Simulation\n\n\nDecomposition of circular velocity into bulge, exponential disk, and isothermal dark matter halo.\n\n\n\nSimulations\n\nGalactic Dynamics\n\nDark Matter\n\nInteractive\n\n\n\n\n\n\n2026-09-08\n\n10 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "problems/assignment-01.html",
-    "href": "problems/assignment-01.html",
-    "title": "Problem Set #1: Stellar Structure & Hydrostatic Equilibrium",
-    "section": "",
-    "text": "Due Date: October 1, 2026 at 12:00 Noon on Quercus.\nName file with your last 3 digits of student ID (e.g. astb23_a1_xxx.pdf).\nFollow the 6-step problem-solving protocol (sketch, analytic derivation, units check, calculation, plausibility check, description).\n\n\n\n\nAssuming a simple linear density profile \\(\\rho(r) = \\rho_c (1 - r/R)\\), where \\(R\\) is the stellar radius and \\(\\rho_c\\) is the central density: 1. Find the total mass \\(M\\) in terms of \\(\\rho_c\\) and \\(R\\). 2. Express the central density \\(\\rho_c\\) in terms of average density \\(\\bar{\\rho} = 3M / (4\\pi R^3)\\). 3. Integrate the hydrostatic equilibrium equation \\(\\frac{dP}{dr} = -\\frac{G M(r)\\rho(r)}{r^2}\\) from the surface (\\(P(R) = 0\\)) to the center to find the central pressure \\(P_c\\). 4. Evaluate \\(P_c\\) for solar values (\\(M_\\odot = 1.989 \\times 10^{30}\\text{ kg}, R_\\odot = 6.96 \\times 10^8\\text{ m}\\)) and compare with the ideal gas pressure at \\(T_c \\approx 1.5 \\times 10^7\\text{ K}\\).\n\n\n\n\nFrom the Virial Theorem for an ideal gas sphere bound by gravity, \\(2K + U = 0\\): 1. Show that the total energy \\(E = K + U = \\frac{1}{2}U = -K\\). 2. Explain why a star contracting quasi-statically under gravity heats up rather than cools down (negative heat capacity). 3. Estimate the Kelvin-Helmholtz gravitational contraction timescale \\(t_{\\text{KH}} = \\frac{|U|}{2L}\\) for the Sun."
-  },
-  {
-    "objectID": "problems/assignment-01.html#overview-submission-rules",
-    "href": "problems/assignment-01.html#overview-submission-rules",
-    "title": "Problem Set #1: Stellar Structure & Hydrostatic Equilibrium",
-    "section": "",
-    "text": "Due Date: October 1, 2026 at 12:00 Noon on Quercus.\nName file with your last 3 digits of student ID (e.g. astb23_a1_xxx.pdf).\nFollow the 6-step problem-solving protocol (sketch, analytic derivation, units check, calculation, plausibility check, description).\n\n\n\n\nAssuming a simple linear density profile \\(\\rho(r) = \\rho_c (1 - r/R)\\), where \\(R\\) is the stellar radius and \\(\\rho_c\\) is the central density: 1. Find the total mass \\(M\\) in terms of \\(\\rho_c\\) and \\(R\\). 2. Express the central density \\(\\rho_c\\) in terms of average density \\(\\bar{\\rho} = 3M / (4\\pi R^3)\\). 3. Integrate the hydrostatic equilibrium equation \\(\\frac{dP}{dr} = -\\frac{G M(r)\\rho(r)}{r^2}\\) from the surface (\\(P(R) = 0\\)) to the center to find the central pressure \\(P_c\\). 4. Evaluate \\(P_c\\) for solar values (\\(M_\\odot = 1.989 \\times 10^{30}\\text{ kg}, R_\\odot = 6.96 \\times 10^8\\text{ m}\\)) and compare with the ideal gas pressure at \\(T_c \\approx 1.5 \\times 10^7\\text{ K}\\).\n\n\n\n\nFrom the Virial Theorem for an ideal gas sphere bound by gravity, \\(2K + U = 0\\): 1. Show that the total energy \\(E = K + U = \\frac{1}{2}U = -K\\). 2. Explain why a star contracting quasi-statically under gravity heats up rather than cools down (negative heat capacity). 3. Estimate the Kelvin-Helmholtz gravitational contraction timescale \\(t_{\\text{KH}} = \\frac{|U|}{2L}\\) for the Sun."
+    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -179,7 +39,7 @@
     "href": "index.html#course-roadmap-calendar-fall-2026",
     "title": "ASTB23H3: Stars, Galaxies & the Universe",
     "section": "📅 Course Roadmap & Calendar (Fall 2026)",
-    "text": "📅 Course Roadmap & Calendar (Fall 2026)\nLectures: Thursdays 12:00–14:00 in HW 215 · Tutorials: Thursdays 17:00–18:00 in IA 2021\nAssignments (A1–A4) are due on Quercus at 12:00 noon on specified Thursdays.\n\n\n\nDate\nLectures\nTutorials\nCore Topics & Readings\nAssessments / Deadlines\n\n\n\n\n10 Sep\nL1 + L2\nT1\nIntro to Stellar Astrophysics; What are the Stars? (Srinivasan Ch 1)\n\n\n\n17 Sep\nL3z + L4z\n–\nStars as Globes of Gas; Hydrostatic Equilibrium (Zoom)\n\n\n\n24 Sep\nL5 + L6\nT2\nEddington’s Theory; Radiative Equilibrium & Luminosity Limit\n\n\n\n01 Oct\nL7 + L8\nT3\nEnergy Generation & Nuclear Fusion; Solar Neutrinos (SNO)\nAssignment #1 Due (Noon)\n\n\n08 Oct\nL9 + L10\nT4\nHelioseismology & Solar Oscillations; White Dwarfs (Book 2)\n\n\n\n15 Oct\nL11 + L12\nT5\nDegenerate Fermi Gas; Chandrasekhar Mass Limit\nAssignment #2 Due (Noon)\n\n\n22 Oct\nL13 + L14\nT6\nProtostellar Disks & Star Formation\n\n\n\n29 Oct\nReading Week\n–\nMidterm Review & Independent Study\nStudy Break\n\n\n05 Nov\nL15 + L16\nT7\nThe Milky Way & Galaxy Photometry\nIn-Class Midterm Exam (during T7)\n\n\n12 Nov\nL17 + L18\nT8\nGalactic Rotation & Two-Body Relaxation\nAssignment #3 Due (Noon)\n\n\n19 Nov\nL19 + L20\nT9\nEpicyclic Theory & Local Group Spirals\n(Course drop date: 18 Nov)\n\n\n26 Nov\nL21 + L22\n–\nRotation Curves, Dark Matter & Spiral Arms\nAssignment #4 Due (Noon)\n\n\n03 Dec\nL23 + L24\nT10\nElliptical Galaxies, Black Holes & Cosmology\nCourse Review\n\n\nDec Period\n–\n–\nComprehensive Final Examination (3 Hours)\nScheduled by Registrar\n\n\n\n\n\n\n\n\n\nNoteCourse Schedule & Grading Notes\n\n\n\nDetailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed in the official Course Syllabus."
+    "text": "📅 Course Roadmap & Calendar (Fall 2026)\nLectures: Thursdays 12:00–14:00 in HW 215 · Tutorials: Thursdays 17:00–18:00 in IA 2021\nAssignments (A1–A4) are due on Quercus at 12:00 noon on specified Thursdays.\n\n\n\nDate\nLectures\nTutorials\nCore Topics & Readings\nAssessments / Deadlines\n\n\n\n\n10 Sep\nL1 + L2\nT1\nIntro to Stellar Astrophysics; What are the Stars? (Srinivasan Ch 1)\n\n\n\n17 Sep\nL3z + L4z\n–\nStars as Globes of Gas; Hydrostatic Equilibrium (Zoom)\n\n\n\n24 Sep\nL5 + L6\nT2\nEddington’s Theory; Radiative Equilibrium & Luminosity Limit\n\n\n\n01 Oct\nL7 + L8\nT3\nEnergy Generation & Nuclear Fusion; Solar Neutrinos (SNO)\nAssignment #1 Due (Noon)\n\n\n08 Oct\nL9 + L10\nT4\nHelioseismology & Solar Oscillations; White Dwarfs (Book 2)\n\n\n\n15 Oct\nL11 + L12\nT5\nDegenerate Fermi Gas; Chandrasekhar Mass Limit\nAssignment #2 Due (Noon)\n\n\n22 Oct\nL13 + L14\nT6\nProtostellar Disks &amp; Star Formation\n\n\n\n29 Oct\nReading Week\n–\nMidterm Review & Independent Study\nStudy Break\n\n\n05 Nov\nL15 + L16\nT7\nThe Milky Way &amp; Galaxy Photometry\nIn-Class Midterm Exam (during T7)\n\n\n12 Nov\nL17 + L18\nT8\nGalactic Rotation &amp; Two-Body Relaxation\nAssignment #3 Due (Noon)\n\n\n19 Nov\nL19 + L20\nT9\nEpicyclic Theory &amp; Local Group Spirals\n(Course drop date: 18 Nov)\n\n\n26 Nov\nL21 + L22\n–\nRotation Curves, Dark Matter &amp; Spiral Arms\nAssignment #4 Due (Noon)\n\n\n03 Dec\nL23 + L24\nT10\nElliptical Galaxies, Black Holes &amp; Cosmology\nCourse Review\n\n\nDec Period\n–\n–\nComprehensive Final Examination (3 Hours)\nScheduled by Registrar\n\n\n\n\n\n\n\n\n\nNoteCourse Schedule & Grading Notes\n\n\n\nDetailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed in the official Course Syllabus."
   },
   {
     "objectID": "index.html#instructor-contact",
@@ -193,160 +53,13 @@
     "href": "problems/index.html",
     "title": "ASTB23 Problem Sets & Exams",
     "section": "",
-    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nMidterm Exam Preparation Guide\n\n\nGuidelines, allowed materials, format, and sample Y/N quiz questions.\n\n\n\nExams\n\nMidterm\n\nExam Prep\n\n\n\n\n\n\n2026-11-05\n\n1 min\n\nInvalid Date\n\n\n\n\n\n\n\nProblem Set #1: Stellar Structure & Hydrostatic Equilibrium\n\n\nDue Thursday, October 1 at 12:00 Noon on Quercus\n\n\n\nAssignments\n\nStellar Physics\n\nHydrostatic Equilibrium\n\n\n\n\n\n\n2026-10-01\n\n2 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "problems/midterm-exam-prep.html",
-    "href": "problems/midterm-exam-prep.html",
-    "title": "Midterm Exam Preparation Guide",
-    "section": "",
-    "text": "Date & Time: Thursday, November 5 during Tutorial T7 (17:00–18:00).\nWeight: 22% of final course grade (11% written problems + 11% conceptual quiz).\nAllowed Materials: Exactly 2 double-sided handwritten sheets (4 pages total) of your own notes. Calculators are mandatory. No textbooks, phones, tablets, or printed/photocopied materials."
-  },
-  {
-    "objectID": "problems/midterm-exam-prep.html#midterm-logistics",
-    "href": "problems/midterm-exam-prep.html#midterm-logistics",
-    "title": "Midterm Exam Preparation Guide",
-    "section": "",
-    "text": "Date & Time: Thursday, November 5 during Tutorial T7 (17:00–18:00).\nWeight: 22% of final course grade (11% written problems + 11% conceptual quiz).\nAllowed Materials: Exactly 2 double-sided handwritten sheets (4 pages total) of your own notes. Calculators are mandatory. No textbooks, phones, tablets, or printed/photocopied materials."
-  },
-  {
-    "objectID": "problems/midterm-exam-prep.html#exam-format",
-    "href": "problems/midterm-exam-prep.html#exam-format",
-    "title": "Midterm Exam Preparation Guide",
-    "section": "Exam Format",
-    "text": "Exam Format\n\nWritten Problem (~40 mins): One multi-part calculation similar to tutorial and assignment problems. Full explanations in words are required.\nConcept Quiz (~20 mins): ~27 Yes/No statements.\n\nCrucial Rule: If you mark No (N), you must circle the specific word or number that is false. Unannotated ‘N’ marks receive zero credit."
-  },
-  {
-    "objectID": "problems/midterm-exam-prep.html#topics-tested",
-    "href": "problems/midterm-exam-prep.html#topics-tested",
-    "title": "Midterm Exam Preparation Guide",
-    "section": "Topics Tested",
-    "text": "Topics Tested\n\nSrinivasan Textbook 1: Chapters 1 through 5.\nHydrostatic equilibrium & Virial Theorem.\nEddington luminosity limit & radiation pressure.\nNuclear fusion cycles (pp-chains, CNO) and Coulomb tunneling barrier.\nOptical depth \\(\\tau\\) and radiative diffusion approximation."
-  },
-  {
-    "objectID": "simulations/interactive-galactic-rotation.html",
-    "href": "simulations/interactive-galactic-rotation.html",
-    "title": "Interactive Galactic Rotation & Dark Matter Simulation",
-    "section": "",
-    "text": "In a spiral galaxy, the radial gravitational acceleration in the disk midplane (\\(z=0\\)) balances the centrifugal acceleration for circular orbits: \\[\\frac{v_c^2(R)}{R} = \\left| \\frac{\\partial \\Phi_{\\text{tot}}}{\\partial R} \\right| \\implies v_c^2(R) = v_{\\text{bulge}}^2(R) + v_{\\text{disk}}^2(R) + v_{\\text{halo}}^2(R)\\]\n\n\nModeled as a spherical Plummer potential \\(\\Phi_b(r) = -\\frac{G M_b}{\\sqrt{r^2 + b_b^2}}\\): \\[v_{\\text{bulge}}(R) = \\sqrt{\\frac{G M_b R^2}{(R^2 + b_b^2)^{3/2}}}\\]\n\n\n\nFor an exponential surface density \\(\\Sigma(R) = \\Sigma_0 e^{-R/R_d}\\), the circular velocity peaks near \\(R \\approx 2.2 R_d\\) and falls off at large radii: \\[v_{\\text{disk}}(R) \\approx v_{d,\\text{max}} \\cdot \\frac{1.97 (R/R_d)^{1.22}}{[(R/R_d)^{2} + 0.78]^{1.43}}\\]\n\n\n\nA core radius \\(R_c\\) and asymptotic velocity \\(V_h\\): \\[\\rho_h(R) = \\frac{\\rho_0}{1 + (R/R_c)^2} \\implies v_{\\text{halo}}(R) = V_h \\sqrt{1 - \\frac{R_c}{R}\\arctan\\left(\\frac{R}{R_c}\\right)}\\]"
-  },
-  {
-    "objectID": "simulations/interactive-galactic-rotation.html#theoretical-framework-velocity-decomposition",
-    "href": "simulations/interactive-galactic-rotation.html#theoretical-framework-velocity-decomposition",
-    "title": "Interactive Galactic Rotation & Dark Matter Simulation",
-    "section": "",
-    "text": "In a spiral galaxy, the radial gravitational acceleration in the disk midplane (\\(z=0\\)) balances the centrifugal acceleration for circular orbits: \\[\\frac{v_c^2(R)}{R} = \\left| \\frac{\\partial \\Phi_{\\text{tot}}}{\\partial R} \\right| \\implies v_c^2(R) = v_{\\text{bulge}}^2(R) + v_{\\text{disk}}^2(R) + v_{\\text{halo}}^2(R)\\]\n\n\nModeled as a spherical Plummer potential \\(\\Phi_b(r) = -\\frac{G M_b}{\\sqrt{r^2 + b_b^2}}\\): \\[v_{\\text{bulge}}(R) = \\sqrt{\\frac{G M_b R^2}{(R^2 + b_b^2)^{3/2}}}\\]\n\n\n\nFor an exponential surface density \\(\\Sigma(R) = \\Sigma_0 e^{-R/R_d}\\), the circular velocity peaks near \\(R \\approx 2.2 R_d\\) and falls off at large radii: \\[v_{\\text{disk}}(R) \\approx v_{d,\\text{max}} \\cdot \\frac{1.97 (R/R_d)^{1.22}}{[(R/R_d)^{2} + 0.78]^{1.43}}\\]\n\n\n\nA core radius \\(R_c\\) and asymptotic velocity \\(V_h\\): \\[\\rho_h(R) = \\frac{\\rho_0}{1 + (R/R_c)^2} \\implies v_{\\text{halo}}(R) = V_h \\sqrt{1 - \\frac{R_c}{R}\\arctan\\left(\\frac{R}{R_c}\\right)}\\]"
-  },
-  {
-    "objectID": "simulations/interactive-galactic-rotation.html#interactive-simulation-curve-decomposition",
-    "href": "simulations/interactive-galactic-rotation.html#interactive-simulation-curve-decomposition",
-    "title": "Interactive Galactic Rotation & Dark Matter Simulation",
-    "section": "🎮 Interactive Simulation & Curve Decomposition",
-    "text": "🎮 Interactive Simulation & Curve Decomposition\nUse the interactive controls below to adjust the component masses. Notice how without dark matter, the galaxy displays a steep Keplerian decline (\\(v_c \\propto R^{-1/2}\\)), while with dark matter, the rotation curve becomes flat at large radii (\\(v_c \\approx \\text{const}\\)).\n\n  \n    \n      Bulge Mass $M_b$ ($10^{10} M_\\odot$): 1.5\n      \n    \n    \n      Disk Mass $M_d$ ($10^{10} M_\\odot$): 5.0\n      \n    \n    \n      Halo Velocity $V_h$ (km/s): 180\n      \n    \n    \n      Halo Core $R_c$ (kpc): 3.0\n      \n    \n  \n\n  \n    \n       Enable Dark Matter Halo\n    \n    Reset Defaults\n  \n\n  \n    \n      Live Galaxy Particle Dynamics\n      \n    \n    \n      Rotation Curve Decomposition $v(R)$"
+    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "reference/index.html",
     "href": "reference/index.html",
     "title": "ASTB23 Reference & Mathematical Tools",
     "section": "",
-    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nAstronomical Constants & Physical Units\n\n\nFundamental physical and astrophysical constants for stellar and galactic calculations.\n\n\n\nReference\n\nConstants\n\nUnits\n\n\n\n\n\n\n2026-09-08\n\n2 min\n\nInvalid Date\n\n\n\n\n\n\n\nAstrophysics Sources & Bibliography\n\n\nTextbooks, seminal papers, telescope portals, and astronomical databases for ASTB23.\n\n\n\nReference\n\nBibliography\n\nSources\n\n\n\n\n\n\n2026-09-08\n\n1 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reference/astronomical-constants-and-units.html",
-    "href": "reference/astronomical-constants-and-units.html",
-    "title": "Astronomical Constants & Physical Units",
-    "section": "",
-    "text": "Quantity\nSymbol\nValue (SI)\nValue (cgs)\n\n\n\n\nSolar Mass\n\\(M_\\odot\\)\n\\(1.9884 \\times 10^{30}\\text{ kg}\\)\n\\(1.9884 \\times 10^{33}\\text{ g}\\)\n\n\nSolar Radius\n\\(R_\\odot\\)\n\\(6.957 \\times 10^8\\text{ m}\\)\n\\(6.957 \\times 10^{10}\\text{ cm}\\)\n\n\nSolar Luminosity\n\\(L_\\odot\\)\n\\(3.828 \\times 10^{26}\\text{ W}\\)\n\\(3.828 \\times 10^{33}\\text{ erg s}^{-1}\\)\n\n\nSolar Effective Temp\n\\(T_{\\text{eff},\\odot}\\)\n\\(5778\\text{ K}\\)\n\\(5778\\text{ K}\\)\n\n\nSolar Central Density\n\\(\\rho_c\\)\n\\(\\sim 1.5 \\times 10^5\\text{ kg m}^{-3}\\)\n\\(\\sim 150\\text{ g cm}^{-3}\\)"
-  },
-  {
-    "objectID": "reference/astronomical-constants-and-units.html#solar-constants",
-    "href": "reference/astronomical-constants-and-units.html#solar-constants",
-    "title": "Astronomical Constants & Physical Units",
-    "section": "",
-    "text": "Quantity\nSymbol\nValue (SI)\nValue (cgs)\n\n\n\n\nSolar Mass\n\\(M_\\odot\\)\n\\(1.9884 \\times 10^{30}\\text{ kg}\\)\n\\(1.9884 \\times 10^{33}\\text{ g}\\)\n\n\nSolar Radius\n\\(R_\\odot\\)\n\\(6.957 \\times 10^8\\text{ m}\\)\n\\(6.957 \\times 10^{10}\\text{ cm}\\)\n\n\nSolar Luminosity\n\\(L_\\odot\\)\n\\(3.828 \\times 10^{26}\\text{ W}\\)\n\\(3.828 \\times 10^{33}\\text{ erg s}^{-1}\\)\n\n\nSolar Effective Temp\n\\(T_{\\text{eff},\\odot}\\)\n\\(5778\\text{ K}\\)\n\\(5778\\text{ K}\\)\n\n\nSolar Central Density\n\\(\\rho_c\\)\n\\(\\sim 1.5 \\times 10^5\\text{ kg m}^{-3}\\)\n\\(\\sim 150\\text{ g cm}^{-3}\\)"
-  },
-  {
-    "objectID": "reference/astronomical-constants-and-units.html#astronomical-distance-units",
-    "href": "reference/astronomical-constants-and-units.html#astronomical-distance-units",
-    "title": "Astronomical Constants & Physical Units",
-    "section": "📐 Astronomical Distance Units",
-    "text": "📐 Astronomical Distance Units\n\n\n\n\n\n\n\n\n\nUnit\nSymbol\nMeters (m)\nAstronomical Units (AU)\n\n\n\n\nAstronomical Unit\n\\(\\text{AU}\\)\n\\(1.4959787 \\times 10^{11}\\text{ m}\\)\n\\(1.0\\text{ AU}\\)\n\n\nParsec\n\\(\\text{pc}\\)\n\\(3.0857 \\times 10^{16}\\text{ m}\\)\n\\(206,265\\text{ AU}\\)\n\n\nLight-Year\n\\(\\text{ly}\\)\n\\(9.4607 \\times 10^{15}\\text{ m}\\)\n\\(63,241\\text{ AU}\\)\n\n\nKiloparsec\n\\(\\text{kpc}\\)\n\\(3.0857 \\times 10^{19}\\text{ m}\\)\n\\(2.06 \\times 10^8\\text{ AU}\\)"
-  },
-  {
-    "objectID": "reference/astronomical-constants-and-units.html#fundamental-physical-constants",
-    "href": "reference/astronomical-constants-and-units.html#fundamental-physical-constants",
-    "title": "Astronomical Constants & Physical Units",
-    "section": "🔬 Fundamental Physical Constants",
-    "text": "🔬 Fundamental Physical Constants\n\n\n\n\n\n\n\n\n\nConstant\nSymbol\nValue (SI)\nValue (cgs)\n\n\n\n\nGravitational constant\n\\(G\\)\n\\(6.6743 \\times 10^{-11}\\text{ m}^3\\text{ kg}^{-1}\\text{s}^{-2}\\)\n\\(6.6743 \\times 10^{-8}\\text{ dyn cm}^2\\text{ g}^{-2}\\)\n\n\nSpeed of light\n\\(c\\)\n\\(2.9979 \\times 10^8\\text{ m s}^{-1}\\)\n\\(2.9979 \\times 10^{10}\\text{ cm s}^{-1}\\)\n\n\nPlanck’s constant\n\\(h\\)\n\\(6.6261 \\times 10^{-34}\\text{ J s}\\)\n\\(6.6261 \\times 10^{-27}\\text{ erg s}\\)\n\n\nBoltzmann constant\n\\(k_B\\)\n\\(1.3807 \\times 10^{-23}\\text{ J K}^{-1}\\)\n\\(1.3807 \\times 10^{-16}\\text{ erg K}^{-1}\\)\n\n\nRadiation density constant\n\\(a = 4\\sigma/c\\)\n\\(7.5657 \\times 10^{-16}\\text{ J m}^{-3}\\text{ K}^{-4}\\)\n\\(7.5657 \\times 10^{-15}\\text{ erg cm}^{-3}\\text{ K}^{-4}\\)\n\n\nStefan-Boltzmann constant\n\\(\\sigma\\)\n\\(5.6704 \\times 10^{-8}\\text{ W m}^{-2}\\text{ K}^{-4}\\)\n\\(5.6704 \\times 10^{-5}\\text{ erg cm}^{-2}\\text{s}^{-1}\\text{K}^{-4}\\)\n\n\nThomson cross section\n\\(\\sigma_T\\)\n\\(6.6524 \\times 10^{-29}\\text{ m}^2\\)\n\\(6.6524 \\times 10^{-25}\\text{ cm}^2\\)"
-  },
-  {
-    "objectID": "notes/lectures-13-14.html",
-    "href": "notes/lectures-13-14.html",
-    "title": "lectures-13-14.qmd",
-    "section": "",
-    "text": "Notes will be published here just before our meetings."
-  },
-  {
-    "objectID": "notes/stellar-structure-and-polytropes.html",
-    "href": "notes/stellar-structure-and-polytropes.html",
-    "title": "Stellar Structure & The Lane-Emden Equation",
-    "section": "",
-    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
-  },
-  {
-    "objectID": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
-    "href": "notes/stellar-structure-and-polytropes.html#hydrostatic-equilibrium",
-    "title": "Stellar Structure & The Lane-Emden Equation",
-    "section": "",
-    "text": "A spherical star in steady state balances inward gravitational force with outward gas/radiation pressure: \\[\\boxed{\\frac{dP}{dr} = -\\frac{G M(r) \\rho(r)}{r^2}}\\] where the enclosed mass \\(M(r)\\) satisfies the mass conservation equation: \\[\\frac{dM}{dr} = 4\\pi r^2 \\rho(r)\\]\nCombining these two equations by differentiating \\(r^2 \\frac{dP}{dr}\\): \\[\\frac{1}{r^2} \\frac{d}{dr}\\left( \\frac{r^2}{\\rho} \\frac{dP}{dr} \\right) = -4\\pi G \\rho\\]"
-  },
-  {
-    "objectID": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
-    "href": "notes/stellar-structure-and-polytropes.html#polytropic-equation-of-state",
-    "title": "Stellar Structure & The Lane-Emden Equation",
-    "section": "2. Polytropic Equation of State",
-    "text": "2. Polytropic Equation of State\nTo close the structure equation without solving detailed energy transport, we introduce a polytropic relation: \\[P = K \\rho^\\gamma = K \\rho^{1 + 1/n}\\] where \\(n\\) is the polytropic index (\\(\\gamma = 1 + \\frac{1}{n}\\)): * \\(n = 1.5\\) (\\(\\gamma = 5/3\\)): Non-relativistic degenerate electron gas (White Dwarfs) or fully convective stars (Red Giants, Sun’s core). * \\(n = 3.0\\) (\\(\\gamma = 4/3\\)): Relativistic degenerate electron gas (Chandrasekhar mass limit) or radiation-pressure dominated massive stars.\n\nThe Dimensionless Lane-Emden Equation\nDefine dimensionless density \\(\\theta(\\xi)\\) and radius \\(\\xi\\): \\[\\rho(r) = \\rho_c \\theta^n(\\xi), \\qquad r = \\alpha \\xi\\] where \\(\\alpha^2 = \\frac{(n+1) K \\rho_c^{1/n - 1}}{4\\pi G}\\).\nSubstituting into the hydrostatic equation yields the Lane-Emden Equation: \\[\\boxed{\\frac{1}{\\xi^2} \\frac{d}{d\\xi}\\left( \\xi^2 \\frac{d\\theta}{d\\xi} \\right) + \\theta^n = 0}\\] with boundary conditions at the stellar center (\\(\\xi = 0\\)): \\[\\theta(0) = 1, \\qquad \\left. \\frac{d\\theta}{d\\xi} \\right|_{\\xi=0} = 0\\]\nThe stellar surface \\(\\xi_1\\) is defined where density drops to zero: \\(\\theta(\\xi_1) = 0\\)."
-  },
-  {
-    "objectID": "notes/lectures-15-16.html",
-    "href": "notes/lectures-15-16.html",
-    "title": "lectures-15-16.qmd",
-    "section": "",
-    "text": "Notes will be published here just before our meetings."
-  },
-  {
-    "objectID": "notes/lectures-17-18.html",
-    "href": "notes/lectures-17-18.html",
-    "title": "lectures-17-18.qmd",
-    "section": "",
-    "text": "Notes will be published here just before our meetings."
-  },
-  {
-    "objectID": "notes/lectures-21-22.html",
-    "href": "notes/lectures-21-22.html",
-    "title": "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms",
-    "section": "",
-    "text": "In disk galaxies, circular velocity \\(v_c(R)\\) is governed by radial gravitational equilibrium: \\[\\frac{v_c^2(R)}{R} = -\\frac{\\partial \\Phi}{\\partial R} = \\frac{G M(R)}{R^2}\\]\n\n\nIf galaxy mass were concentrated solely in the luminous stars and gas (like the solar system), the outer rotation curve would drop as: \\[v_c(R) \\propto R^{-1/2} \\quad (\\text{Keplerian falloff})\\] However, 21-cm neutral hydrogen (HI) and optical \\(H\\alpha\\) observations show flat rotation curves extending far beyond the optical disk: \\[v_c(R) \\approx \\text{constant} \\implies M(R) \\propto R\\] This necessitates an extended, quasi-spherical Dark Matter Halo with density profile \\(\\rho(R) \\propto R^{-2}\\).\n\n\n\nTotal circular velocity is partitioned into component potentials: \\[v_{\\text{tot}}^2(R) = v_{\\text{bulge}}^2(R) + v_{\\text{disk}}^2(R) + v_{\\text{gas}}^2(R) + v_{\\text{halo}}^2(R)\\]\nExplore the interactive model on our Galactic Rotation Simulation page."
-  },
-  {
-    "objectID": "notes/lectures-21-22.html#galactic-rotation-curves-dark-matter",
-    "href": "notes/lectures-21-22.html#galactic-rotation-curves-dark-matter",
-    "title": "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms",
-    "section": "",
-    "text": "In disk galaxies, circular velocity \\(v_c(R)\\) is governed by radial gravitational equilibrium: \\[\\frac{v_c^2(R)}{R} = -\\frac{\\partial \\Phi}{\\partial R} = \\frac{G M(R)}{R^2}\\]\n\n\nIf galaxy mass were concentrated solely in the luminous stars and gas (like the solar system), the outer rotation curve would drop as: \\[v_c(R) \\propto R^{-1/2} \\quad (\\text{Keplerian falloff})\\] However, 21-cm neutral hydrogen (HI) and optical \\(H\\alpha\\) observations show flat rotation curves extending far beyond the optical disk: \\[v_c(R) \\approx \\text{constant} \\implies M(R) \\propto R\\] This necessitates an extended, quasi-spherical Dark Matter Halo with density profile \\(\\rho(R) \\propto R^{-2}\\).\n\n\n\nTotal circular velocity is partitioned into component potentials: \\[v_{\\text{tot}}^2(R) = v_{\\text{bulge}}^2(R) + v_{\\text{disk}}^2(R) + v_{\\text{gas}}^2(R) + v_{\\text{halo}}^2(R)\\]\nExplore the interactive model on our Galactic Rotation Simulation page."
-  },
-  {
-    "objectID": "notes/lectures-21-22.html#toomre-stability-criterion-q",
-    "href": "notes/lectures-21-22.html#toomre-stability-criterion-q",
-    "title": "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms",
-    "section": "2. Toomre Stability Criterion (\\(Q\\))",
-    "text": "2. Toomre Stability Criterion (\\(Q\\))\nFor a thin, rotating disk of stars or gas to resist local axisymmetric gravitational collapse, thermal velocity dispersion and differential rotation must overcome self-gravity: \\[Q = \\frac{\\sigma_R \\kappa}{3.36 \\, G \\, \\Sigma}\\] where: - \\(\\sigma_R\\): Radial velocity dispersion of stars - \\(\\kappa\\): Epicyclic frequency, \\(\\kappa^2 = R \\frac{d\\Omega^2}{dR} + 4\\Omega^2\\) - \\(\\Sigma\\): Disk surface mass density\n\nStability Regimes:\n\n\\(Q &lt; 1\\): Disk is unstable to local axisymmetric gravitational collapse (forms clumps, starbursts).\n\\(Q &gt; 1\\): Disk is stable against axisymmetric modes.\nTypically, spiral disks maintain \\(Q \\approx 1.2 - 2.0\\), permitting non-axisymmetric spiral density waves."
-  },
-  {
-    "objectID": "notes/lectures-21-22.html#lin-shu-density-wave-theory",
-    "href": "notes/lectures-21-22.html#lin-shu-density-wave-theory",
-    "title": "Lectures 21–22: Rotation Curves, Dark Matter & Spiral Arms",
-    "section": "3. Lin-Shu Density Wave Theory",
-    "text": "3. Lin-Shu Density Wave Theory\nSpiral arms are not material structures (which would suffer the winding dilemma in differential rotation \\(\\Omega(R)\\)), but rather quasi-stationary density waves rotating at pattern speed \\(\\Omega_p\\).\nThe dispersion relation for tightly wound spiral waves is: \\[(\\omega - m\\Omega)^2 = \\kappa^2 - 2\\pi G \\Sigma |k| + k^2 c_s^2\\] where \\(m\\) is the number of arms and \\(k\\) is the radial wavenumber.\nResonances occur where pattern speed matches orbital or epicyclic frequencies: - Corotation Resonance (CR): \\(\\Omega(R) = \\Omega_p\\) - Inner Lindblad Resonance (ILR): \\(\\Omega(R) - \\kappa(R)/m = \\Omega_p\\) - Outer Lindblad Resonance (OLR): \\(\\Omega(R) + \\kappa(R)/m = \\Omega_p\\)"
+    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   }
 ]

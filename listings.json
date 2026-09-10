@@ -1,37 +1,18 @@
 [
   {
     "listing": "/notes/index.html",
-    "items": [
-      "/notes/lectures-13-14.html",
-      "/notes/lectures-15-16.html",
-      "/notes/lectures-17-18.html",
-      "/notes/lectures-19-20.html",
-      "/notes/lectures-23-24.html",
-      "/notes/lectures-21-22.html",
-      "/notes/syllabus.html",
-      "/notes/stellar-structure-and-polytropes.html",
-      "/notes/white-dwarfs-and-chandrasekhar-limit.html"
-    ]
+    "items": []
   },
   {
     "listing": "/simulations/index.html",
-    "items": [
-      "/simulations/lane-emden-and-hr-diagram.html",
-      "/simulations/interactive-galactic-rotation.html"
-    ]
+    "items": []
   },
   {
     "listing": "/problems/index.html",
-    "items": [
-      "/problems/midterm-exam-prep.html",
-      "/problems/assignment-01.html"
-    ]
+    "items": []
   },
   {
     "listing": "/reference/index.html",
-    "items": [
-      "/reference/astronomical-constants-and-units.html",
-      "/reference/sources-and-bibliography.html"
-    ]
+    "items": []
   }
 ]
