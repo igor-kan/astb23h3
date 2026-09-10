@@ -58,16 +58,9 @@
   {
     "objectID": "simulations/index.html",
     "href": "simulations/index.html",
-    "title": "Astrophysics Code & Simulations",
+    "title": "Code & Simulations",
     "section": "",
-    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ASTB23H3: Stars, Galaxies & the Universe",
-    "section": "",
-    "text": "Comprehensive course portal featuring the official syllabus, analytical lecture notes, problem sets, interactive astrophysics simulations, and mathematical reference toolkits."
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-roadmap-calendar-fall-2026",
@@ -86,22 +79,22 @@
   {
     "objectID": "problems/index.html",
     "href": "problems/index.html",
-    "title": "ASTB23 Problem Sets & Exams",
+    "title": "Problem Sets & Solutions",
     "section": "",
-    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "reference/index.html",
     "href": "reference/index.html",
-    "title": "ASTB23 Reference & Mathematical Tools",
+    "title": "Reference & Math",
     "section": "",
-    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "notes/index.html",
     "href": "notes/index.html",
-    "title": "ASTB23 Lecture Notes & Syllabus",
+    "title": "Lecture Notes & Syllabus",
     "section": "",
-    "text": "This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research\n\n\nRigorous, single-semester astrophysics research projects bridging stellar interiors, galactic dynamics, and modern computational methods.\n\n\n\nAstrophysics\n\nASTB23\n\nResearch\n\nStellar Structure\n\nGalactic Dynamics\n\nCareer\n\n\n\n\n\n\n2026-09-10\n\n6 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research\n\n\n\nAstrophysics\n\nASTB23\n\nResearch\n\nStellar Structure\n\nGalactic Dynamics\n\nCareer\n\n\n\n\n\n\n2026-09-10\n\n6 min\n\n\n\n\nNo matching items"
   }
 ]
