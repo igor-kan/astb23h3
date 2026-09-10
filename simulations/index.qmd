@@ -1,6 +1,5 @@
 ---
-title: "Astrophysics Code & Simulations"
-subtitle: "Interactive in-browser simulations, Lane-Emden polytrope integrators, galactic rotation curves, and Python scripts."
+title: "Code & Simulations"
 listing:
   contents: "*.qmd"
   sort:
@@ -10,17 +9,10 @@ listing:
   categories: true
   sort-ui: [title, date, date-modified]
   filter-ui: [title, date, categories]
-  fields: [date, date-modified, title, subtitle, categories, reading-time]
+  fields: [date, title, categories, reading-time]
   field-display-names:
-    date: "Created"
-    date-modified: "Modified"
+    date: "Date"
     reading-time: "Read Time"
   page-size: 15
 page-layout: full
 ---
-
-This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:
-
-* **Interactive Galactic Dynamics:** In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.
-* **Stellar Structure Integrators:** Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes ($n = 1.5, 3.0$).
-* **Computational Astrophysics Scripts:** Python models for H-R diagram synthesis and stellar evolution tracks.

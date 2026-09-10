@@ -1,6 +1,5 @@
 ---
-title: "ASTB23 Problem Sets & Exams"
-subtitle: "Comprehensive problem assignments, tutorial exercises, submission requirements, and exam review."
+title: "Problem Sets & Solutions"
 listing:
   contents: "*.qmd"
   sort:
@@ -10,20 +9,10 @@ listing:
   categories: true
   sort-ui: [title, date, date-modified]
   filter-ui: [title, date, categories]
-  fields: [date, date-modified, title, subtitle, categories, reading-time]
+  fields: [date, title, categories, reading-time]
   field-display-names:
-    date: "Created"
-    date-modified: "Modified"
+    date: "Date"
     reading-time: "Read Time"
   page-size: 15
 page-layout: full
 ---
-
-This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.
-
-### Assignment Submission Protocol
-All solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with:
-1. Sketch of physical scenario
-2. Analytical derivations
-3. Unit verification
-4. Plausibility order-of-magnitude checks

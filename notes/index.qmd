@@ -1,6 +1,5 @@
 ---
-title: "ASTB23 Lecture Notes & Syllabus"
-subtitle: "Theoretical astrophysics, stellar interiors, degenerate stars, galactic dynamics, and cosmology."
+title: "Lecture Notes & Syllabus"
 listing:
   contents: "*.qmd"
   sort:
@@ -10,13 +9,10 @@ listing:
   categories: true
   sort-ui: [title, date, date-modified]
   filter-ui: [title, date, categories]
-  fields: [date, date-modified, title, subtitle, categories, reading-time]
+  fields: [date, title, categories, reading-time]
   field-display-names:
-    date: "Created"
-    date-modified: "Modified"
+    date: "Date"
     reading-time: "Read Time"
   page-size: 15
 page-layout: full
 ---
-
-This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.

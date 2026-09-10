@@ -1,6 +1,5 @@
 ---
-title: "ASTB23 Reference & Mathematical Tools"
-subtitle: "Astronomical constants, stellar equations, galactic dynamics formulas, and literature bibliography."
+title: "Reference & Math"
 listing:
   contents: "*.qmd"
   sort:
@@ -10,13 +9,10 @@ listing:
   categories: true
   sort-ui: [title, date, date-modified]
   filter-ui: [title, date, categories]
-  fields: [date, date-modified, title, subtitle, categories, reading-time]
+  fields: [date, title, categories, reading-time]
   field-display-names:
-    date: "Created"
-    date-modified: "Modified"
+    date: "Date"
     reading-time: "Read Time"
   page-size: 15
 page-layout: full
 ---
-
-Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.

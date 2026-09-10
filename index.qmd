@@ -7,28 +7,27 @@ page-layout: full
 ::: {.hero-banner}
 # ASTB23H3: Stars, Galaxies & the Universe
 ### University of Toronto Scarborough · Fall 2026
-Comprehensive course portal featuring the official syllabus, analytical lecture notes, problem sets, interactive astrophysics simulations, and mathematical reference toolkits.
 :::
 
 ::: {.card-grid}
 ::: {.course-card}
 ### 📚 [Lecture Notes & Syllabus](notes/index.qmd)
-Official course syllabus, stellar structure equations, Lane-Emden polytropes, Eddington luminosity, helioseismology, and post-midterm galactic dynamics.
+Course syllabus and stellar astrophysics derivations.
 :::
 
 ::: {.course-card}
 ### ✏️ [Problem Sets & Solutions](problems/index.qmd)
-Detailed homework problem sets (A1–A4), tutorial blackboard exercises, and preparation guidelines for the Midterm and Final exams.
+Homework assignments and tutorial exercises.
 :::
 
 ::: {.course-card}
 ### 🔭 [Code & Simulations](simulations/index.qmd)
-Interactive in-browser astrophysics simulations (galactic rotation curve decomposition, Lane-Emden solvers), Python models, and numerical integrators.
+Interactive astrophysics simulations and models.
 :::
 
 ::: {.course-card}
 ### 📐 [Reference & Math](reference/index.qmd)
-Astronomical constants, stellar structure equations, galactic dynamics formulas, and comprehensive literature sources.
+Astronomical constants and stellar structure equations.
 :::
 :::
 
