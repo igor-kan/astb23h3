@@ -1,6 +1,6 @@
 ---
-title: "SYLLABUS & Course Information: ASTB23"
-subtitle: "Stars, Galaxies & the Universe — Fall 2026"
+title: "ASTB23 Course Information & Official Webpage"
+subtitle: "Stars, Galaxies & the Universe — Fall 2026 — Prof. Pawel Artymowicz"
 date: "2026-09-10"
 categories: ["Syllabus", "Course Administration"]
 draft: true
