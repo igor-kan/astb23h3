@@ -1,6 +1,6 @@
 ---
-title: "ASTB23 Course Information & Official Webpage"
-subtitle: "Stars, Galaxies & the Universe — Fall 2026 — Prof. Pawel Artymowicz"
+title: "SYLLABUS & Course Information: ASTB23"
+subtitle: "Stars, Galaxies & the Universe — Fall 2026"
 date: "2026-09-10"
 categories: ["Syllabus", "Course Administration"]
 draft: true
@@ -269,8 +269,8 @@ Lecturer: Prof. Pawel Artymowicz (pronounced: PAvel ArtyMOvich). Office SW 506G,
 
 ### Textbooks
 Book number 1 is definitely the most important for this course.
-1. "What are the stars?" by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. online from UofT lib)
-2. "Life and death of stars" by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. online from UofT lib)
+1. "What are the stars?" by G. Srinivasan, (Lec. Notes in Physics) Springer 2014 (avail. [online from UofT lib](https://search.library.utoronto.ca/details?9424753&uuid=57edac52-3c05-4d8a-b0cd-b980e43d9735))
+2. "Life and death of stars" by G. Srinivasan, (Lec. Notes in Physics) Springer 2014, (avail. [online from UofT lib](https://search.library.utoronto.ca/details?9423644&uuid=66889822-7e29-4d54-bf8f-dbd27e19164c))
 3. "Galaxies in the Universe", 2nd ed. by L. Sparke and J. Gallagher, Cambridge U Press. Book 3 is optional. It may provide a differently worded explanation of material we cover in the last sections of the course, which are described in lectures, tutorials, and the files with their notes. Ways to find the books will be discussed in the 1st lecture.
 
 ### Grading
@@ -286,10 +286,10 @@ A+ 90%, A 85%, A- 80%, B+ 77%, B 73%, B- 70%, C+ 67%, C 63%, C- 60%, D+ 57%, D 5
 
 ### Lecture notes
 In Sept/Oct, we follow the Srinivasan textbooks closely (most of the 1st and parts of 2nd). You are supposed to read those books, and I'll discuss the contents in lectures, also showing the text on the screen but rarely reading its text -- mostly explaining equations and commenting on the topics. There will be no slides, except when we deviate from the book.  
-E.g., in the first introductory lecture we use Lecture 1 notes .  
-and in the 7th we use Lecture 7 notes .  
+E.g., in the first introductory lecture we use [Lecture 1 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L1-ASTB23-2026.pdf) .  
+and in the 7th we use [Lecture 7 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L7-ASTB23-2026.pdf) .  
 This all will change after the midterm, when we discuss galaxies and universe. Our source will be the lecture notes below, published just before our meetings.  
-Lectures 13-14 notes , Lectures 15-16 notes , Lectures 17-18 notes , Lectures 19-20 notes , Lectures 21-22 notes , Lectures 23-24 notes
+[Lectures 13-14 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L13-L14-ASTB23-2026.pdf) , [Lectures 15-16 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L15-L16-ASTB23-2026.pdf) , [Lectures 17-18 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L17-L18-ASTB23-2026.pdf) , [Lectures 19-20 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L19-L20-ASTB23-2026.pdf) , [Lectures 21-22 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L21-L22-ASTB23-2026.pdf) , [Lectures 23-24 notes](http://planets.utsc.utoronto.ca/~pawel/ASTB23/L23-L24-ASTB23-2026.pdf)
 
 ### Tutorial and blackboard notes
 As explained above, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.
@@ -322,14 +322,14 @@ For ways to file the self-declared absence please see this page. Please also for
 
 #### Assignment Deadlines:
 * **Set #1. Due: 1 Oct**  
-  problem set #1, ~~ problem set #1 with hints and solutions , please re-download, the solutions have been updated.
+  [problem set #1](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_set2026-1.pdf), ~~ [problem set #1 with hints and solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_sol2026-1.pdf) , please re-download, the solutions have been updated.
 * **Set #2. Due: 15 Oct**  
   This set of problems will be part of your preparation for the written parts of midterms. Check the solutions:  
-  problem set #2 ~~ problem set #2 with solutions
+  [problem set #2](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_set2026-2.pdf) ~~ [problem set #2 with solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_sol2026-2.pdf)
 * **Set #3. Due: 12 Nov**  
-  problem set #3 , ~~ problem set #3 with solutions ,
+  [problem set #3](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_set2026-3.pdf) , ~~ [problem set #3 with solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_sol2026-3.pdf) ,
 * **Set #4. Due: 26 Nov**  
-  problem set #4 , ~~ problem set #4 with solutions ,
+  [problem set #4](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_set2026-4.pdf) , ~~ [problem set #4 with solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/problem_sol2026-4.pdf) ,
 
 ### Preparation for midterm exam on 22 Oct during tutorial
 2 double-sided hand-written (not printed or photocopied) sheets of own notes are allowed at midterm. Calculators are required. Otherwise, phones, electronic devices and books are not allowed.
@@ -361,9 +361,9 @@ The quiz is sampling your understanding of concepts and knowledge of facts from 
 
 #### 2026 quiz preparation exercises:
 Many answers are provided. Please start the preparation by solving the questions from the first file, without answers, and only then check your answers. The sample questions indicate the format of the quiz and some of the most important topics that will be tested. Few of these questions will be found in the actual test. This set is thus not sufficient to prepare for the midterm - you need to study from the book and your notes. [Let me repeat, so nobody gets that part wrong: You will have to circle at least one word or formula which makes the sentence wrong, if you mark it as wrong. Not doing so will result in zero points, even if the sentence indeed is false.]  
-Questions only  
-Question and many answers  
-The 2026 midterm: PDF with solutions
+[Questions only](http://planets.utsc.utoronto.ca/~pawel/ASTB23/prepQ--midterm2026.pdf)  
+[Question and many answers](http://planets.utsc.utoronto.ca/~pawel/ASTB23/prepA--midterm2026.pdf)  
+The 2026 midterm: [PDF with solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/midtermB23-2026-sol.pdf)
 
 ### Final Exam Preparation
 #### Exam place, time and allowed materials
@@ -386,16 +386,16 @@ For galaxies and universe - study the lecture notes closely. Familiarity with te
 The format of the final examination will be exactly he same as that of the midterm, only longer (almost 3 hrs instead of 1). No Scantron sheets, you will return the Y or N circled in front of the question + circle the wrong word(s), if any. In the materials below, most stellar topics will not be repeated, though in the final exam they'll be present (up to 40 percent of the final exam).  
 Preparation to the final exam's quiz is given here in this TXT file.  
 The version of this file with partial answers is present here.  
-Preparation for the final exam's written problem (in addition to the sources listed above) are here: Problems with many hints or solutions
+Preparation for the final exam's written problem (in addition to the sources listed above) are here: [Problems with many hints or solutions](http://planets.utsc.utoronto.ca/~pawel/ASTB23/final-prep2026p.pdf)
 
 Please read the relevant parts of textbooks and pay close attention to lecture notes. In fact, only textbook 1 is very important, textbooks 2 is less important, texbook 3 is completely optional. (The second part of the course was based on lecture notes with just a few encouragements to look at book chapters in case those notes were not clear.)  
-2026 final exam with solutions is in this file.  
-Preliminary results: See this file and report apparent discrepancies by email.
+2026 final exam with solutions [is in this file](http://planets.utsc.utoronto.ca/~pawel/ASTB23/final-2026-ASTB23-sol.pdf).  
+Preliminary results: [See this file](http://planets.utsc.utoronto.ca/~pawel/ASTB23/resB23-2026.txt) and report apparent discrepancies by email.
 
 ### Additional topics
 
 #### Our sun
-For a model of the sun's interior based on the equations of stellar structure from the lectures, see this plot., made by this IDL (or GDL) script.,
+For a model of the sun's interior based on the equations of stellar structure from the lectures, see [this plot](http://planets.utsc.utoronto.ca/~pawel/ASTB23/sun4.png), made by [this IDL (or GDL) script](http://planets.utsc.utoronto.ca/~pawel/ASTB23/sun.pro).
 
 #### Electromagnetic and gravitational waves from a distant cataclysm
 On 16 Oct 2017, a momentous astronomical discovery was announced. As a necessary byproduct of a merger of two orbiting neutron stars (mass range 0.8-2.6 solar masses) located in a relatively nearby galaxy 130 million light-years away, a wave-train of millisecond-period gravitational waves of more than 100 s duration was caught by LIGO/Virgo gravitational wave observatory. LIGO team alerted 70 other teams around the globe to comb the sky area covering 30 square degrees, to find and closely follow the resulting explosion (named kilonova or macronova explosion) in gamma rays, optical, infrared, X-ray and radio range - across the whole electromagnetic spectrum. All such efforts succeeded. This was the first neutron star merger ever detected, and the scale of follow-up campaigns was unprecedented. More than one thousand researchers from all the countries contributed to the effort. After collision, the neutron stars likely formed a new black hole in a lenticular galaxy NGC 4993, discovered by William Herschel in 1789. Although some specific questions remain at present time, the observations generally followed very closely the prior theoretical predictions of the process of merger, the accompanying explosion (in which 2 percent of exotic neutron matter manages to escape) and the aftermath. According to both theory and observations, similar cataclysms produced and dispersed most of the elements heavier than iron (the so-called r-process elements, lanthanides), including gold and platinum found on Earth.
