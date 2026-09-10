@@ -1,31 +1,59 @@
 [
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "ASTB23 Lecture Notes & Syllabus",
+    "objectID": "notes/project-ideas.html",
+    "href": "notes/project-ideas.html",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
     "section": "",
-    "text": "This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "To ensure these projects provide lasting intellectual leverage in the age of artificial intelligence, every proposed project satisfies five strict criteria:\n\nSemester Feasibility: Scoped to be independently designed, executed, analyzed, and written up within a standard 12-week academic term by an individual student.\nCurricular Grounding: Directly anchors and deepens the ASTB23 syllabus—leveraging hydrostatic equilibrium, Lane-Emden polytropes, degenerate Fermi gas physics, Chandrasekhar limits, epicyclic frequency theory, Jeans’ theorem, or galactic rotation curve decomposition.\nAI Automation Resilience: Focuses on epistemic skills that statistical AI systems cannot reliably automate: resolving singular coordinate boundary conditions, navigating non-trivial observational selection effects, proving numerical stability on curved phase spaces, and performing causal model selection.\nAcademic Leverage (Impressing Faculty): Formulated with the mathematical and physical rigor required to impress course professors (e.g., Prof. Pawel Artymowicz) and serve as a springboard for undergraduate research awards (e.g., NSERC USRA, URECs) or conference posters.\nIndustry & Graduate Value: Cultivates computational tools (Bayesian MCMC, symplectic orbit integrators, physics-informed numerical methods) highly prized in quantitative finance, aerospace engineering, machine learning research, and top astrophysics graduate admissions."
   },
   {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials",
+    "objectID": "notes/project-ideas.html#project-selection-framework-evaluation-criteria",
+    "href": "notes/project-ideas.html#project-selection-framework-evaluation-criteria",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
     "section": "",
-    "text": "Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.\nIf you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems."
+    "text": "To ensure these projects provide lasting intellectual leverage in the age of artificial intelligence, every proposed project satisfies five strict criteria:\n\nSemester Feasibility: Scoped to be independently designed, executed, analyzed, and written up within a standard 12-week academic term by an individual student.\nCurricular Grounding: Directly anchors and deepens the ASTB23 syllabus—leveraging hydrostatic equilibrium, Lane-Emden polytropes, degenerate Fermi gas physics, Chandrasekhar limits, epicyclic frequency theory, Jeans’ theorem, or galactic rotation curve decomposition.\nAI Automation Resilience: Focuses on epistemic skills that statistical AI systems cannot reliably automate: resolving singular coordinate boundary conditions, navigating non-trivial observational selection effects, proving numerical stability on curved phase spaces, and performing causal model selection.\nAcademic Leverage (Impressing Faculty): Formulated with the mathematical and physical rigor required to impress course professors (e.g., Prof. Pawel Artymowicz) and serve as a springboard for undergraduate research awards (e.g., NSERC USRA, URECs) or conference posters.\nIndustry & Graduate Value: Cultivates computational tools (Bayesian MCMC, symplectic orbit integrators, physics-informed numerical methods) highly prized in quantitative finance, aerospace engineering, machine learning research, and top astrophysics graduate admissions."
   },
   {
-    "objectID": "tutorials/index.html#expectations",
-    "href": "tutorials/index.html#expectations",
-    "title": "Tutorials",
-    "section": "Expectations",
-    "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
+    "objectID": "notes/project-ideas.html#project-option-1-relativistic-fermi-dirac-polytrope-solver-with-high-order-singular-boundary-resolution",
+    "href": "notes/project-ideas.html#project-option-1-relativistic-fermi-dirac-polytrope-solver-with-high-order-singular-boundary-resolution",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
+    "section": "🌌 Project Option 1: Relativistic Fermi-Dirac Polytrope Solver with High-Order Singular Boundary Resolution",
+    "text": "🌌 Project Option 1: Relativistic Fermi-Dirac Polytrope Solver with High-Order Singular Boundary Resolution\n\n1. Context & Motivation (ASTB23 Weeks 2–6)\nThe classical Lane-Emden equation models self-gravitating polytropic gas spheres: \\[\\frac{1}{\\xi^2}\\frac{d}{d\\xi}\\left(\\xi^2 \\frac{d\\theta}{d\\xi}\\right) = -\\theta^n\\] with central boundary conditions \\(\\theta(0) = 1\\) and \\(\\theta'(0) = 0\\). In white dwarfs (Chandrasekhar theory, Lectures 11–12), stars transition from non-relativistic degenerate electrons (\\(n = 1.5\\), \\(P \\propto \\rho^{5/3}\\)) in low-mass regimes to ultra-relativistic degeneracy (\\(n = 3\\), \\(P \\propto \\rho^{4/3}\\)) as central density approaches the Chandrasekhar mass boundary (\\(M \\to M_{\\text{Ch}} \\approx 1.44 M_\\odot\\)).\nStandard language models fail when generating numerical solvers for this system because the origin \\(\\xi = 0\\) is a coordinate singularity where \\(\\frac{2}{\\xi} \\frac{d\\theta}{d\\xi} \\to \\frac{0}{0}\\).\n\n\n2. Concrete Deliverables & Scope\n\nAnalytical Series Expansion: Derive the 6th-order Taylor series for \\(\\theta(\\xi)\\) around \\(\\xi = 0\\) to initiate numerical integration off the singular origin: \\[\\theta(\\xi) \\approx 1 - \\frac{\\xi^2}{6} + \\frac{n}{120}\\xi^4 - \\frac{n(8n - 5)}{15120}\\xi^6 + \\mathcal{O}(\\xi^8)\\]\nGeneral Relativistic Correction: Implement the Tolman-Oppenheimer-Volkoff (TOV) relativistic hydrostatic equilibrium equation alongside the exact Fermi-Dirac integral equation of state across density shells from \\(10^5 \\text{ g/cm}^3\\) to \\(10^{10} \\text{ g/cm}^3\\).\nAdaptive Shooting Integrator: Build an adaptive 4th/5th-order Runge-Kutta-Fehlberg (RK45) shooting solver in Python that integrates from \\(\\xi_0 = 10^{-4}\\) to the first root \\(\\xi_1\\) where \\(\\theta(\\xi_1) = 0\\).\nMass-Radius Curve Benchmark: Reproduce the exact Chandrasekhar mass-radius relation \\(M(R)\\), explicitly pinpointing where relativistic instability triggers gravitational collapse.\n\n\n\n3. Why This Impresses Professors & Employers\n\nDemonstrates mastery of asymptotic expansions and numerical analysis for singular differential equations.\nShows deep comprehension of quantum statistical mechanics (Fermi-Dirac degeneracy) coupled with general relativistic hydrostatic equilibrium.\nEmployers in quantitative finance and scientific computing prize researchers who can write unconditionally robust ODE solvers rather than relying on black-box numerical libraries."
   },
   {
-    "objectID": "simulations/index.html",
-    "href": "simulations/index.html",
-    "title": "Astrophysics Code & Simulations",
+    "objectID": "notes/project-ideas.html#project-option-2-bayesian-mcmc-rotation-curve-decomposition-dark-matter-halo-cusp-vs-core-discriminator-with-real-gaiasparc-data",
+    "href": "notes/project-ideas.html#project-option-2-bayesian-mcmc-rotation-curve-decomposition-dark-matter-halo-cusp-vs-core-discriminator-with-real-gaiasparc-data",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
+    "section": "🌀 Project Option 2: Bayesian MCMC Rotation Curve Decomposition & Dark Matter Halo Cusp-vs-Core Discriminator with Real Gaia/SPARC Data",
+    "text": "🌀 Project Option 2: Bayesian MCMC Rotation Curve Decomposition & Dark Matter Halo Cusp-vs-Core Discriminator with Real Gaia/SPARC Data\n\n1. Context & Motivation (ASTB23 Weeks 9–11)\nIn galactic dynamics, the observed circular velocity curve \\(v_{\\text{circ}}(R)\\) reflects the gravitational contribution of multiple distinct components: \\[v_{\\text{circ}}^2(R) = v_{\\text{gas}}^2(R) + \\Upsilon_{\\text{disk}} v_{\\text{disk}}^2(R) + \\Upsilon_{\\text{bulge}} v_{\\text{bulge}}^2(R) + v_{\\text{DM}}^2(R)\\] where \\(\\Upsilon\\) denotes the stellar mass-to-light ratio.\nA central unsolved debate in astrophysics is the “Cusp-vs-Core Problem”: standard cold dark matter (CDM) cosmological simulations predict cuspy central density profiles (Navarro-Frenk-White: \\(\\rho_{\\text{NFW}}(r) \\propto r^{-1}\\) as \\(r \\to 0\\)), whereas observed rotation curves of low-surface-brightness (LSB) galaxies frequently prefer constant-density cored profiles (Burkert: \\(\\rho_{\\text{Burkert}}(r) \\to \\text{const}\\)).\n\n\n2. Concrete Deliverables & Scope\n\nObservational Pipeline: Ingest calibrated rotation curve data from the open-access SPARC database (175 late-type galaxies) and local solar neighborhood kinematics from Gaia DR3.\nAnalytical Potential Library: Implement analytical velocity profiles for:\n\nExponential Freeman thin disk\nHernquist / Plummer spherical stellar bulge\nNFW cuspy dark matter halo\nBurkert cored dark matter halo\n\nBayesian Nested Sampling / MCMC: Using emcee or dynesty, estimate joint posterior distributions for halo parameters (concentration \\(c\\), virial mass \\(M_{200}\\), core radius \\(r_0\\)) and stellar mass-to-light ratios \\((\\Upsilon_{\\text{disk}}, \\Upsilon_{\\text{bulge}})\\).\nModel Selection: Compute the marginal likelihood (Bayesian Evidence \\(\\mathcal{Z}\\)) and Bayes factor \\(\\ln B_{\\text{core, cusp}}\\) across dwarf vs giant galaxies to statistically quantify where cuspy halos fail.\n\n\n\n3. Why This Impresses Professors & Employers\n\nMoves beyond simplified textbook toy models to real astronomical data wrangling with observational uncertainties and degeneracies.\nEstablishes rigorous Bayesian model comparison skills—the exact mathematical framework used in quantitative trading, actuarial risk analysis, and state-of-the-art machine learning."
+  },
+  {
+    "objectID": "notes/project-ideas.html#project-option-3-symplectic-orbital-resonance-chaos-mapper-in-non-axisymmetric-galactic-potentials",
+    "href": "notes/project-ideas.html#project-option-3-symplectic-orbital-resonance-chaos-mapper-in-non-axisymmetric-galactic-potentials",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
+    "section": "🪐 Project Option 3: Symplectic Orbital Resonance & Chaos Mapper in Non-Axisymmetric Galactic Potentials",
+    "text": "🪐 Project Option 3: Symplectic Orbital Resonance & Chaos Mapper in Non-Axisymmetric Galactic Potentials\n\n1. Context & Motivation (ASTB23 Weeks 10–12)\nStellar orbits in non-axisymmetric galactic potentials (such as barred spiral galaxies) do not conserve angular momentum \\(L_z\\). Instead, in a coordinate frame corotating with bar pattern speed \\(\\Omega_b\\), the conserved quantity is the Jacobi integral: \\[E_J = \\frac{1}{2}v^2 + \\Phi(\\mathbf{x}) - \\frac{1}{2}\\Omega_b^2 (x^2 + y^2)\\] Resonances between epicyclic radial frequency \\(\\kappa\\) and orbital frequency \\(\\Omega\\) create the Inner Lindblad Resonance (ILR, \\(\\Omega - \\kappa/2 = \\Omega_b\\)) and Outer Lindblad Resonance (OLR, \\(\\Omega + \\kappa/2 = \\Omega_b\\)).\n\n\n2. Concrete Deliverables & Scope\n\nSymplectic Integrator: Construct a 4th-order symplectic Ruth-Forest or Yoshida integrator in Python or C++ that preserves the Jacobi integral \\(E_J\\) to \\(10^{-8}\\) precision over \\(10^4\\) orbital periods.\nBar Potential Model: Combine a Miyamoto-Nagai disk potential with a prolate Ferrers bar potential.\nPoincaré Surfaces of Section: Generate \\((y, \\dot{y})\\) Poincaré puncture maps at \\(x = 0\\) across diverse Jacobi energy regimes.\nLyapunov Chaos Diagnostics: Calculate maximum Lyapunov exponents via two-trajectory phase-space divergence to map out islands of regular orbits vs chaotic seas.\n\n\n\n3. Why This Impresses Professors & Employers\n\nMasterfully bridges Taylor classical analytical dynamics with modern astrophysics research.\nDemonstrates symplectic computing and non-linear dynamical systems theory, crucial for orbital mechanics, satellite constellation mission design, and robotics."
+  },
+  {
+    "objectID": "notes/project-ideas.html#summary-how-to-choose-your-astb23-project",
+    "href": "notes/project-ideas.html#summary-how-to-choose-your-astb23-project",
+    "title": "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research",
+    "section": "📋 Summary: How to Choose Your ASTB23 Project",
+    "text": "📋 Summary: How to Choose Your ASTB23 Project\n\n\n\n\n\n\n\n\n\nProject\nPrimary Focus\nBest Suited For\nKey Tools\n\n\n\n\nOption 1: Relativistic Polytropes\nStellar Interiors & Math Analysis\nStudents aiming for theoretical physics & applied math\nPython, SciPy, Adaptive ODEs\n\n\nOption 2: Dark Matter Rotation Curves\nObservational Galactic Dynamics\nStudents aiming for data science & Bayesian inference\nPython, Gaia DR3, SPARC, MCMC\n\n\nOption 3: Resonances & Chaos\nNon-Linear Dynamics & HPC\nStudents aiming for aerospace, dynamics & simulation\nC++/Python, Symplectic Integrators"
+  },
+  {
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "ASTB23 Reference & Mathematical Tools",
     "section": "",
-    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "problems/index.html",
+    "href": "problems/index.html",
+    "title": "ASTB23 Problem Sets & Exams",
+    "section": "",
+    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -49,17 +77,31 @@
     "text": "👨‍🏫 Instructor & Contact\n\nLecturer: Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)\n\nEmail: pawel.artymowicz@utoronto.ca (Subject MUST contain ASTB23)\nOffice Hours: Directly after lectures, and 30 min after tutorials.\n\nTeaching Assistant: Aishani Chauduri (Marker only)."
   },
   {
-    "objectID": "problems/index.html",
-    "href": "problems/index.html",
-    "title": "ASTB23 Problem Sets & Exams",
+    "objectID": "simulations/index.html",
+    "href": "simulations/index.html",
+    "title": "Astrophysics Code & Simulations",
     "section": "",
-    "text": "This section features official assignment problems, step-by-step tutorial guides, and exam preparation packages for ASTB23.\n\nAssignment Submission Protocol\nAll solutions must be submitted to Quercus by 12:00 noon on due dates. Submissions must be legibly handwritten or typed with: 1. Sketch of physical scenario 2. Analytical derivations 3. Unit verification 4. Plausibility order-of-magnitude checks\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "This section hosts all computational tools, interactive models, and numerical solvers for ASTB23:\n\nInteractive Galactic Dynamics: In-browser HTML5 Canvas models exploring rotation curve decompositions, disk-halo conspiracies, and dark matter distributions.\nStellar Structure Integrators: Numerical shooting methods and Runge-Kutta ODE solvers for Lane-Emden polytropes (\\(n = 1.5, 3.0\\)).\nComputational Astrophysics Scripts: Python models for H-R diagram synthesis and stellar evolution tracks.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "reference/index.html",
-    "href": "reference/index.html",
-    "title": "ASTB23 Reference & Mathematical Tools",
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials",
     "section": "",
-    "text": "Quick-reference toolkits, physical constants, fundamental equations of stellar and galactic astrophysics, and external literature references for ASTB23.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+    "text": "Tutorials (Thursdays 17:00-18:00 in IA 2021) deal with simple astrophysical calculations not discussed in lectures.\nIf you want a good grade on the written parts of exams and the home assignments, please come to tutorials with some kind of calculating device and practice solving problems."
+  },
+  {
+    "objectID": "tutorials/index.html#expectations",
+    "href": "tutorials/index.html#expectations",
+    "title": "Tutorials",
+    "section": "Expectations",
+    "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "ASTB23 Lecture Notes & Syllabus",
+    "section": "",
+    "text": "This section houses the course syllabus and comprehensive analytical lecture notes for ASTB23 at UTSC. Use the search bar and category filters below to locate specific stellar or galactic topics.\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Created - Oldest\n      \n      \n        Created - Newest\n      \n      \n        Modified - Oldest\n      \n      \n        Modified - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\nASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research\n\n\nRigorous, single-semester astrophysics research projects bridging stellar interiors, galactic dynamics, and modern computational methods.\n\n\n\nAstrophysics\n\nASTB23\n\nResearch\n\nStellar Structure\n\nGalactic Dynamics\n\nCareer\n\n\n\n\n\n\n2026-09-10\n\n6 min\n\nInvalid Date\n\n\n\n\n\nNo matching items"
   }
 ]

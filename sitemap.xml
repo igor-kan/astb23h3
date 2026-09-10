@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://igor-kan.github.io/astb23h3/notes/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.228Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/tutorials/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.229Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/simulations/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.229Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.228Z</lastmod>
-  </url>
-  <url>
-    <loc>https://igor-kan.github.io/astb23h3/problems/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.229Z</lastmod>
+    <loc>https://igor-kan.github.io/astb23h3/notes/project-ideas.html</loc>
+    <lastmod>2026-09-10T20:00:49.007Z</lastmod>
   </url>
   <url>
     <loc>https://igor-kan.github.io/astb23h3/reference/index.html</loc>
-    <lastmod>2026-09-10T14:51:01.229Z</lastmod>
+    <lastmod>2026-09-10T20:00:49.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/problems/index.html</loc>
+    <lastmod>2026-09-10T20:00:49.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/index.html</loc>
+    <lastmod>2026-09-10T20:00:49.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/simulations/index.html</loc>
+    <lastmod>2026-09-10T20:00:49.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/tutorials/index.html</loc>
+    <lastmod>2026-09-10T20:00:49.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://igor-kan.github.io/astb23h3/notes/index.html</loc>
+    <lastmod>2026-09-10T20:00:49.007Z</lastmod>
   </url>
 </urlset>
