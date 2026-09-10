@@ -6,3 +6,6 @@ __pycache__/
 .venv/
 *.fits
 *.dat
+
+/.quarto/
+**/*.quarto_ipynb
