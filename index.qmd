@@ -17,7 +17,7 @@ Course syllabus and stellar astrophysics derivations.
 
 ::: {.course-card}
 ### ✏️ [Problem Sets & Solutions](problems/index.qmd)
-Homework assignments and tutorial exercises.
+Homework and tutorial problems (I will consult the professor if and when solutions can be published).
 :::
 
 ::: {.course-card}
