@@ -1,0 +1,123 @@
+---
+title: "Srinivasan: What are the Stars? - Chapter 1"
+subtitle: "Reading Notes: Historical Introduction"
+date: "2026-09-10"
+categories: [Reading Notes, Astrophysics, Stellar Physics]
+draft: true
+---
+
+# What are the Stars?
+
+## Historical Introduction
+
+The splendour of the night sky has fascinated mankind since time immemorial. To the ancient Greeks, the sky was a dark shield pierced with numerous holes through which an outer fire shone. These shining holes were the stars to them. The true nature of the stars remained a mystery for two millennia. Obviously influenced by the ancient Greeks, the great astronomer Johannes Kepler thought that all the stars were roughly at the same distance from Earth and were packed into a thin spherical shell. An important philosophical question at the time of Isaac Newton was the following: ‘Is the Sun a star?’ In a characteristic fashion, Newton summarily dismissed this question and asserted that our Sun was indeed a star. And from the point-like appearance of the stars, he went on to conclude that the stars must be very far away from the Earth, in comparison with the Sun.
+
+But the nature of the stars remained a great mystery. The philosophers took a different point of view. For example, the positivist philosophers, who greatly influenced European thinking in the eighteenth and nineteenth centuries, asserted that it was in the nature of things that one could never know what the stars are.
+
+All that changed dramatically with the discovery made by young Fraunhofer in 1817. You will recall that Newton had demonstrated that ‘white light’ contained light of many wavelengths by sending sunlight through a prism and dispersing it into a spectrum of rainbow colours. In 1802, William Wollaston noticed several dark lines in the solar spectrum, and mistakenly concluded that these lines represented boundaries between the colours. By observing the solar spectrum more carefully and with better-quality prisms, Fraunhofer discovered that there were more than 600 dark lines. He went on to determine their ‘positions’ in the spectrum and thus deduced the wavelengths at which the dark lines appeared. Fraunhofer went on to discover that the spectrum of the light from bright stars also had these dark lines. These have come to be known as the **Fraunhofer lines**.
+
+Subsequently, Gustav Kirchoff and Robert Bunsen independently demonstrated in laboratory experiments that such dark lines could be produced in the spectrum of light sources by passing the light through transparent substances. A proper and complete explanation of this phenomenon had to wait till the advent of the quantum theory of matter in the early decades of the last century. Nevertheless, great progress was made in the middle of the nineteenth century in understanding these spectral lines.
+
+The breakthrough came when the great German physicist Gustav Kirchoff formulated his comprehensive Theory of Radiation in 1859. It is customary to state this theory as three laws of radiation, given below:
+
+*   **First law:** A luminous opaque body emits radiation of all wavelengths, thus producing a continuous spectrum.
+*   **Second law:** A rarefied luminous gas emits radiation whose spectrum consists of a series of bright lines, sometimes superimposed on a faint continuous spectrum.
+*   **Third law:** If white light from a luminous source is passed through a gas, the gas may absorb certain wavelengths from the incident continuous spectrum so that the intensity at those wavelengths will be missing or diminished, thus producing dark lines.
+
+Thus, according to Kirchoff, three kinds of spectra are possible:
+1.  A continuous spectrum.
+2.  An emission line spectrum consisting of a series of bright lines.
+3.  An absorption line spectrum consisting of a series of dark lines.
+
+The profound significance of these laws due to Kirchoff is that each element (or compound) emits or absorbs radiation at specific wavelengths, which are characteristic of that particular element.
+
+Consequently, the presence in the spectrum of a particular pattern of bright (or dark) lines characteristic of an element is clear evidence of the presence of that particular element in the source (in the case of bright lines) or between the source and the observer (in the case of dark lines). By the end of the nineteenth century, thanks to painstaking laboratory experiments on the elements known at that time, the thousands of Fraunhofer lines in the spectrum of the Sun and the stars were identified with the forty or so elements which had been studied.
+
+A great scientific revolution had started! A question which was considered meaningless, or even frivolous, suddenly acquired a meaning. Contrary to what the philosophers had maintained, we now knew what the stars were. Fraunhofer’s discovery and the explanation by Kirchoff had shown us that at least the outer layers of the Sun, and the stars, were gaseous and made of the same elements which are found on the Earth. Moreover, the inner regions of the Sun must be opaque. We know this because the Sun emits a continuous spectrum of radiation (Kirchoff’s first law). A deeper understanding of this had to wait until the development of the thermodynamics of radiation, which eventually happened in the final decade of the nineteenth century.
+
+If the above explanation for the dark lines in the spectrum of the Sun is correct, then there is a clear prediction one could make, which is, if one could detect the radiation emanating solely from the outer layer of the Sun—without any background radiation—then its spectrum should consist of a series of bright lines. Also, that the wavelengths of these bright lines should precisely correspond to those of the dark Fraunhofer lines.
+
+When we look at the Sun, we see much of the outer layers in projection in the foreground against the deeper opaque layers. This is the case everywhere in the disc of the Sun, except in the limb of the Sun; there we see only the outer layers. Unfortunately, the disc of the Sun is so bright that the light from it dominates over the light from the limb. Therefore, it is practically difficult to separate the light from the outer layers in the limb of the Sun. A total solar eclipse, during which the Moon temporarily covers the disc of the Sun, offers a unique opportunity to study the spectrum of the radiation from the luminous, presumably tenuous, atmosphere of the Sun.
+
+Precisely such an observation was made during the total solar eclipse of 18 August 1868 in Guntur in the state of Andhra Pradesh in India. There were several international teams that had set up camp there. The leader of one camp was the well-known French astronomer Pierre Jules Janssen. Janssen and his colleagues found that during the brief moment of totality the spectrum of light from the chromosphere showed a series of discrete emission lines. They termed it the **flash spectrum**, since it lasted only for a few seconds. As the Moon moved across the disc of the Sun, the light from the disc once again dominated over that from the limb; the emission lines disappeared and the Fraunhofer absorption lines were seen once again. What was remarkable was that the emission lines in the flash spectrum corresponded to the elements whose presence in the outer layers had been inferred earlier in a study of the Fraunhofer absorption lines. This was a spectacular confirmation of the validity of the laws of radiation enunciated by Kirchoff.
+
+But there was a surprise! Janssen noticed that the flash spectrum contained a very bright yellow emission line (with a wavelength of 5874.9 Å) which could not be identified with any known element on Earth. Two months later, the famous English astronomer Sir Norman Lockyer independently discovered the same bright-yellow emission line. Lockyer was convinced that this line was caused by a new element in the Sun. He was so confident that he named this new element **helium** (deriving from helios, the Greek name for the Sun). It turned out that this element, too, is present on the Earth. In 1895, nearly thirty years after this momentous discovery by Janssen and Lockyer, the famous British chemist Sir William Ramsay identified helium trapped in mineral samples on Earth.
+
+The discovery of helium was very important from another perspective. When Dmitri Mendeleyev prepared the famous Periodic Table of Elements in 1869, there was a missing element of atomic number 2. The discovery of helium filled this gap!
+
+Let us now return to the implication of all this for understanding the structure of the Sun and the stars. We have argued that the dark lines observed by Fraunhofer in the spectrum of the Sun could be understood if there is a gaseous outer layer. The idea is that the atoms of the elements present in this gaseous layer selectively absorb the continuous spectrum emanating from the interior. According to a fundamental principle of physics, this selective absorption can only happen if the inner region, from which the continuous spectrum originates, is hotter than the outer layers. But this is precisely what one would expect on very general grounds. For example, we know that energy is flowing out of the Sun. The laws of thermodynamics tell us that heat flows from a hotter to a cooler body. One may, therefore, expect a gradient of temperature, with the temperature rising as we go into the Sun. There is another observational fact that confirms this. This is known as **limb darkening of the Sun**.
+
+If you look at a good-quality image of the Sun taken with white light, you will notice that the visible disc of the Sun does not appear uniformly bright. The edge of the disc is less intense than the centre of the disc. This is the phenomenon of limb darkening.
+
+## The Photosphere
+
+Before we try to understand limb darkening of the Sun, there is an embarrassing question we have to address. Planets have sharp boundaries because they are solid. Since the Sun has a gaseous atmosphere, why do we see a sharp boundary? Why does the contour of the Sun appear like a disc?
+
+This is not difficult to understand. The energy radiated by the Sun originates near its very centre. When it is given out as a byproduct of nuclear reactions, the radiation is mostly in the form of X-rays and gamma rays. On their way out, these photons (or quantized bundles of energy) get kicked around quite a bit by electrons and ionized heavy atoms; they are scattered, absorbed and reemitted. Because of this, they cannot stream out to the surface and fly to infinity at the speed of light. Their journey to the surface is a painstaking random walk (very much like a drunken man).
+
+It turns out that inside a star like the Sun, the mean free path of the photons is only about $0.5 \text{ cm}$. With each collision, the direction of the photon is changed. Imagine you embark on a journey to the centre of the Sun. The scenery would be most uninteresting. First of all, you and I would find the interior very dark since there would hardly be any photons whose wavelengths lie in the visible region of the electromagnetic spectrum. The average temperature of the interior of the Sun is about ten million degrees. As a consequence, the radiation in the interior mainly consists of X-rays. 
+
+During this random walk, the energy of the photons also gradually gets degraded until by the time the photon is ready to escape to infinity, the majority of photons will have energy corresponding to the visible wavelengths (this is why the Sun, as seen from the outside, is brightest in visible wavelengths). By this time, more than thirty thousand years would have elapsed since the photons began their journey from the centre of the Sun.
+
+As the photons reach the outermost region, the ambient density would have decreased, and the matter would be very tenuous. Eventually, the photons would reach a layer from which there is approximately 50 percent chance that they will escape to infinity without further scattering. In technical jargon, one says that the optical depth above that surface is unity. One may call this layer the surface of last scattering. To put it differently, to a distant observer, the photons that reach his eyes would appear to originate predominantly from this imaginary surface of an opaque body.
+
+Astronomers call this layer the **photosphere**. One may call the radius of this imaginary surface the radius of the Sun. Thus, for practical purposes the Sun is an opaque body, with a radius equal to the radius of the photosphere. It should be remembered that in reality even the photosphere is not a sharp boundary. It is a layer from which the photons have a 50 percent chance of escaping to infinity.
+
+Let us now return to the phenomenon of limb darkening. Remember what I said before: the photons that reach us interacted last with matter at a depth such that the photons have approximately 50 percent chance of escaping without further scattering. Because the line of sight from the limb is at an angle to the vertical, it passes through more solar material. Therefore, for the photons emerging from the limb at an angle to the local vertical, the surface of last scattering is higher in the atmosphere than for the photons in the line of sight from the centre of the disc. The phenomenon of limb darkening can now be understood if the higher layers are cooler than the lower layers. According to Kirchoff's law, the intensity of radiation from an opaque body is described by a universal function of the temperature of the body: a hotter body emits more radiation at every wavelength. So the simple fact that the limb of the Sun is darker immediately tells us that the temperature increases as we go into the Sun.
+
+## The Interior of the Sun
+
+### The diffusion of photons
+
+Let us try to make a rough estimate of the time taken by photons to diffuse from the centre to the surface of the star. It is reasonable to assume that the main mechanism that hinders the outward streaming of the photons is their scattering by free electrons. Under the conditions that prevail in the interior of the Sun, namely, a mean density of approximately $1.4 \text{ g/cm}^3$ and a mean temperature of a few million degrees, the mean free path of the photons is about $0.5 \text{ cm}$.
+
+Consider the random walk of a particle in three dimensions. Let the particle commence its walk at the origin and let the step length be denoted by $l$. After a certain number of steps, $N$, it reaches a distance $R$ from the origin. The distance it wanders, $R$, and the average distance per step, $l$, are related by the following famous relation (first obtained by Einstein):
+
+$$ R^2 = \frac{1}{3}Nl^2 $$
+
+For a photon to travel an effective distance equal to the radius of the Sun ($R \approx R_\odot$), the number of steps it has to take is $N = 3R_\odot^2 / l^2$. During these $N$ steps, the actual linear distance travelled by the photon is $Nl$. Since the photon travels at the speed of light $c$ between collisions, the time taken by the photon to diffuse out to a distance $R_\odot$ is:
+
+$$ t_{\text{diffusion}} \sim \frac{Nl}{c} \sim \frac{3R_\odot^2}{lc} $$
+
+Substituting $R_\odot = 6.96 \times 10^{10} \text{ cm}$, $l = 0.5 \text{ cm}$, and $c = 3 \times 10^{10} \text{ cm/s}$, this diffusion time is approximately $30,000 \text{ years}$. A star which is ten times as massive as the Sun will be approximately ten times bigger, and the photon diffusion time will be a hundred times larger—several million years!
+
+Let us first recall some of the basic facts. The mass of the Sun is $M_\odot = 2 \times 10^{33} \text{ g}$. Its radius is approximately a million kilometres ($6.96 \times 10^{10} \text{ cm}$). Dividing the mass by its volume, we get a mean density of $1.4 \text{ g/cm}^3$.
+
+Is the interior of the Sun solid, liquid or gaseous? Because of the enormous pressure and temperature that obtains inside the Sun, the matter in the interior must be in a gaseous form.
+
+The Sun is stable because it is held together by its own gravity. What saves it from collapsing is the pressure exerted by the gas. The weight of all the layers above tries to push down, which is opposed by the tendency of the gas below to expand and push up. Gravity is opposed by the pressure of the gas. In a steady state, these two tendencies must be precisely balanced.
+
+For a gas confined in a three-dimensional box, the most probable or average energy of the particles is $\frac{3}{2} k_B T$. This combination cannot be arbitrarily assigned, but has to be solved for in a self-consistent manner.
+
+We can make a simple-minded estimate of the central pressure $P_c$:
+$$ P_c = \mu g $$
+where $\mu$ is the mass per unit area ($\sim M_\odot / R_\odot^2$), and $g$ is the average acceleration due to gravity ($\sim GM_\odot / R_\odot^2$). Therefore, the gravitational pressure at the centre must be roughly:
+
+$$ P_c \sim G \frac{M_\odot^2}{R_\odot^4} $$
+
+Substituting for the mass and radius of the Sun yields a value approximately equal to $2 \times 10^{17} \text{ g cm}^{-1} \text{s}^{-2}$. The pressure at the centre of the Sun is enormous; it is nearly a million million times the atmospheric pressure at sea level on Earth!
+
+A detailed mathematical calculation gives a central density which is approximately $150 \text{ g cm}^{-3}$. This yields a central temperature of $15 \text{ million degrees Kelvin}$!
+
+### The Virial Theorem
+
+This theorem states that in a steady state, the total energy of a system is equal to one-half the potential energy. For a system like the Earth orbiting the Sun:
+
+$$ \frac{1}{2}mv^2 - \frac{GM_\odot m}{r} = \frac{1}{2}\left(-\frac{GM_\odot m}{r}\right) $$
+
+For a star, the total energy is the sum of the stored thermal energy and the gravitational potential energy:
+
+$$ \text{Thermal energy} + \text{Grav. potential energy} = \frac{1}{2} (\text{Grav. potential energy}) $$
+$$ \implies \text{Thermal energy} = -\frac{1}{2} (\text{Grav. potential energy}) $$
+
+The gravitational potential energy of a sphere of mass $M$ and radius $R$ is $\sim -GM^2/R$. The total thermal energy is $\frac{3}{2} Nk_B T$. Thus, according to the virial theorem:
+
+$$ \frac{3}{2}Nk_B T = \frac{1}{2} G \frac{M^2}{R} $$
+
+Solving this for the average temperature yields a value of approximately $10 \text{ million degrees Kelvin}$.
+
+What do we mean by saying that the surface temperature of the sun is 5,800 K? The radiation leaving this surface has a temperature of 5,800 K, which is the spectrum of a black body. Because matter and radiation were in true thermodynamic equilibrium in the interior, the temperature characterizing the spectrum of the radiation is the same as the temperature of the matter with which it last interacted (the photosphere).
+
+## Summary
+
+The Sun is a gaseous body, held together by its own gravity. The inward-directed gravitation force is balanced by the pressure of the gas. The fact that the Sun is stable tells us that a star settles down at that radius where the temperature of the gas is adequate for gas pressure to balance gravity.
