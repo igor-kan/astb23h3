@@ -3,6 +3,7 @@ title: "ASTB23 Project Ideas: High-Impact & AI-Resilient Astrophysics Research"
 subtitle: "Rigorous, single-semester astrophysics research projects bridging stellar interiors, galactic dynamics, and modern computational methods."
 date: "2026-09-10"
 categories: ["Astrophysics", "ASTB23", "Research", "Stellar Structure", "Galactic Dynamics", "Career"]
+draft: true
 format:
   html:
     toc: true
