@@ -1,6 +1,0 @@
----
-title: "lectures-19-20.qmd"
-draft: true
----
-
-Notes will be published here just before our meetings.

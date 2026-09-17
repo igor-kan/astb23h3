@@ -16,3 +16,8 @@ listing:
   page-size: 15
 page-layout: full
 ---
+
+::: {.callout-note}
+### Lecture Notes & Materials Archive
+Course lecture notes, reading summaries (Srinivasan Ch. 1), and stellar astrophysics derivations are archived in the private course repository.
+:::

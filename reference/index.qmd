@@ -16,3 +16,8 @@ listing:
   page-size: 15
 page-layout: full
 ---
+
+::: {.callout-note}
+### Reference Materials Archive
+Astronomical constants, unit conversions, and bibliography references are maintained in the private course repository.
+:::

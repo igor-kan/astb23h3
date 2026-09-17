@@ -16,3 +16,8 @@ listing:
   page-size: 15
 page-layout: full
 ---
+
+::: {.callout-note}
+### Computational Astrophysics Lab Archive
+Astrophysics simulation scripts (Lane-Emden solver, stellar structure models, and galactic rotation curves) are maintained in the private course repository.
+:::
