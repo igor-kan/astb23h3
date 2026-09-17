@@ -60,8 +60,3 @@ Astronomical constants and stellar structure equations.
 Detailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed on Quercus and in private course materials.
 :::
 
-## 👨‍🏫 Instructor & Contact
-- **Lecturer:** Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)
-  - Email: `pawel.artymowicz@utoronto.ca` (Subject MUST contain `ASTB23`)
-  - Office Hours: Directly after lectures, and 30 min after tutorials.
-- **Teaching Assistant:** Aishani Chauduri (Marker only).
