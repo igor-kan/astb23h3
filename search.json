@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Lecture Notes & Syllabus",
+    "section": "",
+    "text": "NoteLecture Notes & Materials Archive\n\n\n\nCourse lecture notes, reading summaries (Srinivasan Ch. 1), and stellar astrophysics derivations are archived in the private course repository.\n\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reference/index.html",
+    "href": "reference/index.html",
+    "title": "Reference & Math",
+    "section": "",
+    "text": "NoteReference Materials Archive\n\n\n\nAstronomical constants, unit conversions, and bibliography references are maintained in the private course repository.\n\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "problems/index.html",
+    "href": "problems/index.html",
+    "title": "Problem Sets & Solutions",
+    "section": "",
+    "text": "NotePublishing Notice\n\n\n\nI will consult with the professor regarding if and when I can publish solutions to textbook problems or problem sets. In the meantime, unreleased solutions remain in private drafts.\n\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#course-roadmap-calendar-fall-2026",
+    "href": "index.html#course-roadmap-calendar-fall-2026",
+    "title": "ASTB23H3: Stars, Galaxies & the Universe",
+    "section": "📅 Course Roadmap & Calendar (Fall 2026)",
+    "text": "📅 Course Roadmap & Calendar (Fall 2026)\nLectures: Thursdays 12:00–14:00 in HW 215 · Tutorials: Thursdays 17:00–18:00 in IA 2021\nAssignments (A1–A4) are due on Quercus at 12:00 noon on specified Thursdays.\n\n\n\n\n\n\n\n\n\n\nDate\nLectures\nTutorials\nCore Topics & Readings\nAssessments / Deadlines\n\n\n\n\n10 Sep\nL1 + L2\nT1\nIntro to Stellar Astrophysics; What are the Stars? (Srinivasan Ch 1)\n\n\n\n17 Sep\nL3z + L4z\n–\nStars as Globes of Gas; Hydrostatic Equilibrium (Zoom)\n\n\n\n24 Sep\nL5 + L6\nT2\nEddington’s Theory; Radiative Equilibrium & Luminosity Limit\n\n\n\n01 Oct\nL7 + L8\nT3\nEnergy Generation & Nuclear Fusion; Solar Neutrinos (SNO)\nAssignment #1 Due (Noon)\n\n\n08 Oct\nL9 + L10\nT4\nHelioseismology & Solar Oscillations; White Dwarfs (Book 2)\n\n\n\n15 Oct\nL11 + L12\nT5\nDegenerate Fermi Gas; Chandrasekhar Mass Limit\nAssignment #2 Due (Noon)\n\n\n22 Oct\nL13 + L14\nT6\nProtostellar Disks & Star Formation\n\n\n\n29 Oct\nReading Week\n–\nMidterm Review & Independent Study\nStudy Break\n\n\n05 Nov\nL15 + L16\nT7\nThe Milky Way & Galaxy Photometry\nIn-Class Midterm Exam (during T7)\n\n\n12 Nov\nL17 + L18\nT8\nGalactic Rotation & Two-Body Relaxation\nAssignment #3 Due (Noon)\n\n\n19 Nov\nL19 + L20\nT9\nEpicyclic Theory & Local Group Spirals\n(Course drop date: 18 Nov)\n\n\n26 Nov\nL21 + L22\n–\nRotation Curves, Dark Matter & Spiral Arms\nAssignment #4 Due (Noon)\n\n\n03 Dec\nL23 + L24\nT10\nElliptical Galaxies, Black Holes & Cosmology\nCourse Review\n\n\nDec Period\n–\n–\nComprehensive Final Examination (3 Hours)\nScheduled by Registrar\n\n\n\n\n\n\n\n\n\nNoteCourse Schedule & Grading Notes\n\n\n\nDetailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed on Quercus and in private course materials."
+  },
+  {
+    "objectID": "index.html#instructor-contact",
+    "href": "index.html#instructor-contact",
+    "title": "ASTB23H3: Stars, Galaxies & the Universe",
+    "section": "👨‍🏫 Instructor & Contact",
+    "text": "👨‍🏫 Instructor & Contact\n\nLecturer: Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)\n\nEmail: pawel.artymowicz@utoronto.ca (Subject MUST contain ASTB23)\nOffice Hours: Directly after lectures, and 30 min after tutorials.\n\nTeaching Assistant: Aishani Chauduri (Marker only)."
+  },
+  {
+    "objectID": "simulations/index.html",
+    "href": "simulations/index.html",
+    "title": "Code & Simulations",
+    "section": "",
+    "text": "NoteComputational Astrophysics Lab Archive\n\n\n\nAstrophysics simulation scripts (Lane-Emden solver, stellar structure models, and galactic rotation curves) are maintained in the private course repository.\n\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "tutorials/index.html",
     "href": "tutorials/index.html",
     "title": "Tutorials",
@@ -12,47 +54,5 @@
     "title": "Tutorials",
     "section": "Expectations",
     "text": "Expectations\nClass participation points are given not just for showing up, but for asking/answering questions in class, and volunteering to solve the tutorial problems on blackboard.\nAs explained in the syllabus, attending tutorials is important for written parts of the exams (half of the points for exams). Tutorials teach you how to approach and numerically solve problems. Many problems are listed and most are fully solved or at least outlined in detail in tutorial notes, which also serve as a preparation material for exams.\nTutorial notes will be posted here as the term progresses."
-  },
-  {
-    "objectID": "simulations/index.html",
-    "href": "simulations/index.html",
-    "title": "Code & Simulations",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#course-roadmap-calendar-fall-2026",
-    "href": "index.html#course-roadmap-calendar-fall-2026",
-    "title": "ASTB23H3: Stars, Galaxies & the Universe",
-    "section": "📅 Course Roadmap & Calendar (Fall 2026)",
-    "text": "📅 Course Roadmap & Calendar (Fall 2026)\nLectures: Thursdays 12:00–14:00 in HW 215 · Tutorials: Thursdays 17:00–18:00 in IA 2021\nAssignments (A1–A4) are due on Quercus at 12:00 noon on specified Thursdays.\n\n\n\nDate\nLectures\nTutorials\nCore Topics & Readings\nAssessments / Deadlines\n\n\n\n\n10 Sep\nL1 + L2\nT1\nIntro to Stellar Astrophysics; What are the Stars? (Srinivasan Ch 1)\n\n\n\n17 Sep\nL3z + L4z\n–\nStars as Globes of Gas; Hydrostatic Equilibrium (Zoom)\n\n\n\n24 Sep\nL5 + L6\nT2\nEddington’s Theory; Radiative Equilibrium & Luminosity Limit\n\n\n\n01 Oct\nL7 + L8\nT3\nEnergy Generation & Nuclear Fusion; Solar Neutrinos (SNO)\nAssignment #1 Due (Noon)\n\n\n08 Oct\nL9 + L10\nT4\nHelioseismology & Solar Oscillations; White Dwarfs (Book 2)\n\n\n\n15 Oct\nL11 + L12\nT5\nDegenerate Fermi Gas; Chandrasekhar Mass Limit\nAssignment #2 Due (Noon)\n\n\n22 Oct\nL13 + L14\nT6\nProtostellar Disks &amp; Star Formation\n\n\n\n29 Oct\nReading Week\n–\nMidterm Review & Independent Study\nStudy Break\n\n\n05 Nov\nL15 + L16\nT7\nThe Milky Way &amp; Galaxy Photometry\nIn-Class Midterm Exam (during T7)\n\n\n12 Nov\nL17 + L18\nT8\nGalactic Rotation &amp; Two-Body Relaxation\nAssignment #3 Due (Noon)\n\n\n19 Nov\nL19 + L20\nT9\nEpicyclic Theory &amp; Local Group Spirals\n(Course drop date: 18 Nov)\n\n\n26 Nov\nL21 + L22\n–\nRotation Curves, Dark Matter &amp; Spiral Arms\nAssignment #4 Due (Noon)\n\n\n03 Dec\nL23 + L24\nT10\nElliptical Galaxies, Black Holes &amp; Cosmology\nCourse Review\n\n\nDec Period\n–\n–\nComprehensive Final Examination (3 Hours)\nScheduled by Registrar\n\n\n\n\n\n\n\n\n\nNoteCourse Schedule & Grading Notes\n\n\n\nDetailed grading weightings (Midterm 22%, Final Exam 49%, Assignments 26%, Activity 3%), textbook requirements, and academic integrity policies are detailed in the official Course Syllabus."
-  },
-  {
-    "objectID": "index.html#instructor-contact",
-    "href": "index.html#instructor-contact",
-    "title": "ASTB23H3: Stars, Galaxies & the Universe",
-    "section": "👨‍🏫 Instructor & Contact",
-    "text": "👨‍🏫 Instructor & Contact\n\nLecturer: Prof. Pawel Artymowicz (Office: SW 506G, 5th floor, Science Wing)\n\nEmail: pawel.artymowicz@utoronto.ca (Subject MUST contain ASTB23)\nOffice Hours: Directly after lectures, and 30 min after tutorials.\n\nTeaching Assistant: Aishani Chauduri (Marker only)."
-  },
-  {
-    "objectID": "problems/index.html",
-    "href": "problems/index.html",
-    "title": "Problem Sets & Solutions",
-    "section": "",
-    "text": "NotePublishing Notice\n\n\n\nI will consult with the professor regarding if and when I can publish solutions to textbook problems or problem sets. In the meantime, unreleased solutions remain in private drafts.\n\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reference/index.html",
-    "href": "reference/index.html",
-    "title": "Reference & Math",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "Lecture Notes & Syllabus",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nNo matching items"
   }
 ]
